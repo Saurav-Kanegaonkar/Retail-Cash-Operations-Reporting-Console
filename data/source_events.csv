@@ -1,0 +1,5 @@
+"signal","owner","status","finding","risk"
+"ATM uptime","Route A","Alert","Below target","High"
+"Cash variance","Branch 12","Review","Deposit mismatch","High"
+"Report feed","Ops","Clean","On schedule","Low"
+"Device master","Fleet","Stale","Missing owner","Medium"

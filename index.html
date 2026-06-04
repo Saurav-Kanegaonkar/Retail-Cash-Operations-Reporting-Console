@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Retail Cash Operations Reporting Console</title>
+  <link rel="stylesheet" href="src/styles.css">
+</head>
+<body class="console">
+  <main class="app">
+    <header class="hero">
+      <p class="eyebrow">operations reporting dashboard</p>
+      <h1>Retail Cash Operations Reporting Console</h1>
+      <p>Cash operations teams need recurring reports that reveal ATM performance, service exceptions, and branch-level risks without manual spreadsheet rebuilding.</p>
+    </header>
+    <section class="metric-grid" id="metrics"></section>
+    <section class="workspace">
+      <article class="panel primary">
+        <span>Output 2</span>
+        <h2>Diagnostic Queue</h2>
+        <div id="table"></div>
+      </article>
+      <aside class="panel">
+        <span>Output 3</span>
+        <h2>What The Data Says</h2>
+        <div id="signals"></div>
+      </aside>
+    </section>
+    <section class="panel recommendations">
+      <span>Output 4</span>
+      <h2>Analytical Recommendations</h2>
+      <div id="recs"></div>
+    </section>
+  </main>
+  <script src="src/data.js"></script>
+  <script src="src/app.js"></script>
+</body>
+</html>

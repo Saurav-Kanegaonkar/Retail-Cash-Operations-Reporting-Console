@@ -1,0 +1,38 @@
+:root {
+  --bg: #f3f7fb;
+  --panel: #ffffff;
+  --ink: #16202f;
+  --muted: #667085;
+  --line: #d8dee9;
+  --accent: #185abc;
+  --accent2: #087f5b;
+  --danger: #c2410c;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+.app { width: min(1160px, calc(100vw - 36px)); margin: 0 auto; padding: 28px 0 42px; }
+.hero { border-bottom: 3px solid var(--accent); padding: 20px 0 24px; }
+.hero h1 { margin: 8px 0; font-size: clamp(34px, 5vw, 58px); line-height: .95; max-width: 900px; }
+.hero p:last-child { max-width: 840px; color: var(--muted); line-height: 1.55; font-size: 18px; }
+.eyebrow, .panel span { color: var(--accent); text-transform: uppercase; letter-spacing: .08em; font-size: 12px; font-weight: 900; }
+.metric-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin: 22px 0; }
+.metric, .panel { background: var(--panel); border: 1px solid var(--line); box-shadow: 0 18px 40px rgb(17 24 39 / 8%); }
+.metric { padding: 18px; border-radius: 10px; }
+.metric small { color: var(--muted); }
+.metric strong { display: block; font-size: 34px; margin: 8px 0 3px; color: var(--accent2); }
+.workspace { display: grid; grid-template-columns: 1.3fr .7fr; gap: 16px; align-items: start; }
+.panel { padding: 20px; border-radius: 10px; }
+.panel h2 { margin: 6px 0 14px; font-size: 24px; }
+table { width: 100%; border-collapse: collapse; font-size: 14px; }
+th, td { border-bottom: 1px solid var(--line); padding: 11px 8px; text-align: left; vertical-align: top; }
+th { color: var(--muted); text-transform: uppercase; font-size: 12px; letter-spacing: .05em; }
+.High { color: var(--danger); font-weight: 800; }
+.Medium { color: #a16207; font-weight: 800; }
+.Low { color: var(--accent2); font-weight: 800; }
+.signal { border-top: 1px solid var(--line); color: var(--muted); padding: 12px 0; line-height: 1.45; }
+.signal:first-child { border-top: 0; }
+.recommendations { margin-top: 16px; }
+.rec-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+.rec { background: #f8fafc; border: 1px solid var(--line); padding: 14px; line-height: 1.45; }
+.rec b { display: block; color: var(--accent); margin-bottom: 6px; }
+@media (max-width: 860px) { .metric-grid, .workspace, .rec-grid { grid-template-columns: 1fr; } }

@@ -1,0 +1,4 @@
+"rank","recommendation"
+"1","Standardize branch, route, and device identifiers before automating Tableau Prep flows."
+"2","Create a daily exception report that ranks devices by downtime, cash variance, and service aging."
+"3","Move weekly VLOOKUP reconciliation into SQL-backed validation checks with clear owner notes."
