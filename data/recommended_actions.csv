@@ -1,4 +1,91 @@
-"rank","recommendation"
-"1","Standardize branch, route, and device identifiers before automating Tableau Prep flows."
-"2","Create a daily exception report that ranks devices by downtime, cash variance, and service aging."
-"3","Move weekly VLOOKUP reconciliation into SQL-backed validation checks with clear owner notes."
+action_id,entity_id,recommendation_theme,priority,estimated_hours_saved_monthly,expected_value_or_cost_avoidance,confidence,owner_team,next_step,status
+ACT0001,ENT001,"Create a daily exception report that ranks devices by downtime, cash variance, and service aging.",P0,13,131618,Directional,Risk,rewrite requirement,proposed
+ACT0002,ENT002,"Standardize branch, route, and device identifiers before automating Tableau Prep flows.",P2,10,101490,Medium,Risk,run stakeholder review,in progress
+ACT0003,ENT003,Move weekly VLOOKUP reconciliation into SQL-backed validation checks with clear owner notes.,P0,31,143344,Medium,Risk,investigate anomaly,in progress
+ACT0004,ENT004,Move weekly VLOOKUP reconciliation into SQL-backed validation checks with clear owner notes.,P2,14,57349,Directional,Operations,rewrite requirement,accepted
+ACT0005,ENT005,Move weekly VLOOKUP reconciliation into SQL-backed validation checks with clear owner notes.,P2,89,69055,Directional,Product,certify metric,in progress
+ACT0006,ENT006,"Standardize branch, route, and device identifiers before automating Tableau Prep flows.",P0,39,121502,Directional,Analytics,investigate anomaly,proposed
+ACT0007,ENT007,"Create a daily exception report that ranks devices by downtime, cash variance, and service aging.",P1,55,142878,Directional,Product,certify metric,accepted
+ACT0008,ENT008,Move weekly VLOOKUP reconciliation into SQL-backed validation checks with clear owner notes.,P1,27,144135,Medium,Analytics,rewrite requirement,in progress
+ACT0009,ENT009,Move weekly VLOOKUP reconciliation into SQL-backed validation checks with clear owner notes.,P3,38,3345,Directional,Product,investigate anomaly,needs evidence
+ACT0010,ENT010,Move weekly VLOOKUP reconciliation into SQL-backed validation checks with clear owner notes.,P2,29,82415,High,Risk,investigate anomaly,proposed
+ACT0011,ENT011,"Standardize branch, route, and device identifiers before automating Tableau Prep flows.",P0,29,98545,Medium,Analytics,automate refresh,accepted
+ACT0012,ENT012,"Create a daily exception report that ranks devices by downtime, cash variance, and service aging.",P1,23,116839,High,Product,investigate anomaly,proposed
+ACT0013,ENT013,Move weekly VLOOKUP reconciliation into SQL-backed validation checks with clear owner notes.,P1,91,84069,High,Product,investigate anomaly,needs evidence
+ACT0014,ENT014,Move weekly VLOOKUP reconciliation into SQL-backed validation checks with clear owner notes.,P3,16,51583,Medium,Finance,certify metric,in progress
+ACT0015,ENT015,"Create a daily exception report that ranks devices by downtime, cash variance, and service aging.",P0,84,84968,Medium,Finance,rewrite requirement,needs evidence
+ACT0016,ENT016,Move weekly VLOOKUP reconciliation into SQL-backed validation checks with clear owner notes.,P0,50,3657,Medium,Member support,rewrite requirement,accepted
+ACT0017,ENT017,"Standardize branch, route, and device identifiers before automating Tableau Prep flows.",P2,45,96094,Medium,Member support,automate refresh,in progress
+ACT0018,ENT018,"Create a daily exception report that ranks devices by downtime, cash variance, and service aging.",P0,18,89646,High,Analytics,automate refresh,needs evidence
+ACT0019,ENT019,"Standardize branch, route, and device identifiers before automating Tableau Prep flows.",P1,5,98459,Directional,Member support,certify metric,accepted
+ACT0020,ENT020,Move weekly VLOOKUP reconciliation into SQL-backed validation checks with clear owner notes.,P3,45,112471,Medium,Member support,certify metric,needs evidence
+ACT0021,ENT021,"Standardize branch, route, and device identifiers before automating Tableau Prep flows.",P1,90,32376,Directional,Risk,rewrite requirement,proposed
+ACT0022,ENT022,"Standardize branch, route, and device identifiers before automating Tableau Prep flows.",P0,28,107331,Medium,Analytics,certify metric,in progress
+ACT0023,ENT023,Move weekly VLOOKUP reconciliation into SQL-backed validation checks with clear owner notes.,P0,64,57017,Directional,Product,ship dashboard,accepted
+ACT0024,ENT024,"Create a daily exception report that ranks devices by downtime, cash variance, and service aging.",P2,14,28454,Medium,Analytics,automate refresh,accepted
+ACT0025,ENT001,"Create a daily exception report that ranks devices by downtime, cash variance, and service aging.",P1,71,93958,Medium,Member support,automate refresh,in progress
+ACT0026,ENT002,"Create a daily exception report that ranks devices by downtime, cash variance, and service aging.",P1,18,8652,Directional,Analytics,run stakeholder review,proposed
+ACT0027,ENT003,"Standardize branch, route, and device identifiers before automating Tableau Prep flows.",P2,94,86730,High,Operations,ship dashboard,in progress
+ACT0028,ENT004,"Standardize branch, route, and device identifiers before automating Tableau Prep flows.",P2,34,46064,Directional,Analytics,automate refresh,needs evidence
+ACT0029,ENT005,Move weekly VLOOKUP reconciliation into SQL-backed validation checks with clear owner notes.,P3,44,117169,Directional,Product,investigate anomaly,accepted
+ACT0030,ENT006,Move weekly VLOOKUP reconciliation into SQL-backed validation checks with clear owner notes.,P1,33,120512,Directional,Member support,certify metric,accepted
+ACT0031,ENT007,Move weekly VLOOKUP reconciliation into SQL-backed validation checks with clear owner notes.,P3,48,92170,Directional,Finance,certify metric,proposed
+ACT0032,ENT008,"Create a daily exception report that ranks devices by downtime, cash variance, and service aging.",P1,68,23446,Directional,Operations,rewrite requirement,in progress
+ACT0033,ENT009,"Standardize branch, route, and device identifiers before automating Tableau Prep flows.",P0,85,3229,Medium,Finance,investigate anomaly,needs evidence
+ACT0034,ENT010,"Standardize branch, route, and device identifiers before automating Tableau Prep flows.",P2,93,47100,Directional,Operations,investigate anomaly,accepted
+ACT0035,ENT011,"Standardize branch, route, and device identifiers before automating Tableau Prep flows.",P1,85,42800,Medium,Member support,ship dashboard,in progress
+ACT0036,ENT012,Move weekly VLOOKUP reconciliation into SQL-backed validation checks with clear owner notes.,P2,59,98435,Directional,Product,investigate anomaly,proposed
+ACT0037,ENT013,"Standardize branch, route, and device identifiers before automating Tableau Prep flows.",P2,24,4641,High,Analytics,certify metric,proposed
+ACT0038,ENT014,"Standardize branch, route, and device identifiers before automating Tableau Prep flows.",P3,15,101894,High,Finance,ship dashboard,accepted
+ACT0039,ENT015,"Create a daily exception report that ranks devices by downtime, cash variance, and service aging.",P1,23,116168,High,Operations,investigate anomaly,accepted
+ACT0040,ENT016,"Create a daily exception report that ranks devices by downtime, cash variance, and service aging.",P3,18,115750,Directional,Analytics,ship dashboard,needs evidence
+ACT0041,ENT017,"Create a daily exception report that ranks devices by downtime, cash variance, and service aging.",P0,78,9200,Medium,Analytics,automate refresh,needs evidence
+ACT0042,ENT018,"Standardize branch, route, and device identifiers before automating Tableau Prep flows.",P1,53,18858,High,Member support,run stakeholder review,proposed
+ACT0043,ENT019,"Create a daily exception report that ranks devices by downtime, cash variance, and service aging.",P3,69,125112,Directional,Operations,certify metric,proposed
+ACT0044,ENT020,"Create a daily exception report that ranks devices by downtime, cash variance, and service aging.",P0,29,56602,High,Analytics,run stakeholder review,needs evidence
+ACT0045,ENT021,Move weekly VLOOKUP reconciliation into SQL-backed validation checks with clear owner notes.,P1,33,112785,Directional,Analytics,automate refresh,proposed
+ACT0046,ENT022,Move weekly VLOOKUP reconciliation into SQL-backed validation checks with clear owner notes.,P2,71,98045,Medium,Analytics,certify metric,proposed
+ACT0047,ENT023,"Create a daily exception report that ranks devices by downtime, cash variance, and service aging.",P3,89,90555,Directional,Product,run stakeholder review,proposed
+ACT0048,ENT024,Move weekly VLOOKUP reconciliation into SQL-backed validation checks with clear owner notes.,P3,60,38685,Directional,Product,rewrite requirement,needs evidence
+ACT0049,ENT001,"Create a daily exception report that ranks devices by downtime, cash variance, and service aging.",P2,65,46564,Directional,Product,automate refresh,needs evidence
+ACT0050,ENT002,"Create a daily exception report that ranks devices by downtime, cash variance, and service aging.",P1,6,59995,Directional,Member support,run stakeholder review,proposed
+ACT0051,ENT003,"Standardize branch, route, and device identifiers before automating Tableau Prep flows.",P1,64,98309,High,Product,rewrite requirement,proposed
+ACT0052,ENT004,Move weekly VLOOKUP reconciliation into SQL-backed validation checks with clear owner notes.,P2,58,29783,Medium,Risk,ship dashboard,proposed
+ACT0053,ENT005,"Standardize branch, route, and device identifiers before automating Tableau Prep flows.",P0,6,36193,High,Risk,certify metric,proposed
+ACT0054,ENT006,"Create a daily exception report that ranks devices by downtime, cash variance, and service aging.",P0,47,48134,Medium,Analytics,automate refresh,proposed
+ACT0055,ENT007,Move weekly VLOOKUP reconciliation into SQL-backed validation checks with clear owner notes.,P2,94,12674,High,Finance,investigate anomaly,in progress
+ACT0056,ENT008,"Create a daily exception report that ranks devices by downtime, cash variance, and service aging.",P1,43,134167,High,Member support,rewrite requirement,proposed
+ACT0057,ENT009,"Standardize branch, route, and device identifiers before automating Tableau Prep flows.",P3,82,85815,Medium,Member support,automate refresh,proposed
+ACT0058,ENT010,Move weekly VLOOKUP reconciliation into SQL-backed validation checks with clear owner notes.,P3,86,55978,High,Product,run stakeholder review,needs evidence
+ACT0059,ENT011,Move weekly VLOOKUP reconciliation into SQL-backed validation checks with clear owner notes.,P0,23,49235,Medium,Operations,ship dashboard,accepted
+ACT0060,ENT012,"Standardize branch, route, and device identifiers before automating Tableau Prep flows.",P2,9,19796,Directional,Risk,certify metric,in progress
+ACT0061,ENT013,Move weekly VLOOKUP reconciliation into SQL-backed validation checks with clear owner notes.,P1,84,121259,Directional,Operations,rewrite requirement,accepted
+ACT0062,ENT014,"Create a daily exception report that ranks devices by downtime, cash variance, and service aging.",P2,86,70328,High,Member support,ship dashboard,proposed
+ACT0063,ENT015,"Standardize branch, route, and device identifiers before automating Tableau Prep flows.",P2,92,58867,Medium,Member support,ship dashboard,needs evidence
+ACT0064,ENT016,Move weekly VLOOKUP reconciliation into SQL-backed validation checks with clear owner notes.,P3,25,63915,Directional,Member support,rewrite requirement,accepted
+ACT0065,ENT017,"Create a daily exception report that ranks devices by downtime, cash variance, and service aging.",P3,8,133245,Directional,Finance,certify metric,in progress
+ACT0066,ENT018,"Standardize branch, route, and device identifiers before automating Tableau Prep flows.",P3,80,71275,High,Member support,investigate anomaly,accepted
+ACT0067,ENT019,Move weekly VLOOKUP reconciliation into SQL-backed validation checks with clear owner notes.,P1,12,100532,Directional,Product,certify metric,proposed
+ACT0068,ENT020,"Standardize branch, route, and device identifiers before automating Tableau Prep flows.",P1,43,64259,Medium,Analytics,ship dashboard,accepted
+ACT0069,ENT021,"Create a daily exception report that ranks devices by downtime, cash variance, and service aging.",P2,61,34176,Medium,Product,automate refresh,in progress
+ACT0070,ENT022,"Standardize branch, route, and device identifiers before automating Tableau Prep flows.",P0,79,32196,Medium,Member support,rewrite requirement,needs evidence
+ACT0071,ENT023,"Create a daily exception report that ranks devices by downtime, cash variance, and service aging.",P0,71,11679,Directional,Finance,investigate anomaly,in progress
+ACT0072,ENT024,"Standardize branch, route, and device identifiers before automating Tableau Prep flows.",P0,87,98247,Medium,Risk,certify metric,needs evidence
+ACT0073,ENT001,Move weekly VLOOKUP reconciliation into SQL-backed validation checks with clear owner notes.,P3,15,87747,Directional,Analytics,automate refresh,in progress
+ACT0074,ENT002,"Standardize branch, route, and device identifiers before automating Tableau Prep flows.",P0,74,62955,Directional,Risk,investigate anomaly,needs evidence
+ACT0075,ENT003,"Create a daily exception report that ranks devices by downtime, cash variance, and service aging.",P3,28,124243,High,Operations,ship dashboard,proposed
+ACT0076,ENT004,"Create a daily exception report that ranks devices by downtime, cash variance, and service aging.",P2,68,93390,Directional,Operations,ship dashboard,accepted
+ACT0077,ENT005,Move weekly VLOOKUP reconciliation into SQL-backed validation checks with clear owner notes.,P3,34,49737,Medium,Analytics,certify metric,needs evidence
+ACT0078,ENT006,Move weekly VLOOKUP reconciliation into SQL-backed validation checks with clear owner notes.,P1,32,123504,Directional,Member support,ship dashboard,needs evidence
+ACT0079,ENT007,Move weekly VLOOKUP reconciliation into SQL-backed validation checks with clear owner notes.,P3,37,119050,Directional,Product,investigate anomaly,in progress
+ACT0080,ENT008,"Standardize branch, route, and device identifiers before automating Tableau Prep flows.",P1,57,113682,Directional,Product,rewrite requirement,accepted
+ACT0081,ENT009,"Standardize branch, route, and device identifiers before automating Tableau Prep flows.",P3,29,27214,High,Finance,automate refresh,needs evidence
+ACT0082,ENT010,"Create a daily exception report that ranks devices by downtime, cash variance, and service aging.",P2,85,23884,High,Product,automate refresh,accepted
+ACT0083,ENT011,"Create a daily exception report that ranks devices by downtime, cash variance, and service aging.",P0,91,28212,Medium,Risk,investigate anomaly,proposed
+ACT0084,ENT012,"Standardize branch, route, and device identifiers before automating Tableau Prep flows.",P1,14,73207,High,Operations,run stakeholder review,needs evidence
+ACT0085,ENT013,"Create a daily exception report that ranks devices by downtime, cash variance, and service aging.",P0,28,48934,Medium,Finance,investigate anomaly,accepted
+ACT0086,ENT014,Move weekly VLOOKUP reconciliation into SQL-backed validation checks with clear owner notes.,P2,66,140222,High,Member support,rewrite requirement,in progress
+ACT0087,ENT015,Move weekly VLOOKUP reconciliation into SQL-backed validation checks with clear owner notes.,P3,23,91926,High,Operations,investigate anomaly,needs evidence
+ACT0088,ENT016,"Standardize branch, route, and device identifiers before automating Tableau Prep flows.",P0,61,22536,Medium,Product,run stakeholder review,in progress
+ACT0089,ENT017,Move weekly VLOOKUP reconciliation into SQL-backed validation checks with clear owner notes.,P2,85,65339,Medium,Member support,ship dashboard,proposed
+ACT0090,ENT018,"Create a daily exception report that ranks devices by downtime, cash variance, and service aging.",P0,62,125932,Medium,Member support,ship dashboard,proposed

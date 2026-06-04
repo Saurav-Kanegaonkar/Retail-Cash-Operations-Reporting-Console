@@ -1,0 +1,361 @@
+check_id,run_date,source_system,table_name,check_type,records_checked,failed_records,failure_rate_pct,severity,status
+CHK0001,2026-01-01,Core banking,stg_extract,definition_drift,216791,1453,0.67,Low,waived
+CHK0002,2026-01-02,Ledger extract,dim_entity,duplicate_key,17174,224,1.3,Medium,fail
+CHK0003,2026-01-03,Servicing queue,stg_extract,freshness,198806,2904,1.46,Medium,watch
+CHK0004,2026-01-04,Core banking,stg_extract,threshold_breach,153791,4951,3.22,High,fail
+CHK0005,2026-01-05,Ledger extract,requirement_log,definition_drift,137081,1295,0.94,Low,pass
+CHK0006,2026-01-06,CRM,stg_extract,freshness,55445,210,0.38,Low,waived
+CHK0007,2026-01-07,Ledger extract,report_output,referential_integrity,99817,139,0.14,Low,watch
+CHK0008,2026-01-08,Servicing queue,dim_entity,definition_drift,87106,707,0.81,Low,waived
+CHK0009,2026-01-09,Transaction mart,dim_entity,threshold_breach,232556,4791,2.06,Medium,waived
+CHK0010,2026-01-10,CRM,fact_events,duplicate_key,56642,2430,4.29,High,pass
+CHK0011,2026-01-11,Transaction mart,stg_extract,duplicate_key,209282,5211,2.49,Medium,watch
+CHK0012,2026-01-12,Transaction mart,fact_events,referential_integrity,217558,5353,2.46,Medium,watch
+CHK0013,2026-01-13,Servicing queue,report_output,duplicate_key,70361,1886,2.68,High,waived
+CHK0014,2026-01-14,CRM,stg_extract,null_rate,143472,1034,0.72,Low,waived
+CHK0015,2026-01-15,Ledger extract,fact_events,referential_integrity,216053,4918,2.28,Medium,pass
+CHK0016,2026-01-16,Servicing queue,fact_daily_metric,referential_integrity,90126,2440,2.71,High,fail
+CHK0017,2026-01-17,Risk model,fact_events,freshness,58477,2282,3.9,High,pass
+CHK0018,2026-01-18,Core banking,dim_entity,definition_drift,191749,5558,2.9,High,watch
+CHK0019,2026-01-19,Transaction mart,requirement_log,null_rate,157172,5445,3.46,High,watch
+CHK0020,2026-01-20,Core banking,requirement_log,null_rate,74389,1812,2.44,Medium,watch
+CHK0021,2026-01-21,Ledger extract,requirement_log,duplicate_key,45556,1974,4.33,High,pass
+CHK0022,2026-01-22,Ledger extract,stg_extract,null_rate,93419,1324,1.42,Medium,waived
+CHK0023,2026-01-23,Risk model,fact_events,null_rate,41780,101,0.24,Low,waived
+CHK0024,2026-01-24,Transaction mart,dim_entity,null_rate,199830,6042,3.02,High,pass
+CHK0025,2026-01-25,CRM,dim_entity,definition_drift,88518,2924,3.3,High,waived
+CHK0026,2026-01-26,Transaction mart,stg_extract,definition_drift,154136,4580,2.97,High,waived
+CHK0027,2026-01-27,Risk model,stg_extract,null_rate,207582,2496,1.2,Medium,watch
+CHK0028,2026-01-28,Core banking,fact_events,threshold_breach,82483,1573,1.91,Medium,fail
+CHK0029,2026-01-29,Ledger extract,report_output,duplicate_key,39084,1275,3.26,High,waived
+CHK0030,2026-01-30,Ledger extract,fact_events,threshold_breach,190192,5697,3,High,watch
+CHK0031,2026-01-31,CRM,stg_extract,threshold_breach,17860,567,3.17,High,waived
+CHK0032,2026-02-01,Transaction mart,requirement_log,threshold_breach,182139,5552,3.05,High,waived
+CHK0033,2026-02-02,Core banking,report_output,null_rate,102064,2357,2.31,Medium,waived
+CHK0034,2026-02-03,Servicing queue,fact_events,threshold_breach,195190,412,0.21,Low,pass
+CHK0035,2026-02-04,CRM,report_output,definition_drift,161440,342,0.21,Low,pass
+CHK0036,2026-02-05,Core banking,dim_entity,duplicate_key,84496,1525,1.8,Medium,watch
+CHK0037,2026-02-06,Transaction mart,requirement_log,freshness,212601,8263,3.89,High,fail
+CHK0038,2026-02-07,Servicing queue,stg_extract,freshness,184471,6599,3.58,High,fail
+CHK0039,2026-02-08,Ledger extract,stg_extract,freshness,183605,1378,0.75,Low,waived
+CHK0040,2026-02-09,Core banking,stg_extract,duplicate_key,27458,747,2.72,High,fail
+CHK0041,2026-02-10,CRM,stg_extract,referential_integrity,145959,4572,3.13,High,waived
+CHK0042,2026-02-11,CRM,fact_events,null_rate,174094,264,0.15,Low,pass
+CHK0043,2026-02-12,Risk model,dim_entity,null_rate,98356,3346,3.4,High,fail
+CHK0044,2026-02-13,Risk model,requirement_log,referential_integrity,169992,4579,2.69,High,watch
+CHK0045,2026-02-14,Core banking,stg_extract,freshness,120657,4693,3.89,High,pass
+CHK0046,2026-02-15,Servicing queue,dim_entity,null_rate,55156,469,0.85,Low,fail
+CHK0047,2026-02-16,Core banking,fact_daily_metric,null_rate,102031,3488,3.42,High,waived
+CHK0048,2026-02-17,CRM,requirement_log,definition_drift,234725,6089,2.59,High,fail
+CHK0049,2026-02-18,Core banking,fact_daily_metric,freshness,220565,7421,3.36,High,fail
+CHK0050,2026-02-19,Ledger extract,report_output,referential_integrity,81077,1724,2.13,Medium,pass
+CHK0051,2026-02-20,Transaction mart,fact_events,duplicate_key,62664,1760,2.81,High,watch
+CHK0052,2026-02-21,CRM,stg_extract,referential_integrity,2696,60,2.23,Medium,fail
+CHK0053,2026-02-22,Ledger extract,stg_extract,threshold_breach,71139,2099,2.95,High,watch
+CHK0054,2026-02-23,Transaction mart,fact_daily_metric,duplicate_key,54218,1646,3.04,High,waived
+CHK0055,2026-02-24,Servicing queue,fact_events,duplicate_key,220305,3538,1.61,Medium,waived
+CHK0056,2026-02-25,Ledger extract,report_output,freshness,181861,2402,1.32,Medium,pass
+CHK0057,2026-02-26,CRM,stg_extract,threshold_breach,205009,406,0.2,Low,watch
+CHK0058,2026-02-27,CRM,stg_extract,referential_integrity,82264,1016,1.24,Medium,watch
+CHK0059,2026-02-28,Transaction mart,dim_entity,threshold_breach,227878,4115,1.81,Medium,waived
+CHK0060,2026-03-01,Risk model,fact_events,null_rate,61340,1037,1.69,Medium,fail
+CHK0061,2026-03-02,Core banking,fact_events,definition_drift,93723,2300,2.45,Medium,fail
+CHK0062,2026-03-03,Risk model,stg_extract,duplicate_key,33949,1310,3.86,High,watch
+CHK0063,2026-03-04,CRM,report_output,definition_drift,120599,1740,1.44,Medium,watch
+CHK0064,2026-03-05,Core banking,fact_events,freshness,84221,1770,2.1,Medium,watch
+CHK0065,2026-03-06,Transaction mart,stg_extract,duplicate_key,21632,788,3.64,High,pass
+CHK0066,2026-03-07,Core banking,requirement_log,threshold_breach,86128,3288,3.82,High,watch
+CHK0067,2026-03-08,Risk model,fact_daily_metric,freshness,104337,1392,1.33,Medium,fail
+CHK0068,2026-03-09,Servicing queue,fact_daily_metric,referential_integrity,10113,336,3.32,High,waived
+CHK0069,2026-03-10,Core banking,report_output,null_rate,104328,749,0.72,Low,waived
+CHK0070,2026-03-11,Servicing queue,fact_events,null_rate,209411,5256,2.51,High,waived
+CHK0071,2026-03-12,Ledger extract,stg_extract,null_rate,119733,2369,1.98,Medium,waived
+CHK0072,2026-03-13,CRM,report_output,referential_integrity,82645,964,1.17,Medium,fail
+CHK0073,2026-03-14,Servicing queue,report_output,duplicate_key,39638,100,0.25,Low,waived
+CHK0074,2026-03-15,Ledger extract,dim_entity,duplicate_key,27535,665,2.42,Medium,watch
+CHK0075,2026-03-16,Ledger extract,requirement_log,threshold_breach,138859,5705,4.11,High,fail
+CHK0076,2026-03-17,Transaction mart,fact_daily_metric,threshold_breach,178717,6132,3.43,High,waived
+CHK0077,2026-03-18,CRM,fact_daily_metric,referential_integrity,69560,1185,1.7,Medium,watch
+CHK0078,2026-03-19,Core banking,dim_entity,threshold_breach,7290,82,1.12,Medium,waived
+CHK0079,2026-03-20,Ledger extract,requirement_log,threshold_breach,237634,9273,3.9,High,pass
+CHK0080,2026-03-21,Ledger extract,fact_events,referential_integrity,49104,1590,3.24,High,watch
+CHK0081,2026-03-22,Transaction mart,stg_extract,null_rate,43550,1013,2.33,Medium,pass
+CHK0082,2026-03-23,Transaction mart,report_output,referential_integrity,151799,380,0.25,Low,waived
+CHK0083,2026-03-24,Servicing queue,dim_entity,duplicate_key,204788,1734,0.85,Low,waived
+CHK0084,2026-03-25,CRM,requirement_log,duplicate_key,172007,5656,3.29,High,fail
+CHK0085,2026-03-26,Servicing queue,stg_extract,null_rate,171166,2118,1.24,Medium,fail
+CHK0086,2026-03-27,Core banking,dim_entity,duplicate_key,24340,548,2.25,Medium,waived
+CHK0087,2026-03-28,Core banking,report_output,null_rate,122577,322,0.26,Low,fail
+CHK0088,2026-03-29,Risk model,report_output,freshness,109955,1108,1.01,Medium,waived
+CHK0089,2026-03-30,Transaction mart,stg_extract,definition_drift,115252,3050,2.65,High,watch
+CHK0090,2026-03-31,CRM,stg_extract,duplicate_key,102729,4293,4.18,High,waived
+CHK0091,2026-04-01,Risk model,stg_extract,null_rate,5647,84,1.49,Medium,waived
+CHK0092,2026-04-02,Transaction mart,report_output,duplicate_key,110852,2344,2.11,Medium,watch
+CHK0093,2026-04-03,Core banking,dim_entity,duplicate_key,13682,32,0.23,Low,watch
+CHK0094,2026-04-04,CRM,requirement_log,freshness,158639,2863,1.8,Medium,watch
+CHK0095,2026-04-05,Transaction mart,requirement_log,definition_drift,172444,5487,3.18,High,waived
+CHK0096,2026-04-06,Core banking,requirement_log,definition_drift,212386,8688,4.09,High,waived
+CHK0097,2026-04-07,Servicing queue,dim_entity,duplicate_key,80846,961,1.19,Medium,waived
+CHK0098,2026-04-08,Transaction mart,dim_entity,definition_drift,163482,6825,4.17,High,fail
+CHK0099,2026-04-09,Core banking,report_output,definition_drift,196384,6640,3.38,High,watch
+CHK0100,2026-04-10,Ledger extract,report_output,definition_drift,198576,7042,3.55,High,watch
+CHK0101,2026-04-11,CRM,dim_entity,definition_drift,224087,9876,4.41,High,pass
+CHK0102,2026-04-12,Transaction mart,dim_entity,referential_integrity,132833,73,0.05,Low,waived
+CHK0103,2026-04-13,Ledger extract,fact_daily_metric,threshold_breach,24765,763,3.08,High,pass
+CHK0104,2026-04-14,Risk model,dim_entity,freshness,169272,862,0.51,Low,watch
+CHK0105,2026-04-15,CRM,report_output,freshness,153495,520,0.34,Low,waived
+CHK0106,2026-04-16,Core banking,stg_extract,null_rate,105409,2416,2.29,Medium,waived
+CHK0107,2026-04-17,CRM,fact_daily_metric,duplicate_key,155828,110,0.07,Low,watch
+CHK0108,2026-04-18,Ledger extract,dim_entity,definition_drift,48213,1979,4.1,High,fail
+CHK0109,2026-04-19,Risk model,fact_events,duplicate_key,224245,3353,1.5,Medium,fail
+CHK0110,2026-04-20,Core banking,fact_events,null_rate,17392,623,3.58,High,watch
+CHK0111,2026-04-21,Transaction mart,report_output,definition_drift,156375,6867,4.39,High,waived
+CHK0112,2026-04-22,Risk model,dim_entity,threshold_breach,182419,6664,3.65,High,pass
+CHK0113,2026-04-23,Servicing queue,dim_entity,referential_integrity,141081,161,0.11,Low,watch
+CHK0114,2026-04-24,Risk model,stg_extract,freshness,189708,2151,1.13,Medium,watch
+CHK0115,2026-04-25,Risk model,requirement_log,referential_integrity,64731,2232,3.45,High,waived
+CHK0116,2026-04-26,Ledger extract,report_output,duplicate_key,162554,6772,4.17,High,waived
+CHK0117,2026-04-27,Risk model,stg_extract,duplicate_key,69763,1030,1.48,Medium,pass
+CHK0118,2026-04-28,CRM,stg_extract,threshold_breach,36255,91,0.25,Low,pass
+CHK0119,2026-04-29,Servicing queue,stg_extract,duplicate_key,134260,3734,2.78,High,pass
+CHK0120,2026-04-30,Core banking,dim_entity,referential_integrity,169818,427,0.25,Low,pass
+CHK0121,2026-01-01,Servicing queue,fact_daily_metric,duplicate_key,89048,2122,2.38,Medium,watch
+CHK0122,2026-01-02,CRM,report_output,definition_drift,16274,215,1.32,Medium,waived
+CHK0123,2026-01-03,Servicing queue,report_output,null_rate,113426,3404,3,High,pass
+CHK0124,2026-01-04,CRM,fact_events,null_rate,65402,607,0.93,Low,watch
+CHK0125,2026-01-05,CRM,requirement_log,threshold_breach,136037,392,0.29,Low,pass
+CHK0126,2026-01-06,Core banking,dim_entity,threshold_breach,133283,2244,1.68,Medium,fail
+CHK0127,2026-01-07,Servicing queue,fact_daily_metric,definition_drift,215209,6171,2.87,High,watch
+CHK0128,2026-01-08,Transaction mart,requirement_log,definition_drift,49692,914,1.84,Medium,watch
+CHK0129,2026-01-09,Transaction mart,requirement_log,referential_integrity,205656,3257,1.58,Medium,waived
+CHK0130,2026-01-10,Servicing queue,report_output,definition_drift,3746,130,3.47,High,pass
+CHK0131,2026-01-11,Core banking,dim_entity,duplicate_key,187870,2880,1.53,Medium,fail
+CHK0132,2026-01-12,Risk model,report_output,freshness,20815,808,3.88,High,pass
+CHK0133,2026-01-13,CRM,requirement_log,freshness,86703,1775,2.05,Medium,watch
+CHK0134,2026-01-14,Risk model,fact_events,null_rate,17107,37,0.22,Low,waived
+CHK0135,2026-01-15,Core banking,requirement_log,referential_integrity,75064,3332,4.44,High,waived
+CHK0136,2026-01-16,CRM,requirement_log,threshold_breach,24548,424,1.73,Medium,waived
+CHK0137,2026-01-17,Servicing queue,report_output,definition_drift,69630,1699,2.44,Medium,watch
+CHK0138,2026-01-18,Transaction mart,requirement_log,duplicate_key,238361,2645,1.11,Medium,waived
+CHK0139,2026-01-19,Risk model,fact_daily_metric,null_rate,34101,468,1.37,Medium,pass
+CHK0140,2026-01-20,Servicing queue,report_output,definition_drift,121162,938,0.77,Low,fail
+CHK0141,2026-01-21,CRM,report_output,duplicate_key,234088,1792,0.77,Low,pass
+CHK0142,2026-01-22,CRM,dim_entity,duplicate_key,162782,3870,2.38,Medium,pass
+CHK0143,2026-01-23,Transaction mart,requirement_log,definition_drift,169167,3678,2.17,Medium,waived
+CHK0144,2026-01-24,Risk model,fact_events,referential_integrity,147629,5865,3.97,High,fail
+CHK0145,2026-01-25,Ledger extract,fact_daily_metric,duplicate_key,229809,3866,1.68,Medium,pass
+CHK0146,2026-01-26,Transaction mart,dim_entity,definition_drift,40401,309,0.76,Low,watch
+CHK0147,2026-01-27,Transaction mart,stg_extract,null_rate,140282,5754,4.1,High,pass
+CHK0148,2026-01-28,CRM,report_output,duplicate_key,92769,81,0.09,Low,watch
+CHK0149,2026-01-29,Risk model,fact_daily_metric,referential_integrity,29255,752,2.57,High,pass
+CHK0150,2026-01-30,CRM,stg_extract,duplicate_key,182231,7026,3.86,High,fail
+CHK0151,2026-01-31,Ledger extract,requirement_log,null_rate,222416,7467,3.36,High,watch
+CHK0152,2026-02-01,Core banking,report_output,freshness,128558,3658,2.85,High,waived
+CHK0153,2026-02-02,Core banking,fact_events,referential_integrity,216798,2747,1.27,Medium,waived
+CHK0154,2026-02-03,Risk model,fact_events,freshness,161845,2108,1.3,Medium,waived
+CHK0155,2026-02-04,Ledger extract,report_output,definition_drift,226753,2866,1.26,Medium,watch
+CHK0156,2026-02-05,Risk model,report_output,threshold_breach,58372,875,1.5,Medium,fail
+CHK0157,2026-02-06,Transaction mart,report_output,null_rate,140062,4104,2.93,High,pass
+CHK0158,2026-02-07,Ledger extract,report_output,freshness,65099,304,0.47,Low,waived
+CHK0159,2026-02-08,CRM,dim_entity,duplicate_key,111307,669,0.6,Low,watch
+CHK0160,2026-02-09,Transaction mart,requirement_log,duplicate_key,95794,2678,2.8,High,pass
+CHK0161,2026-02-10,Ledger extract,fact_daily_metric,referential_integrity,142615,5126,3.59,High,pass
+CHK0162,2026-02-11,Transaction mart,dim_entity,threshold_breach,200016,930,0.46,Low,fail
+CHK0163,2026-02-12,CRM,fact_daily_metric,duplicate_key,128083,1400,1.09,Medium,watch
+CHK0164,2026-02-13,Servicing queue,dim_entity,definition_drift,103564,2434,2.35,Medium,pass
+CHK0165,2026-02-14,Risk model,fact_events,duplicate_key,223604,9740,4.36,High,pass
+CHK0166,2026-02-15,CRM,fact_daily_metric,null_rate,223603,8098,3.62,High,watch
+CHK0167,2026-02-16,Risk model,fact_daily_metric,duplicate_key,28393,870,3.06,High,pass
+CHK0168,2026-02-17,Ledger extract,report_output,freshness,163079,3956,2.43,Medium,waived
+CHK0169,2026-02-18,Core banking,fact_events,null_rate,147545,3285,2.23,Medium,fail
+CHK0170,2026-02-19,Core banking,fact_daily_metric,duplicate_key,77636,1029,1.33,Medium,fail
+CHK0171,2026-02-20,Ledger extract,requirement_log,freshness,196718,2414,1.23,Medium,pass
+CHK0172,2026-02-21,Risk model,report_output,null_rate,82448,3398,4.12,High,watch
+CHK0173,2026-02-22,Core banking,fact_daily_metric,duplicate_key,47465,1252,2.64,High,watch
+CHK0174,2026-02-23,Ledger extract,report_output,referential_integrity,102180,1836,1.8,Medium,fail
+CHK0175,2026-02-24,Transaction mart,requirement_log,threshold_breach,168325,276,0.16,Low,pass
+CHK0176,2026-02-25,Core banking,stg_extract,threshold_breach,235089,2256,0.96,Low,fail
+CHK0177,2026-02-26,CRM,fact_daily_metric,threshold_breach,86186,3540,4.11,High,fail
+CHK0178,2026-02-27,Core banking,fact_daily_metric,duplicate_key,87671,663,0.76,Low,watch
+CHK0179,2026-02-28,Core banking,dim_entity,definition_drift,32229,621,1.93,Medium,watch
+CHK0180,2026-03-01,Ledger extract,dim_entity,freshness,140884,1259,0.89,Low,fail
+CHK0181,2026-03-02,CRM,dim_entity,duplicate_key,132570,73,0.06,Low,waived
+CHK0182,2026-03-03,Servicing queue,dim_entity,freshness,135939,4081,3,High,fail
+CHK0183,2026-03-04,Ledger extract,report_output,duplicate_key,174709,3163,1.81,Medium,waived
+CHK0184,2026-03-05,Servicing queue,fact_events,definition_drift,52282,108,0.21,Low,fail
+CHK0185,2026-03-06,Core banking,report_output,definition_drift,170302,3885,2.28,Medium,pass
+CHK0186,2026-03-07,CRM,fact_daily_metric,duplicate_key,220585,875,0.4,Low,pass
+CHK0187,2026-03-08,CRM,report_output,duplicate_key,80968,1047,1.29,Medium,fail
+CHK0188,2026-03-09,CRM,report_output,definition_drift,43744,1673,3.82,High,watch
+CHK0189,2026-03-10,Transaction mart,stg_extract,referential_integrity,4035,24,0.59,Low,waived
+CHK0190,2026-03-11,CRM,fact_events,null_rate,121109,909,0.75,Low,watch
+CHK0191,2026-03-12,Servicing queue,dim_entity,freshness,22152,467,2.11,Medium,waived
+CHK0192,2026-03-13,Servicing queue,requirement_log,threshold_breach,192551,3916,2.03,Medium,fail
+CHK0193,2026-03-14,Ledger extract,stg_extract,null_rate,176472,4607,2.61,High,waived
+CHK0194,2026-03-15,Servicing queue,fact_events,null_rate,209185,8627,4.12,High,fail
+CHK0195,2026-03-16,Core banking,stg_extract,freshness,126112,5034,3.99,High,fail
+CHK0196,2026-03-17,Risk model,stg_extract,freshness,176554,4605,2.61,High,watch
+CHK0197,2026-03-18,Ledger extract,stg_extract,duplicate_key,30014,203,0.68,Low,waived
+CHK0198,2026-03-19,Servicing queue,dim_entity,duplicate_key,216690,6556,3.03,High,pass
+CHK0199,2026-03-20,Transaction mart,report_output,freshness,180716,2859,1.58,Medium,fail
+CHK0200,2026-03-21,Transaction mart,fact_events,null_rate,202473,2703,1.33,Medium,pass
+CHK0201,2026-03-22,Core banking,report_output,duplicate_key,88939,885,1,Low,pass
+CHK0202,2026-03-23,Core banking,report_output,definition_drift,51878,1049,2.02,Medium,fail
+CHK0203,2026-03-24,Ledger extract,fact_events,threshold_breach,169715,5036,2.97,High,watch
+CHK0204,2026-03-25,Core banking,report_output,referential_integrity,155151,5359,3.45,High,pass
+CHK0205,2026-03-26,Transaction mart,fact_events,definition_drift,150951,3567,2.36,Medium,fail
+CHK0206,2026-03-27,Risk model,report_output,referential_integrity,32505,894,2.75,High,pass
+CHK0207,2026-03-28,Core banking,stg_extract,null_rate,105961,2543,2.4,Medium,waived
+CHK0208,2026-03-29,Transaction mart,fact_daily_metric,referential_integrity,77357,1160,1.5,Medium,watch
+CHK0209,2026-03-30,Transaction mart,report_output,referential_integrity,24862,272,1.09,Medium,pass
+CHK0210,2026-03-31,CRM,fact_events,duplicate_key,57513,2211,3.84,High,fail
+CHK0211,2026-04-01,CRM,requirement_log,null_rate,118761,1973,1.66,Medium,waived
+CHK0212,2026-04-02,Transaction mart,requirement_log,referential_integrity,66532,2693,4.05,High,pass
+CHK0213,2026-04-03,Transaction mart,report_output,definition_drift,44032,1797,4.08,High,fail
+CHK0214,2026-04-04,CRM,fact_events,definition_drift,109247,2467,2.26,Medium,fail
+CHK0215,2026-04-05,Risk model,report_output,referential_integrity,77802,2790,3.59,High,watch
+CHK0216,2026-04-06,CRM,requirement_log,freshness,66896,1925,2.88,High,pass
+CHK0217,2026-04-07,Ledger extract,fact_daily_metric,duplicate_key,159562,854,0.54,Low,fail
+CHK0218,2026-04-08,CRM,stg_extract,freshness,172639,856,0.5,Low,fail
+CHK0219,2026-04-09,CRM,dim_entity,duplicate_key,188808,443,0.23,Low,fail
+CHK0220,2026-04-10,CRM,requirement_log,duplicate_key,35299,8,0.02,Low,waived
+CHK0221,2026-04-11,CRM,report_output,threshold_breach,5230,18,0.34,Low,pass
+CHK0222,2026-04-12,Transaction mart,requirement_log,freshness,49730,874,1.76,Medium,waived
+CHK0223,2026-04-13,CRM,report_output,freshness,168957,1248,0.74,Low,fail
+CHK0224,2026-04-14,Risk model,requirement_log,threshold_breach,2419,6,0.25,Low,fail
+CHK0225,2026-04-15,CRM,stg_extract,referential_integrity,173379,7190,4.15,High,pass
+CHK0226,2026-04-16,Core banking,report_output,threshold_breach,26348,523,1.98,Medium,fail
+CHK0227,2026-04-17,Servicing queue,fact_daily_metric,threshold_breach,111644,4781,4.28,High,fail
+CHK0228,2026-04-18,CRM,requirement_log,definition_drift,29316,126,0.43,Low,fail
+CHK0229,2026-04-19,Ledger extract,stg_extract,freshness,156959,6246,3.98,High,pass
+CHK0230,2026-04-20,Transaction mart,fact_daily_metric,duplicate_key,238138,3110,1.31,Medium,waived
+CHK0231,2026-04-21,Ledger extract,fact_events,referential_integrity,170195,6391,3.76,High,pass
+CHK0232,2026-04-22,Transaction mart,fact_daily_metric,freshness,59335,1667,2.81,High,waived
+CHK0233,2026-04-23,Transaction mart,dim_entity,referential_integrity,133715,1562,1.17,Medium,watch
+CHK0234,2026-04-24,Risk model,stg_extract,duplicate_key,171131,5824,3.4,High,pass
+CHK0235,2026-04-25,Core banking,stg_extract,threshold_breach,17333,356,2.05,Medium,waived
+CHK0236,2026-04-26,Transaction mart,report_output,definition_drift,143754,3891,2.71,High,watch
+CHK0237,2026-04-27,Core banking,dim_entity,referential_integrity,134124,1092,0.81,Low,watch
+CHK0238,2026-04-28,Transaction mart,report_output,freshness,210478,5836,2.77,High,fail
+CHK0239,2026-04-29,CRM,fact_daily_metric,null_rate,233188,1272,0.55,Low,pass
+CHK0240,2026-04-30,Ledger extract,stg_extract,freshness,84389,87,0.1,Low,watch
+CHK0241,2026-01-01,Transaction mart,fact_events,freshness,181087,1750,0.97,Low,pass
+CHK0242,2026-01-02,Ledger extract,fact_events,threshold_breach,214121,846,0.4,Low,waived
+CHK0243,2026-01-03,Ledger extract,report_output,definition_drift,120266,212,0.18,Low,watch
+CHK0244,2026-01-04,Transaction mart,requirement_log,threshold_breach,167543,6099,3.64,High,watch
+CHK0245,2026-01-05,Risk model,dim_entity,duplicate_key,205367,7050,3.43,High,fail
+CHK0246,2026-01-06,Ledger extract,requirement_log,null_rate,134626,3788,2.81,High,waived
+CHK0247,2026-01-07,Core banking,fact_daily_metric,threshold_breach,78159,1370,1.75,Medium,pass
+CHK0248,2026-01-08,Core banking,fact_daily_metric,freshness,118909,30,0.03,Low,fail
+CHK0249,2026-01-09,Core banking,fact_events,null_rate,215178,2717,1.26,Medium,fail
+CHK0250,2026-01-10,Servicing queue,fact_events,referential_integrity,57952,69,0.12,Low,watch
+CHK0251,2026-01-11,CRM,fact_daily_metric,freshness,166012,1434,0.86,Low,fail
+CHK0252,2026-01-12,Risk model,report_output,definition_drift,106621,1433,1.34,Medium,fail
+CHK0253,2026-01-13,Risk model,report_output,freshness,2323,32,1.38,Medium,watch
+CHK0254,2026-01-14,Risk model,fact_daily_metric,referential_integrity,137582,5277,3.84,High,waived
+CHK0255,2026-01-15,CRM,fact_daily_metric,definition_drift,115135,5147,4.47,High,pass
+CHK0256,2026-01-16,CRM,report_output,duplicate_key,204455,7719,3.78,High,pass
+CHK0257,2026-01-17,CRM,stg_extract,threshold_breach,59286,797,1.34,Medium,watch
+CHK0258,2026-01-18,Servicing queue,report_output,referential_integrity,184800,1332,0.72,Low,fail
+CHK0259,2026-01-19,CRM,requirement_log,freshness,74168,1219,1.64,Medium,pass
+CHK0260,2026-01-20,Transaction mart,fact_events,definition_drift,228784,3938,1.72,Medium,watch
+CHK0261,2026-01-21,Ledger extract,dim_entity,referential_integrity,119266,1617,1.36,Medium,pass
+CHK0262,2026-01-22,Servicing queue,fact_daily_metric,duplicate_key,111116,2740,2.47,Medium,watch
+CHK0263,2026-01-23,CRM,requirement_log,freshness,173195,1670,0.96,Low,pass
+CHK0264,2026-01-24,CRM,stg_extract,duplicate_key,188474,6276,3.33,High,pass
+CHK0265,2026-01-25,Transaction mart,dim_entity,threshold_breach,103171,1847,1.79,Medium,fail
+CHK0266,2026-01-26,Transaction mart,fact_events,duplicate_key,26840,618,2.3,Medium,waived
+CHK0267,2026-01-27,Transaction mart,dim_entity,duplicate_key,102807,4189,4.07,High,fail
+CHK0268,2026-01-28,Servicing queue,fact_daily_metric,referential_integrity,151739,3698,2.44,Medium,watch
+CHK0269,2026-01-29,Risk model,dim_entity,threshold_breach,124757,5604,4.49,High,pass
+CHK0270,2026-01-30,Ledger extract,dim_entity,referential_integrity,235016,1231,0.52,Low,pass
+CHK0271,2026-01-31,Ledger extract,fact_events,definition_drift,143320,1274,0.89,Low,waived
+CHK0272,2026-02-01,Risk model,fact_events,referential_integrity,8343,117,1.4,Medium,pass
+CHK0273,2026-02-02,Ledger extract,stg_extract,definition_drift,32313,1351,4.18,High,waived
+CHK0274,2026-02-03,Risk model,report_output,definition_drift,163891,7201,4.39,High,watch
+CHK0275,2026-02-04,Core banking,stg_extract,null_rate,56131,2504,4.46,High,waived
+CHK0276,2026-02-05,Servicing queue,fact_daily_metric,freshness,83950,3261,3.88,High,waived
+CHK0277,2026-02-06,Ledger extract,requirement_log,referential_integrity,161301,2442,1.51,Medium,pass
+CHK0278,2026-02-07,CRM,stg_extract,definition_drift,65145,1619,2.49,Medium,watch
+CHK0279,2026-02-08,Servicing queue,report_output,definition_drift,142842,5722,4.01,High,fail
+CHK0280,2026-02-09,Ledger extract,dim_entity,definition_drift,214626,9536,4.44,High,waived
+CHK0281,2026-02-10,CRM,fact_events,referential_integrity,188351,3432,1.82,Medium,pass
+CHK0282,2026-02-11,Risk model,report_output,referential_integrity,215469,7348,3.41,High,waived
+CHK0283,2026-02-12,Transaction mart,requirement_log,definition_drift,166518,4291,2.58,High,fail
+CHK0284,2026-02-13,CRM,report_output,threshold_breach,151890,3272,2.15,Medium,fail
+CHK0285,2026-02-14,Risk model,fact_daily_metric,definition_drift,152991,6097,3.99,High,watch
+CHK0286,2026-02-15,Servicing queue,report_output,threshold_breach,13486,533,3.95,High,pass
+CHK0287,2026-02-16,CRM,requirement_log,freshness,201499,8874,4.4,High,fail
+CHK0288,2026-02-17,Risk model,requirement_log,referential_integrity,102317,2099,2.05,Medium,fail
+CHK0289,2026-02-18,Servicing queue,fact_daily_metric,freshness,59143,1164,1.97,Medium,pass
+CHK0290,2026-02-19,Ledger extract,fact_events,threshold_breach,81636,2967,3.63,High,watch
+CHK0291,2026-02-20,Transaction mart,fact_daily_metric,duplicate_key,62972,870,1.38,Medium,pass
+CHK0292,2026-02-21,Ledger extract,requirement_log,freshness,205689,9,0,Low,fail
+CHK0293,2026-02-22,Servicing queue,fact_events,freshness,209159,7371,3.52,High,fail
+CHK0294,2026-02-23,Servicing queue,report_output,definition_drift,196993,5190,2.63,High,fail
+CHK0295,2026-02-24,CRM,stg_extract,threshold_breach,186678,6939,3.72,High,pass
+CHK0296,2026-02-25,Core banking,report_output,referential_integrity,147696,738,0.5,Low,fail
+CHK0297,2026-02-26,Ledger extract,report_output,duplicate_key,117610,3568,3.03,High,pass
+CHK0298,2026-02-27,Transaction mart,fact_daily_metric,freshness,227050,2676,1.18,Medium,fail
+CHK0299,2026-02-28,Core banking,report_output,null_rate,131578,2944,2.24,Medium,pass
+CHK0300,2026-03-01,Transaction mart,requirement_log,null_rate,103188,4466,4.33,High,fail
+CHK0301,2026-03-02,Ledger extract,dim_entity,referential_integrity,71228,2151,3.02,High,pass
+CHK0302,2026-03-03,Risk model,dim_entity,threshold_breach,4040,12,0.3,Low,pass
+CHK0303,2026-03-04,Transaction mart,stg_extract,definition_drift,207069,3818,1.84,Medium,fail
+CHK0304,2026-03-05,Core banking,fact_daily_metric,null_rate,139577,3034,2.17,Medium,fail
+CHK0305,2026-03-06,CRM,fact_daily_metric,freshness,72589,2404,3.31,High,waived
+CHK0306,2026-03-07,Risk model,requirement_log,threshold_breach,51416,2033,3.95,High,waived
+CHK0307,2026-03-08,Risk model,fact_events,threshold_breach,5546,7,0.13,Low,pass
+CHK0308,2026-03-09,Ledger extract,fact_events,null_rate,233186,2612,1.12,Medium,fail
+CHK0309,2026-03-10,CRM,stg_extract,freshness,233960,6680,2.86,High,waived
+CHK0310,2026-03-11,Transaction mart,stg_extract,definition_drift,52874,113,0.21,Low,fail
+CHK0311,2026-03-12,Transaction mart,dim_entity,null_rate,59516,694,1.17,Medium,pass
+CHK0312,2026-03-13,CRM,fact_events,null_rate,180955,5516,3.05,High,watch
+CHK0313,2026-03-14,Transaction mart,report_output,referential_integrity,229281,1601,0.7,Low,watch
+CHK0314,2026-03-15,Servicing queue,dim_entity,threshold_breach,87133,1863,2.14,Medium,pass
+CHK0315,2026-03-16,Ledger extract,fact_events,duplicate_key,164863,2305,1.4,Medium,watch
+CHK0316,2026-03-17,Core banking,report_output,freshness,125089,3067,2.45,Medium,waived
+CHK0317,2026-03-18,Core banking,fact_daily_metric,freshness,196309,1213,0.62,Low,waived
+CHK0318,2026-03-19,Ledger extract,fact_daily_metric,referential_integrity,83661,180,0.22,Low,waived
+CHK0319,2026-03-20,Servicing queue,fact_daily_metric,null_rate,111063,1960,1.76,Medium,pass
+CHK0320,2026-03-21,Ledger extract,fact_daily_metric,referential_integrity,16261,594,3.65,High,watch
+CHK0321,2026-03-22,Transaction mart,requirement_log,threshold_breach,218502,3078,1.41,Medium,fail
+CHK0322,2026-03-23,Servicing queue,fact_events,threshold_breach,130549,2154,1.65,Medium,waived
+CHK0323,2026-03-24,CRM,dim_entity,duplicate_key,187145,1727,0.92,Low,watch
+CHK0324,2026-03-25,CRM,stg_extract,duplicate_key,168163,5774,3.43,High,waived
+CHK0325,2026-03-26,Servicing queue,report_output,duplicate_key,61065,2643,4.33,High,pass
+CHK0326,2026-03-27,Core banking,fact_daily_metric,definition_drift,199340,7106,3.56,High,waived
+CHK0327,2026-03-28,Transaction mart,fact_events,definition_drift,28208,323,1.15,Medium,fail
+CHK0328,2026-03-29,CRM,fact_events,threshold_breach,33009,677,2.05,Medium,pass
+CHK0329,2026-03-30,Risk model,stg_extract,duplicate_key,117933,1998,1.69,Medium,fail
+CHK0330,2026-03-31,Servicing queue,requirement_log,threshold_breach,4405,159,3.61,High,waived
+CHK0331,2026-04-01,Ledger extract,report_output,duplicate_key,108084,4732,4.38,High,watch
+CHK0332,2026-04-02,Ledger extract,fact_events,duplicate_key,221183,4837,2.19,Medium,pass
+CHK0333,2026-04-03,CRM,fact_events,definition_drift,220911,1434,0.65,Low,watch
+CHK0334,2026-04-04,Ledger extract,report_output,freshness,192870,5736,2.97,High,waived
+CHK0335,2026-04-05,Ledger extract,requirement_log,duplicate_key,137351,4051,2.95,High,pass
+CHK0336,2026-04-06,Transaction mart,requirement_log,definition_drift,110646,319,0.29,Low,fail
+CHK0337,2026-04-07,Core banking,requirement_log,duplicate_key,138168,1470,1.06,Medium,fail
+CHK0338,2026-04-08,Servicing queue,fact_events,null_rate,81090,1470,1.81,Medium,pass
+CHK0339,2026-04-09,CRM,dim_entity,freshness,107499,1003,0.93,Low,waived
+CHK0340,2026-04-10,CRM,stg_extract,null_rate,135682,2458,1.81,Medium,watch
+CHK0341,2026-04-11,Transaction mart,requirement_log,referential_integrity,87670,3606,4.11,High,watch
+CHK0342,2026-04-12,Core banking,dim_entity,threshold_breach,70481,399,0.57,Low,watch
+CHK0343,2026-04-13,CRM,dim_entity,referential_integrity,154043,4894,3.18,High,fail
+CHK0344,2026-04-14,Risk model,stg_extract,null_rate,143803,2708,1.88,Medium,pass
+CHK0345,2026-04-15,Ledger extract,fact_daily_metric,threshold_breach,69570,1391,2,Medium,pass
+CHK0346,2026-04-16,Ledger extract,report_output,threshold_breach,131490,3548,2.7,High,watch
+CHK0347,2026-04-17,Risk model,requirement_log,null_rate,195388,6788,3.47,High,waived
+CHK0348,2026-04-18,CRM,fact_events,threshold_breach,40000,1343,3.36,High,waived
+CHK0349,2026-04-19,Servicing queue,fact_events,referential_integrity,170352,4830,2.84,High,fail
+CHK0350,2026-04-20,Core banking,fact_daily_metric,duplicate_key,96525,808,0.84,Low,waived
+CHK0351,2026-04-21,Ledger extract,dim_entity,referential_integrity,65040,2215,3.41,High,fail
+CHK0352,2026-04-22,CRM,fact_daily_metric,freshness,87145,247,0.28,Low,pass
+CHK0353,2026-04-23,Ledger extract,dim_entity,null_rate,164314,1118,0.68,Low,pass
+CHK0354,2026-04-24,Ledger extract,fact_events,threshold_breach,87434,278,0.32,Low,waived
+CHK0355,2026-04-25,Transaction mart,fact_events,definition_drift,137175,4559,3.32,High,waived
+CHK0356,2026-04-26,Transaction mart,fact_daily_metric,null_rate,144939,4761,3.28,High,fail
+CHK0357,2026-04-27,Risk model,stg_extract,referential_integrity,86809,2808,3.23,High,pass
+CHK0358,2026-04-28,Ledger extract,fact_daily_metric,duplicate_key,120725,4388,3.63,High,fail
+CHK0359,2026-04-29,Core banking,stg_extract,referential_integrity,53548,807,1.51,Medium,fail
+CHK0360,2026-04-30,CRM,dim_entity,freshness,239419,7988,3.34,High,pass

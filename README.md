@@ -14,6 +14,13 @@ This project is intentionally scoped as a practical decision artifact: it shows 
 - A data dictionary in `data_dictionary.md`
 - A rendered screenshot in `docs/images/dashboard.png`
 
+## Data Inventory
+
+- Six source-style CSVs back the project instead of a tiny sample dataset.
+- The data folder now includes 2,880 daily metric records, 720 source events, 360 data-quality checks, and 90 recommended actions.
+- The analysis folder includes a data profile and recommendations that explain how the evidence should drive product or operating decisions.
+- The `scripts/score_operating_data.py` script ranks entity priorities and data-quality hotspots from the CSVs.
+
 ## What The Data Says
 
 - Service exceptions explain more operational risk than cash volume alone when machines repeatedly miss uptime targets.

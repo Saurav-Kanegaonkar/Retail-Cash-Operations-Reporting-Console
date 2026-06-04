@@ -1,4 +1,25 @@
-"entity_id","entity_type","domain"
-"E-001","retail cash operations reporting","operations reporting dashboard"
-"E-002","stakeholder","operations"
-"E-003","metric_owner","analytics"
+entity_id,entity_name,entity_type,segment,owner_team,region_or_scope,business_priority,risk_tier
+ENT001,Account segment 1,Fraud queue,At Risk,Finance,Remote,Low,Low
+ENT002,ATM route 2,Fraud queue,Core,Finance,National,High,Low
+ENT003,Credit product 3,Account segment,At Risk,Finance,East,Medium,Low
+ENT004,Servicing case 4,Account segment,Core,Risk,East,Medium,High
+ENT005,Portfolio slice 5,Fraud queue,Strategic,Analytics,Enterprise,Medium,Medium
+ENT006,Member journey 6,Credit product,At Risk,Operations,Enterprise,Low,Medium
+ENT007,Fraud queue 7,ATM route,Emerging,Product,Remote,Low,Medium
+ENT008,Servicing case 8,Credit product,Core,Member support,Central,High,Low
+ENT009,Deposit cohort 9,Fraud queue,Emerging,Risk,National,Medium,High
+ENT010,ATM route 10,Credit product,Emerging,Finance,Remote,High,High
+ENT011,Account segment 11,Account segment,Emerging,Risk,Enterprise,Medium,High
+ENT012,Credit product 12,Member journey,Emerging,Risk,Enterprise,High,Low
+ENT013,Deposit cohort 13,Account segment,Emerging,Risk,West,Low,Low
+ENT014,Fraud queue 14,Deposit cohort,Experimental,Risk,East,Low,Low
+ENT015,Portfolio slice 15,Servicing case,At Risk,Finance,Central,High,High
+ENT016,ATM route 16,Deposit cohort,At Risk,Finance,Central,High,High
+ENT017,Portfolio slice 17,ATM route,At Risk,Finance,National,Low,Medium
+ENT018,Member journey 18,Deposit cohort,Strategic,Product,National,Low,Low
+ENT019,ATM route 19,Servicing case,Emerging,Analytics,Enterprise,Medium,Low
+ENT020,Account segment 20,Account segment,Experimental,Risk,Central,Low,Low
+ENT021,Fraud queue 21,Servicing case,Emerging,Finance,Enterprise,Medium,High
+ENT022,Credit product 22,Credit product,Emerging,Product,East,Low,Medium
+ENT023,Portfolio slice 23,ATM route,Emerging,Analytics,National,Low,High
+ENT024,ATM route 24,Credit product,Core,Risk,Remote,High,Low

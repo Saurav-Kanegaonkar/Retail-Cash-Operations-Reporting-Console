@@ -1,5 +1,721 @@
-"signal","owner","status","finding","risk"
-"ATM uptime","Route A","Alert","Below target","High"
-"Cash variance","Branch 12","Review","Deposit mismatch","High"
-"Report feed","Ops","Clean","On schedule","Low"
-"Device master","Fleet","Stale","Missing owner","Medium"
+event_id,event_date,entity_id,source_system,event_type,severity,owner_team,impacted_metric,records_impacted,note
+EVT00001,2026-01-01,ENT001,Ledger extract,manual_override,Critical,Risk,service_cost,54056,retail cash operations reporting signal 1
+EVT00002,2026-01-02,ENT002,Core banking,release_review,High,Analytics,retention_rate,44566,retail cash operations reporting signal 2
+EVT00003,2026-01-03,ENT003,CRM,refresh_delay,Medium,Operations,exception_rate,55148,retail cash operations reporting signal 3
+EVT00004,2026-01-04,ENT004,CRM,refresh_delay,High,Analytics,cash_fill_accuracy,43561,retail cash operations reporting signal 4
+EVT00005,2026-01-05,ENT005,Risk model,manual_override,High,Risk,portfolio_value,5776,retail cash operations reporting signal 5
+EVT00006,2026-01-06,ENT006,Servicing queue,refresh_delay,Critical,Operations,activation_rate,17335,retail cash operations reporting signal 6
+EVT00007,2026-01-07,ENT007,CRM,automation_run,Medium,Member support,service_cost,58724,retail cash operations reporting signal 7
+EVT00008,2026-01-08,ENT008,Core banking,release_review,Critical,Risk,portfolio_value,43841,retail cash operations reporting signal 8
+EVT00009,2026-01-09,ENT009,CRM,release_review,Medium,Operations,exception_rate,15813,retail cash operations reporting signal 9
+EVT00010,2026-01-10,ENT010,Transaction mart,manual_override,High,Member support,exception_rate,28794,retail cash operations reporting signal 10
+EVT00011,2026-01-11,ENT011,CRM,refresh_delay,Critical,Product,cash_fill_accuracy,56797,retail cash operations reporting signal 11
+EVT00012,2026-01-12,ENT012,Ledger extract,manual_override,Critical,Product,retention_rate,56459,retail cash operations reporting signal 12
+EVT00013,2026-01-13,ENT013,Risk model,manual_override,Critical,Product,service_cost,8764,retail cash operations reporting signal 13
+EVT00014,2026-01-14,ENT014,Transaction mart,definition_change,Critical,Risk,service_cost,45453,retail cash operations reporting signal 14
+EVT00015,2026-01-15,ENT015,Core banking,refresh_delay,Low,Analytics,retention_rate,36904,retail cash operations reporting signal 15
+EVT00016,2026-01-16,ENT016,Transaction mart,qa_failure,Critical,Product,activation_rate,48813,retail cash operations reporting signal 16
+EVT00017,2026-01-17,ENT017,CRM,qa_failure,Low,Member support,service_cost,13285,retail cash operations reporting signal 17
+EVT00018,2026-01-18,ENT018,Ledger extract,definition_change,Low,Risk,cash_fill_accuracy,12083,retail cash operations reporting signal 18
+EVT00019,2026-01-19,ENT019,Ledger extract,qa_failure,Critical,Member support,activation_rate,41673,retail cash operations reporting signal 19
+EVT00020,2026-01-20,ENT020,Core banking,manual_override,Critical,Finance,exception_rate,49779,retail cash operations reporting signal 20
+EVT00021,2026-01-21,ENT021,Ledger extract,refresh_delay,Critical,Member support,retention_rate,45761,retail cash operations reporting signal 21
+EVT00022,2026-01-22,ENT022,Ledger extract,stakeholder_request,Medium,Finance,service_cost,22996,retail cash operations reporting signal 22
+EVT00023,2026-01-23,ENT023,Ledger extract,stakeholder_request,High,Finance,exception_rate,212,retail cash operations reporting signal 23
+EVT00024,2026-01-24,ENT024,Transaction mart,stakeholder_request,Medium,Product,portfolio_value,5307,retail cash operations reporting signal 24
+EVT00025,2026-01-25,ENT001,Servicing queue,release_review,Critical,Product,portfolio_value,44344,retail cash operations reporting signal 25
+EVT00026,2026-01-26,ENT002,Ledger extract,automation_run,Low,Risk,retention_rate,16887,retail cash operations reporting signal 26
+EVT00027,2026-01-27,ENT003,Risk model,definition_change,Low,Analytics,portfolio_value,43673,retail cash operations reporting signal 27
+EVT00028,2026-01-28,ENT004,Servicing queue,refresh_delay,High,Member support,cash_fill_accuracy,25231,retail cash operations reporting signal 28
+EVT00029,2026-01-29,ENT005,CRM,qa_failure,Medium,Product,service_cost,39258,retail cash operations reporting signal 29
+EVT00030,2026-01-30,ENT006,Risk model,stakeholder_request,Medium,Member support,activation_rate,48827,retail cash operations reporting signal 30
+EVT00031,2026-01-31,ENT007,Servicing queue,definition_change,Critical,Risk,exception_rate,3519,retail cash operations reporting signal 31
+EVT00032,2026-02-01,ENT008,Transaction mart,definition_change,Critical,Finance,retention_rate,29694,retail cash operations reporting signal 32
+EVT00033,2026-02-02,ENT009,Risk model,refresh_delay,Low,Risk,retention_rate,1616,retail cash operations reporting signal 33
+EVT00034,2026-02-03,ENT010,Ledger extract,refresh_delay,Low,Operations,service_cost,23838,retail cash operations reporting signal 34
+EVT00035,2026-02-04,ENT011,Servicing queue,manual_override,Critical,Finance,service_cost,13722,retail cash operations reporting signal 35
+EVT00036,2026-02-05,ENT012,CRM,definition_change,High,Risk,retention_rate,34696,retail cash operations reporting signal 36
+EVT00037,2026-02-06,ENT013,Servicing queue,manual_override,Low,Operations,cash_fill_accuracy,52463,retail cash operations reporting signal 37
+EVT00038,2026-02-07,ENT014,Transaction mart,refresh_delay,Medium,Member support,retention_rate,7620,retail cash operations reporting signal 38
+EVT00039,2026-02-08,ENT015,Transaction mart,qa_failure,Low,Finance,service_cost,47769,retail cash operations reporting signal 39
+EVT00040,2026-02-09,ENT016,Transaction mart,automation_run,High,Member support,activation_rate,23182,retail cash operations reporting signal 40
+EVT00041,2026-02-10,ENT017,Risk model,automation_run,Critical,Analytics,cash_fill_accuracy,40453,retail cash operations reporting signal 41
+EVT00042,2026-02-11,ENT018,Servicing queue,refresh_delay,High,Risk,retention_rate,60836,retail cash operations reporting signal 42
+EVT00043,2026-02-12,ENT019,Transaction mart,stakeholder_request,Critical,Risk,retention_rate,1818,retail cash operations reporting signal 43
+EVT00044,2026-02-13,ENT020,Ledger extract,manual_override,High,Finance,cash_fill_accuracy,21419,retail cash operations reporting signal 44
+EVT00045,2026-02-14,ENT021,Risk model,manual_override,Low,Product,service_cost,37525,retail cash operations reporting signal 45
+EVT00046,2026-02-15,ENT022,Transaction mart,refresh_delay,Low,Risk,exception_rate,30797,retail cash operations reporting signal 46
+EVT00047,2026-02-16,ENT023,CRM,automation_run,Critical,Product,service_cost,14134,retail cash operations reporting signal 47
+EVT00048,2026-02-17,ENT024,Core banking,qa_failure,Medium,Operations,cash_fill_accuracy,8817,retail cash operations reporting signal 48
+EVT00049,2026-02-18,ENT001,Core banking,stakeholder_request,Low,Product,service_cost,17287,retail cash operations reporting signal 49
+EVT00050,2026-02-19,ENT002,Transaction mart,manual_override,Medium,Operations,activation_rate,44237,retail cash operations reporting signal 50
+EVT00051,2026-02-20,ENT003,Risk model,refresh_delay,High,Member support,activation_rate,29210,retail cash operations reporting signal 51
+EVT00052,2026-02-21,ENT004,Ledger extract,release_review,Medium,Product,activation_rate,33045,retail cash operations reporting signal 52
+EVT00053,2026-02-22,ENT005,Core banking,refresh_delay,Low,Operations,cash_fill_accuracy,17583,retail cash operations reporting signal 53
+EVT00054,2026-02-23,ENT006,Servicing queue,release_review,Low,Risk,exception_rate,27848,retail cash operations reporting signal 54
+EVT00055,2026-02-24,ENT007,Transaction mart,manual_override,High,Risk,service_cost,31986,retail cash operations reporting signal 55
+EVT00056,2026-02-25,ENT008,Ledger extract,automation_run,Medium,Finance,activation_rate,34636,retail cash operations reporting signal 56
+EVT00057,2026-02-26,ENT009,Ledger extract,refresh_delay,Critical,Analytics,activation_rate,43532,retail cash operations reporting signal 57
+EVT00058,2026-02-27,ENT010,Ledger extract,refresh_delay,Low,Finance,exception_rate,53870,retail cash operations reporting signal 58
+EVT00059,2026-02-28,ENT011,Ledger extract,qa_failure,High,Finance,portfolio_value,22552,retail cash operations reporting signal 59
+EVT00060,2026-03-01,ENT012,Risk model,qa_failure,Low,Finance,retention_rate,834,retail cash operations reporting signal 60
+EVT00061,2026-03-02,ENT013,CRM,definition_change,High,Product,portfolio_value,20926,retail cash operations reporting signal 61
+EVT00062,2026-03-03,ENT014,Ledger extract,automation_run,High,Product,portfolio_value,23312,retail cash operations reporting signal 62
+EVT00063,2026-03-04,ENT015,Ledger extract,stakeholder_request,Medium,Member support,portfolio_value,41203,retail cash operations reporting signal 63
+EVT00064,2026-03-05,ENT016,Servicing queue,definition_change,High,Finance,activation_rate,14863,retail cash operations reporting signal 64
+EVT00065,2026-03-06,ENT017,Core banking,release_review,Critical,Member support,portfolio_value,47884,retail cash operations reporting signal 65
+EVT00066,2026-03-07,ENT018,CRM,release_review,Medium,Risk,portfolio_value,50273,retail cash operations reporting signal 66
+EVT00067,2026-03-08,ENT019,Transaction mart,automation_run,Low,Product,activation_rate,57927,retail cash operations reporting signal 67
+EVT00068,2026-03-09,ENT020,Servicing queue,automation_run,Critical,Member support,cash_fill_accuracy,14677,retail cash operations reporting signal 68
+EVT00069,2026-03-10,ENT021,Ledger extract,automation_run,Medium,Analytics,activation_rate,15133,retail cash operations reporting signal 69
+EVT00070,2026-03-11,ENT022,Servicing queue,stakeholder_request,High,Finance,retention_rate,59949,retail cash operations reporting signal 70
+EVT00071,2026-03-12,ENT023,Risk model,release_review,Low,Analytics,portfolio_value,36194,retail cash operations reporting signal 71
+EVT00072,2026-03-13,ENT024,Ledger extract,manual_override,Medium,Analytics,activation_rate,4920,retail cash operations reporting signal 72
+EVT00073,2026-03-14,ENT001,Transaction mart,stakeholder_request,Medium,Member support,retention_rate,20347,retail cash operations reporting signal 73
+EVT00074,2026-03-15,ENT002,Transaction mart,release_review,Critical,Product,activation_rate,25759,retail cash operations reporting signal 74
+EVT00075,2026-03-16,ENT003,Core banking,refresh_delay,Low,Risk,retention_rate,47100,retail cash operations reporting signal 75
+EVT00076,2026-03-17,ENT004,Ledger extract,qa_failure,Medium,Finance,retention_rate,40333,retail cash operations reporting signal 76
+EVT00077,2026-03-18,ENT005,CRM,automation_run,Low,Product,activation_rate,27160,retail cash operations reporting signal 77
+EVT00078,2026-03-19,ENT006,Risk model,manual_override,Medium,Finance,activation_rate,39921,retail cash operations reporting signal 78
+EVT00079,2026-03-20,ENT007,Ledger extract,automation_run,Low,Product,activation_rate,48,retail cash operations reporting signal 79
+EVT00080,2026-03-21,ENT008,Core banking,qa_failure,Critical,Analytics,retention_rate,42618,retail cash operations reporting signal 80
+EVT00081,2026-03-22,ENT009,CRM,refresh_delay,Low,Finance,portfolio_value,8364,retail cash operations reporting signal 81
+EVT00082,2026-03-23,ENT010,Ledger extract,refresh_delay,Critical,Member support,exception_rate,31530,retail cash operations reporting signal 82
+EVT00083,2026-03-24,ENT011,Ledger extract,refresh_delay,Medium,Risk,activation_rate,43520,retail cash operations reporting signal 83
+EVT00084,2026-03-25,ENT012,Core banking,definition_change,High,Product,service_cost,8516,retail cash operations reporting signal 84
+EVT00085,2026-03-26,ENT013,Risk model,automation_run,Critical,Risk,exception_rate,15509,retail cash operations reporting signal 85
+EVT00086,2026-03-27,ENT014,Transaction mart,stakeholder_request,Low,Member support,portfolio_value,61790,retail cash operations reporting signal 86
+EVT00087,2026-03-28,ENT015,CRM,automation_run,High,Operations,exception_rate,24616,retail cash operations reporting signal 87
+EVT00088,2026-03-29,ENT016,Transaction mart,release_review,High,Risk,service_cost,51320,retail cash operations reporting signal 88
+EVT00089,2026-03-30,ENT017,CRM,automation_run,High,Member support,exception_rate,50962,retail cash operations reporting signal 89
+EVT00090,2026-03-31,ENT018,Servicing queue,manual_override,High,Analytics,activation_rate,18862,retail cash operations reporting signal 90
+EVT00091,2026-04-01,ENT019,CRM,qa_failure,High,Analytics,service_cost,52518,retail cash operations reporting signal 91
+EVT00092,2026-04-02,ENT020,Ledger extract,automation_run,Critical,Operations,service_cost,27940,retail cash operations reporting signal 92
+EVT00093,2026-04-03,ENT021,Ledger extract,stakeholder_request,Low,Finance,retention_rate,52285,retail cash operations reporting signal 93
+EVT00094,2026-04-04,ENT022,Servicing queue,qa_failure,Medium,Operations,service_cost,13800,retail cash operations reporting signal 94
+EVT00095,2026-04-05,ENT023,Ledger extract,definition_change,High,Product,retention_rate,58732,retail cash operations reporting signal 95
+EVT00096,2026-04-06,ENT024,Core banking,manual_override,Medium,Operations,cash_fill_accuracy,52979,retail cash operations reporting signal 96
+EVT00097,2026-04-07,ENT001,Risk model,manual_override,Low,Risk,service_cost,50934,retail cash operations reporting signal 97
+EVT00098,2026-04-08,ENT002,Core banking,manual_override,Critical,Operations,exception_rate,52152,retail cash operations reporting signal 98
+EVT00099,2026-04-09,ENT003,Risk model,qa_failure,Medium,Operations,portfolio_value,27439,retail cash operations reporting signal 99
+EVT00100,2026-04-10,ENT004,Core banking,stakeholder_request,High,Operations,portfolio_value,40577,retail cash operations reporting signal 100
+EVT00101,2026-04-11,ENT005,Core banking,manual_override,Low,Product,portfolio_value,9444,retail cash operations reporting signal 101
+EVT00102,2026-04-12,ENT006,Core banking,qa_failure,Medium,Operations,exception_rate,34817,retail cash operations reporting signal 102
+EVT00103,2026-04-13,ENT007,Risk model,definition_change,Medium,Risk,exception_rate,28294,retail cash operations reporting signal 103
+EVT00104,2026-04-14,ENT008,CRM,refresh_delay,Low,Risk,cash_fill_accuracy,9328,retail cash operations reporting signal 104
+EVT00105,2026-04-15,ENT009,Servicing queue,stakeholder_request,Critical,Operations,retention_rate,18863,retail cash operations reporting signal 105
+EVT00106,2026-04-16,ENT010,Risk model,release_review,High,Member support,portfolio_value,26151,retail cash operations reporting signal 106
+EVT00107,2026-04-17,ENT011,Transaction mart,release_review,Low,Member support,cash_fill_accuracy,51689,retail cash operations reporting signal 107
+EVT00108,2026-04-18,ENT012,Risk model,definition_change,High,Product,exception_rate,34702,retail cash operations reporting signal 108
+EVT00109,2026-04-19,ENT013,Risk model,manual_override,Medium,Member support,retention_rate,50721,retail cash operations reporting signal 109
+EVT00110,2026-04-20,ENT014,Risk model,refresh_delay,Critical,Risk,portfolio_value,45649,retail cash operations reporting signal 110
+EVT00111,2026-04-21,ENT015,Core banking,manual_override,Low,Risk,portfolio_value,18311,retail cash operations reporting signal 111
+EVT00112,2026-04-22,ENT016,CRM,refresh_delay,Medium,Analytics,cash_fill_accuracy,34921,retail cash operations reporting signal 112
+EVT00113,2026-04-23,ENT017,Risk model,definition_change,High,Product,cash_fill_accuracy,7273,retail cash operations reporting signal 113
+EVT00114,2026-04-24,ENT018,Ledger extract,qa_failure,Critical,Product,exception_rate,2952,retail cash operations reporting signal 114
+EVT00115,2026-04-25,ENT019,Core banking,stakeholder_request,Critical,Member support,retention_rate,24988,retail cash operations reporting signal 115
+EVT00116,2026-04-26,ENT020,Transaction mart,definition_change,High,Risk,cash_fill_accuracy,10024,retail cash operations reporting signal 116
+EVT00117,2026-04-27,ENT021,CRM,release_review,Low,Finance,retention_rate,8006,retail cash operations reporting signal 117
+EVT00118,2026-04-28,ENT022,Servicing queue,refresh_delay,Low,Member support,exception_rate,24052,retail cash operations reporting signal 118
+EVT00119,2026-04-29,ENT023,Risk model,automation_run,High,Finance,exception_rate,21134,retail cash operations reporting signal 119
+EVT00120,2026-04-30,ENT024,Servicing queue,manual_override,Low,Product,retention_rate,52394,retail cash operations reporting signal 120
+EVT00121,2026-01-01,ENT001,Core banking,automation_run,Low,Risk,cash_fill_accuracy,44785,retail cash operations reporting signal 121
+EVT00122,2026-01-02,ENT002,CRM,release_review,Critical,Finance,service_cost,53184,retail cash operations reporting signal 122
+EVT00123,2026-01-03,ENT003,CRM,stakeholder_request,Medium,Risk,activation_rate,31350,retail cash operations reporting signal 123
+EVT00124,2026-01-04,ENT004,Ledger extract,refresh_delay,Critical,Member support,service_cost,4809,retail cash operations reporting signal 124
+EVT00125,2026-01-05,ENT005,Core banking,qa_failure,Low,Member support,portfolio_value,59197,retail cash operations reporting signal 125
+EVT00126,2026-01-06,ENT006,Servicing queue,manual_override,High,Analytics,portfolio_value,31848,retail cash operations reporting signal 126
+EVT00127,2026-01-07,ENT007,CRM,stakeholder_request,Critical,Member support,service_cost,56531,retail cash operations reporting signal 127
+EVT00128,2026-01-08,ENT008,Servicing queue,automation_run,Low,Product,activation_rate,5506,retail cash operations reporting signal 128
+EVT00129,2026-01-09,ENT009,Servicing queue,release_review,Medium,Operations,activation_rate,8285,retail cash operations reporting signal 129
+EVT00130,2026-01-10,ENT010,Core banking,release_review,Critical,Operations,cash_fill_accuracy,35226,retail cash operations reporting signal 130
+EVT00131,2026-01-11,ENT011,Core banking,stakeholder_request,High,Operations,cash_fill_accuracy,25327,retail cash operations reporting signal 131
+EVT00132,2026-01-12,ENT012,Servicing queue,stakeholder_request,Critical,Finance,activation_rate,61013,retail cash operations reporting signal 132
+EVT00133,2026-01-13,ENT013,Ledger extract,qa_failure,Low,Operations,retention_rate,42599,retail cash operations reporting signal 133
+EVT00134,2026-01-14,ENT014,Ledger extract,manual_override,Low,Risk,portfolio_value,56116,retail cash operations reporting signal 134
+EVT00135,2026-01-15,ENT015,Ledger extract,automation_run,High,Operations,exception_rate,43861,retail cash operations reporting signal 135
+EVT00136,2026-01-16,ENT016,CRM,definition_change,High,Finance,portfolio_value,10200,retail cash operations reporting signal 136
+EVT00137,2026-01-17,ENT017,Ledger extract,refresh_delay,Medium,Risk,portfolio_value,52885,retail cash operations reporting signal 137
+EVT00138,2026-01-18,ENT018,Core banking,definition_change,Medium,Analytics,portfolio_value,56138,retail cash operations reporting signal 138
+EVT00139,2026-01-19,ENT019,Risk model,release_review,Critical,Product,portfolio_value,14069,retail cash operations reporting signal 139
+EVT00140,2026-01-20,ENT020,Servicing queue,manual_override,Low,Product,activation_rate,3497,retail cash operations reporting signal 140
+EVT00141,2026-01-21,ENT021,Transaction mart,manual_override,Critical,Risk,activation_rate,10828,retail cash operations reporting signal 141
+EVT00142,2026-01-22,ENT022,Transaction mart,release_review,Critical,Analytics,exception_rate,36301,retail cash operations reporting signal 142
+EVT00143,2026-01-23,ENT023,Transaction mart,release_review,Medium,Operations,cash_fill_accuracy,46105,retail cash operations reporting signal 143
+EVT00144,2026-01-24,ENT024,Core banking,automation_run,Critical,Risk,service_cost,9874,retail cash operations reporting signal 144
+EVT00145,2026-01-25,ENT001,Servicing queue,release_review,High,Product,cash_fill_accuracy,50269,retail cash operations reporting signal 145
+EVT00146,2026-01-26,ENT002,Core banking,manual_override,Low,Operations,exception_rate,2987,retail cash operations reporting signal 146
+EVT00147,2026-01-27,ENT003,Transaction mart,qa_failure,Medium,Risk,retention_rate,53444,retail cash operations reporting signal 147
+EVT00148,2026-01-28,ENT004,Risk model,release_review,High,Finance,exception_rate,24920,retail cash operations reporting signal 148
+EVT00149,2026-01-29,ENT005,Ledger extract,stakeholder_request,High,Risk,service_cost,41011,retail cash operations reporting signal 149
+EVT00150,2026-01-30,ENT006,Ledger extract,refresh_delay,Critical,Risk,activation_rate,15283,retail cash operations reporting signal 150
+EVT00151,2026-01-31,ENT007,Risk model,automation_run,Low,Finance,service_cost,18090,retail cash operations reporting signal 151
+EVT00152,2026-02-01,ENT008,Ledger extract,automation_run,Critical,Product,service_cost,50387,retail cash operations reporting signal 152
+EVT00153,2026-02-02,ENT009,Ledger extract,refresh_delay,Low,Product,exception_rate,18646,retail cash operations reporting signal 153
+EVT00154,2026-02-03,ENT010,Ledger extract,definition_change,High,Finance,retention_rate,3775,retail cash operations reporting signal 154
+EVT00155,2026-02-04,ENT011,CRM,manual_override,Medium,Member support,activation_rate,58243,retail cash operations reporting signal 155
+EVT00156,2026-02-05,ENT012,Core banking,refresh_delay,Critical,Member support,portfolio_value,31122,retail cash operations reporting signal 156
+EVT00157,2026-02-06,ENT013,Core banking,qa_failure,High,Operations,activation_rate,44989,retail cash operations reporting signal 157
+EVT00158,2026-02-07,ENT014,Transaction mart,release_review,Low,Risk,cash_fill_accuracy,42537,retail cash operations reporting signal 158
+EVT00159,2026-02-08,ENT015,Risk model,stakeholder_request,Critical,Product,portfolio_value,50516,retail cash operations reporting signal 159
+EVT00160,2026-02-09,ENT016,Servicing queue,qa_failure,Medium,Risk,service_cost,59276,retail cash operations reporting signal 160
+EVT00161,2026-02-10,ENT017,Core banking,manual_override,Medium,Finance,portfolio_value,56900,retail cash operations reporting signal 161
+EVT00162,2026-02-11,ENT018,CRM,release_review,High,Analytics,retention_rate,20736,retail cash operations reporting signal 162
+EVT00163,2026-02-12,ENT019,Core banking,refresh_delay,Critical,Member support,exception_rate,46206,retail cash operations reporting signal 163
+EVT00164,2026-02-13,ENT020,Risk model,release_review,Medium,Member support,cash_fill_accuracy,40093,retail cash operations reporting signal 164
+EVT00165,2026-02-14,ENT021,Transaction mart,automation_run,Critical,Product,portfolio_value,13343,retail cash operations reporting signal 165
+EVT00166,2026-02-15,ENT022,Transaction mart,qa_failure,Critical,Finance,cash_fill_accuracy,15327,retail cash operations reporting signal 166
+EVT00167,2026-02-16,ENT023,Core banking,refresh_delay,Low,Risk,exception_rate,56205,retail cash operations reporting signal 167
+EVT00168,2026-02-17,ENT024,Risk model,automation_run,Critical,Member support,portfolio_value,58800,retail cash operations reporting signal 168
+EVT00169,2026-02-18,ENT001,Core banking,stakeholder_request,Low,Analytics,retention_rate,30845,retail cash operations reporting signal 169
+EVT00170,2026-02-19,ENT002,Risk model,definition_change,Critical,Operations,portfolio_value,1396,retail cash operations reporting signal 170
+EVT00171,2026-02-20,ENT003,Transaction mart,definition_change,Medium,Risk,retention_rate,10198,retail cash operations reporting signal 171
+EVT00172,2026-02-21,ENT004,Risk model,release_review,Low,Operations,portfolio_value,23160,retail cash operations reporting signal 172
+EVT00173,2026-02-22,ENT005,Transaction mart,definition_change,Medium,Operations,service_cost,11518,retail cash operations reporting signal 173
+EVT00174,2026-02-23,ENT006,CRM,release_review,Low,Analytics,exception_rate,15689,retail cash operations reporting signal 174
+EVT00175,2026-02-24,ENT007,Servicing queue,stakeholder_request,High,Product,activation_rate,14133,retail cash operations reporting signal 175
+EVT00176,2026-02-25,ENT008,Risk model,automation_run,Low,Risk,retention_rate,7120,retail cash operations reporting signal 176
+EVT00177,2026-02-26,ENT009,Ledger extract,release_review,High,Finance,cash_fill_accuracy,3173,retail cash operations reporting signal 177
+EVT00178,2026-02-27,ENT010,Core banking,stakeholder_request,Critical,Product,cash_fill_accuracy,29638,retail cash operations reporting signal 178
+EVT00179,2026-02-28,ENT011,Transaction mart,release_review,Medium,Analytics,activation_rate,38285,retail cash operations reporting signal 179
+EVT00180,2026-03-01,ENT012,Core banking,release_review,Medium,Risk,service_cost,56049,retail cash operations reporting signal 180
+EVT00181,2026-03-02,ENT013,Transaction mart,manual_override,Low,Product,service_cost,52004,retail cash operations reporting signal 181
+EVT00182,2026-03-03,ENT014,Servicing queue,refresh_delay,Critical,Finance,activation_rate,27675,retail cash operations reporting signal 182
+EVT00183,2026-03-04,ENT015,Servicing queue,refresh_delay,High,Risk,cash_fill_accuracy,27529,retail cash operations reporting signal 183
+EVT00184,2026-03-05,ENT016,Core banking,manual_override,Medium,Member support,retention_rate,11344,retail cash operations reporting signal 184
+EVT00185,2026-03-06,ENT017,Transaction mart,stakeholder_request,Critical,Product,exception_rate,43659,retail cash operations reporting signal 185
+EVT00186,2026-03-07,ENT018,Transaction mart,stakeholder_request,Medium,Operations,service_cost,42941,retail cash operations reporting signal 186
+EVT00187,2026-03-08,ENT019,Ledger extract,refresh_delay,Low,Operations,activation_rate,61964,retail cash operations reporting signal 187
+EVT00188,2026-03-09,ENT020,Core banking,automation_run,Medium,Operations,cash_fill_accuracy,36129,retail cash operations reporting signal 188
+EVT00189,2026-03-10,ENT021,Ledger extract,stakeholder_request,Critical,Analytics,portfolio_value,28485,retail cash operations reporting signal 189
+EVT00190,2026-03-11,ENT022,Ledger extract,release_review,Medium,Member support,cash_fill_accuracy,26439,retail cash operations reporting signal 190
+EVT00191,2026-03-12,ENT023,CRM,qa_failure,Critical,Operations,cash_fill_accuracy,10123,retail cash operations reporting signal 191
+EVT00192,2026-03-13,ENT024,Transaction mart,qa_failure,Low,Operations,cash_fill_accuracy,44768,retail cash operations reporting signal 192
+EVT00193,2026-03-14,ENT001,Transaction mart,refresh_delay,Low,Analytics,retention_rate,39359,retail cash operations reporting signal 193
+EVT00194,2026-03-15,ENT002,Ledger extract,automation_run,High,Analytics,service_cost,45421,retail cash operations reporting signal 194
+EVT00195,2026-03-16,ENT003,Risk model,release_review,High,Risk,portfolio_value,38208,retail cash operations reporting signal 195
+EVT00196,2026-03-17,ENT004,Core banking,stakeholder_request,Critical,Risk,activation_rate,19398,retail cash operations reporting signal 196
+EVT00197,2026-03-18,ENT005,CRM,automation_run,High,Finance,exception_rate,21841,retail cash operations reporting signal 197
+EVT00198,2026-03-19,ENT006,Risk model,qa_failure,Medium,Member support,exception_rate,5353,retail cash operations reporting signal 198
+EVT00199,2026-03-20,ENT007,Core banking,release_review,High,Finance,cash_fill_accuracy,54128,retail cash operations reporting signal 199
+EVT00200,2026-03-21,ENT008,Risk model,automation_run,High,Product,activation_rate,35957,retail cash operations reporting signal 200
+EVT00201,2026-03-22,ENT009,Core banking,refresh_delay,Medium,Product,cash_fill_accuracy,614,retail cash operations reporting signal 201
+EVT00202,2026-03-23,ENT010,Core banking,qa_failure,High,Risk,portfolio_value,10990,retail cash operations reporting signal 202
+EVT00203,2026-03-24,ENT011,Servicing queue,qa_failure,Medium,Analytics,exception_rate,7574,retail cash operations reporting signal 203
+EVT00204,2026-03-25,ENT012,Transaction mart,refresh_delay,High,Operations,exception_rate,61672,retail cash operations reporting signal 204
+EVT00205,2026-03-26,ENT013,Servicing queue,stakeholder_request,Critical,Operations,exception_rate,48373,retail cash operations reporting signal 205
+EVT00206,2026-03-27,ENT014,Core banking,refresh_delay,High,Risk,cash_fill_accuracy,3120,retail cash operations reporting signal 206
+EVT00207,2026-03-28,ENT015,Risk model,qa_failure,Critical,Operations,activation_rate,54515,retail cash operations reporting signal 207
+EVT00208,2026-03-29,ENT016,Ledger extract,refresh_delay,Low,Operations,exception_rate,19818,retail cash operations reporting signal 208
+EVT00209,2026-03-30,ENT017,Risk model,qa_failure,Medium,Member support,exception_rate,57175,retail cash operations reporting signal 209
+EVT00210,2026-03-31,ENT018,CRM,stakeholder_request,Critical,Operations,cash_fill_accuracy,34426,retail cash operations reporting signal 210
+EVT00211,2026-04-01,ENT019,Servicing queue,definition_change,Low,Risk,cash_fill_accuracy,28353,retail cash operations reporting signal 211
+EVT00212,2026-04-02,ENT020,Transaction mart,qa_failure,Low,Product,exception_rate,59773,retail cash operations reporting signal 212
+EVT00213,2026-04-03,ENT021,Ledger extract,qa_failure,Critical,Risk,exception_rate,55934,retail cash operations reporting signal 213
+EVT00214,2026-04-04,ENT022,Core banking,release_review,Low,Risk,cash_fill_accuracy,6939,retail cash operations reporting signal 214
+EVT00215,2026-04-05,ENT023,Ledger extract,manual_override,High,Member support,cash_fill_accuracy,15012,retail cash operations reporting signal 215
+EVT00216,2026-04-06,ENT024,Servicing queue,manual_override,High,Product,retention_rate,40758,retail cash operations reporting signal 216
+EVT00217,2026-04-07,ENT001,Ledger extract,definition_change,Critical,Finance,exception_rate,20507,retail cash operations reporting signal 217
+EVT00218,2026-04-08,ENT002,CRM,manual_override,Low,Member support,retention_rate,48609,retail cash operations reporting signal 218
+EVT00219,2026-04-09,ENT003,Ledger extract,release_review,Low,Operations,exception_rate,48744,retail cash operations reporting signal 219
+EVT00220,2026-04-10,ENT004,Risk model,qa_failure,Medium,Product,activation_rate,26548,retail cash operations reporting signal 220
+EVT00221,2026-04-11,ENT005,CRM,qa_failure,Critical,Product,retention_rate,44000,retail cash operations reporting signal 221
+EVT00222,2026-04-12,ENT006,CRM,refresh_delay,High,Operations,cash_fill_accuracy,41593,retail cash operations reporting signal 222
+EVT00223,2026-04-13,ENT007,Risk model,manual_override,Medium,Member support,activation_rate,44232,retail cash operations reporting signal 223
+EVT00224,2026-04-14,ENT008,Transaction mart,stakeholder_request,Critical,Analytics,activation_rate,55850,retail cash operations reporting signal 224
+EVT00225,2026-04-15,ENT009,Transaction mart,refresh_delay,High,Finance,activation_rate,61637,retail cash operations reporting signal 225
+EVT00226,2026-04-16,ENT010,Core banking,stakeholder_request,High,Risk,activation_rate,37560,retail cash operations reporting signal 226
+EVT00227,2026-04-17,ENT011,Ledger extract,manual_override,Critical,Finance,cash_fill_accuracy,26932,retail cash operations reporting signal 227
+EVT00228,2026-04-18,ENT012,Servicing queue,release_review,Low,Analytics,cash_fill_accuracy,56001,retail cash operations reporting signal 228
+EVT00229,2026-04-19,ENT013,Core banking,definition_change,Low,Member support,service_cost,59801,retail cash operations reporting signal 229
+EVT00230,2026-04-20,ENT014,Core banking,definition_change,Low,Risk,cash_fill_accuracy,10639,retail cash operations reporting signal 230
+EVT00231,2026-04-21,ENT015,Transaction mart,qa_failure,High,Risk,service_cost,41929,retail cash operations reporting signal 231
+EVT00232,2026-04-22,ENT016,Servicing queue,refresh_delay,Medium,Operations,cash_fill_accuracy,23923,retail cash operations reporting signal 232
+EVT00233,2026-04-23,ENT017,Transaction mart,release_review,Medium,Product,portfolio_value,25559,retail cash operations reporting signal 233
+EVT00234,2026-04-24,ENT018,Core banking,release_review,Medium,Finance,portfolio_value,1581,retail cash operations reporting signal 234
+EVT00235,2026-04-25,ENT019,Servicing queue,stakeholder_request,Critical,Operations,exception_rate,51166,retail cash operations reporting signal 235
+EVT00236,2026-04-26,ENT020,Risk model,automation_run,Critical,Operations,service_cost,40537,retail cash operations reporting signal 236
+EVT00237,2026-04-27,ENT021,Transaction mart,stakeholder_request,Medium,Member support,service_cost,8519,retail cash operations reporting signal 237
+EVT00238,2026-04-28,ENT022,Ledger extract,manual_override,Low,Operations,activation_rate,33395,retail cash operations reporting signal 238
+EVT00239,2026-04-29,ENT023,CRM,refresh_delay,Critical,Product,activation_rate,4990,retail cash operations reporting signal 239
+EVT00240,2026-04-30,ENT024,Ledger extract,automation_run,High,Product,portfolio_value,56625,retail cash operations reporting signal 240
+EVT00241,2026-01-01,ENT001,Transaction mart,automation_run,Critical,Analytics,activation_rate,47109,retail cash operations reporting signal 241
+EVT00242,2026-01-02,ENT002,Ledger extract,qa_failure,High,Finance,service_cost,46342,retail cash operations reporting signal 242
+EVT00243,2026-01-03,ENT003,Risk model,release_review,High,Member support,activation_rate,26009,retail cash operations reporting signal 243
+EVT00244,2026-01-04,ENT004,Risk model,refresh_delay,Medium,Operations,cash_fill_accuracy,7951,retail cash operations reporting signal 244
+EVT00245,2026-01-05,ENT005,Servicing queue,stakeholder_request,Critical,Risk,cash_fill_accuracy,21269,retail cash operations reporting signal 245
+EVT00246,2026-01-06,ENT006,Servicing queue,refresh_delay,Critical,Analytics,service_cost,38232,retail cash operations reporting signal 246
+EVT00247,2026-01-07,ENT007,CRM,automation_run,Critical,Product,service_cost,23571,retail cash operations reporting signal 247
+EVT00248,2026-01-08,ENT008,Risk model,release_review,Medium,Finance,exception_rate,11712,retail cash operations reporting signal 248
+EVT00249,2026-01-09,ENT009,Servicing queue,qa_failure,Critical,Member support,retention_rate,51291,retail cash operations reporting signal 249
+EVT00250,2026-01-10,ENT010,Ledger extract,release_review,Critical,Operations,portfolio_value,38150,retail cash operations reporting signal 250
+EVT00251,2026-01-11,ENT011,Servicing queue,stakeholder_request,Medium,Operations,cash_fill_accuracy,40313,retail cash operations reporting signal 251
+EVT00252,2026-01-12,ENT012,Core banking,refresh_delay,Low,Member support,portfolio_value,24589,retail cash operations reporting signal 252
+EVT00253,2026-01-13,ENT013,Servicing queue,qa_failure,Medium,Operations,portfolio_value,17395,retail cash operations reporting signal 253
+EVT00254,2026-01-14,ENT014,Servicing queue,release_review,Critical,Finance,exception_rate,37587,retail cash operations reporting signal 254
+EVT00255,2026-01-15,ENT015,Ledger extract,refresh_delay,High,Member support,activation_rate,29318,retail cash operations reporting signal 255
+EVT00256,2026-01-16,ENT016,Risk model,definition_change,Critical,Operations,portfolio_value,15962,retail cash operations reporting signal 256
+EVT00257,2026-01-17,ENT017,CRM,definition_change,High,Product,portfolio_value,59278,retail cash operations reporting signal 257
+EVT00258,2026-01-18,ENT018,Ledger extract,stakeholder_request,Critical,Analytics,retention_rate,2905,retail cash operations reporting signal 258
+EVT00259,2026-01-19,ENT019,Ledger extract,definition_change,Medium,Analytics,portfolio_value,53476,retail cash operations reporting signal 259
+EVT00260,2026-01-20,ENT020,Transaction mart,stakeholder_request,Low,Member support,activation_rate,36541,retail cash operations reporting signal 260
+EVT00261,2026-01-21,ENT021,Servicing queue,refresh_delay,Medium,Analytics,cash_fill_accuracy,10476,retail cash operations reporting signal 261
+EVT00262,2026-01-22,ENT022,Transaction mart,stakeholder_request,Medium,Finance,retention_rate,31125,retail cash operations reporting signal 262
+EVT00263,2026-01-23,ENT023,Core banking,manual_override,Medium,Risk,retention_rate,39397,retail cash operations reporting signal 263
+EVT00264,2026-01-24,ENT024,Core banking,release_review,Critical,Finance,exception_rate,58466,retail cash operations reporting signal 264
+EVT00265,2026-01-25,ENT001,Ledger extract,release_review,Medium,Finance,retention_rate,60593,retail cash operations reporting signal 265
+EVT00266,2026-01-26,ENT002,Servicing queue,refresh_delay,Medium,Operations,retention_rate,29274,retail cash operations reporting signal 266
+EVT00267,2026-01-27,ENT003,Servicing queue,manual_override,Medium,Risk,portfolio_value,15511,retail cash operations reporting signal 267
+EVT00268,2026-01-28,ENT004,Servicing queue,refresh_delay,Low,Risk,service_cost,20700,retail cash operations reporting signal 268
+EVT00269,2026-01-29,ENT005,Risk model,qa_failure,Low,Product,retention_rate,42476,retail cash operations reporting signal 269
+EVT00270,2026-01-30,ENT006,Core banking,release_review,Low,Operations,cash_fill_accuracy,32857,retail cash operations reporting signal 270
+EVT00271,2026-01-31,ENT007,Servicing queue,definition_change,Medium,Product,portfolio_value,28666,retail cash operations reporting signal 271
+EVT00272,2026-02-01,ENT008,CRM,manual_override,Low,Risk,activation_rate,17738,retail cash operations reporting signal 272
+EVT00273,2026-02-02,ENT009,Transaction mart,manual_override,Low,Operations,portfolio_value,9229,retail cash operations reporting signal 273
+EVT00274,2026-02-03,ENT010,Risk model,qa_failure,Critical,Finance,retention_rate,47895,retail cash operations reporting signal 274
+EVT00275,2026-02-04,ENT011,Risk model,release_review,Medium,Product,cash_fill_accuracy,49106,retail cash operations reporting signal 275
+EVT00276,2026-02-05,ENT012,Transaction mart,qa_failure,Medium,Finance,cash_fill_accuracy,11882,retail cash operations reporting signal 276
+EVT00277,2026-02-06,ENT013,Risk model,refresh_delay,Low,Finance,activation_rate,55920,retail cash operations reporting signal 277
+EVT00278,2026-02-07,ENT014,Ledger extract,definition_change,High,Analytics,activation_rate,36276,retail cash operations reporting signal 278
+EVT00279,2026-02-08,ENT015,Risk model,stakeholder_request,Medium,Operations,retention_rate,49757,retail cash operations reporting signal 279
+EVT00280,2026-02-09,ENT016,Servicing queue,definition_change,Critical,Finance,service_cost,60684,retail cash operations reporting signal 280
+EVT00281,2026-02-10,ENT017,CRM,qa_failure,Medium,Operations,cash_fill_accuracy,5706,retail cash operations reporting signal 281
+EVT00282,2026-02-11,ENT018,Transaction mart,qa_failure,High,Product,retention_rate,44425,retail cash operations reporting signal 282
+EVT00283,2026-02-12,ENT019,Transaction mart,automation_run,Medium,Product,activation_rate,11916,retail cash operations reporting signal 283
+EVT00284,2026-02-13,ENT020,Transaction mart,release_review,Medium,Risk,activation_rate,5985,retail cash operations reporting signal 284
+EVT00285,2026-02-14,ENT021,Ledger extract,refresh_delay,Medium,Operations,retention_rate,13972,retail cash operations reporting signal 285
+EVT00286,2026-02-15,ENT022,Risk model,release_review,High,Operations,service_cost,41471,retail cash operations reporting signal 286
+EVT00287,2026-02-16,ENT023,Core banking,manual_override,Low,Analytics,retention_rate,43273,retail cash operations reporting signal 287
+EVT00288,2026-02-17,ENT024,Risk model,automation_run,Critical,Product,activation_rate,49962,retail cash operations reporting signal 288
+EVT00289,2026-02-18,ENT001,Risk model,refresh_delay,Medium,Member support,activation_rate,45295,retail cash operations reporting signal 289
+EVT00290,2026-02-19,ENT002,Risk model,release_review,Low,Product,retention_rate,24673,retail cash operations reporting signal 290
+EVT00291,2026-02-20,ENT003,Ledger extract,automation_run,Medium,Member support,activation_rate,50476,retail cash operations reporting signal 291
+EVT00292,2026-02-21,ENT004,CRM,refresh_delay,High,Risk,portfolio_value,49080,retail cash operations reporting signal 292
+EVT00293,2026-02-22,ENT005,Core banking,qa_failure,High,Finance,cash_fill_accuracy,20511,retail cash operations reporting signal 293
+EVT00294,2026-02-23,ENT006,Servicing queue,release_review,Critical,Operations,service_cost,20269,retail cash operations reporting signal 294
+EVT00295,2026-02-24,ENT007,Transaction mart,definition_change,Low,Product,service_cost,19842,retail cash operations reporting signal 295
+EVT00296,2026-02-25,ENT008,Core banking,definition_change,High,Risk,activation_rate,4923,retail cash operations reporting signal 296
+EVT00297,2026-02-26,ENT009,Core banking,refresh_delay,High,Product,cash_fill_accuracy,14144,retail cash operations reporting signal 297
+EVT00298,2026-02-27,ENT010,Core banking,release_review,Low,Finance,activation_rate,41716,retail cash operations reporting signal 298
+EVT00299,2026-02-28,ENT011,Transaction mart,definition_change,High,Analytics,activation_rate,38539,retail cash operations reporting signal 299
+EVT00300,2026-03-01,ENT012,Core banking,release_review,Critical,Analytics,service_cost,16628,retail cash operations reporting signal 300
+EVT00301,2026-03-02,ENT013,CRM,refresh_delay,Critical,Finance,exception_rate,6380,retail cash operations reporting signal 301
+EVT00302,2026-03-03,ENT014,Risk model,refresh_delay,High,Product,retention_rate,5320,retail cash operations reporting signal 302
+EVT00303,2026-03-04,ENT015,Risk model,definition_change,Critical,Finance,retention_rate,56245,retail cash operations reporting signal 303
+EVT00304,2026-03-05,ENT016,CRM,definition_change,Medium,Member support,service_cost,4776,retail cash operations reporting signal 304
+EVT00305,2026-03-06,ENT017,Transaction mart,automation_run,Critical,Operations,service_cost,57256,retail cash operations reporting signal 305
+EVT00306,2026-03-07,ENT018,Core banking,automation_run,Medium,Finance,cash_fill_accuracy,37088,retail cash operations reporting signal 306
+EVT00307,2026-03-08,ENT019,CRM,release_review,Low,Risk,retention_rate,7042,retail cash operations reporting signal 307
+EVT00308,2026-03-09,ENT020,Core banking,qa_failure,Low,Analytics,retention_rate,12437,retail cash operations reporting signal 308
+EVT00309,2026-03-10,ENT021,Ledger extract,stakeholder_request,Low,Risk,portfolio_value,35393,retail cash operations reporting signal 309
+EVT00310,2026-03-11,ENT022,Servicing queue,manual_override,Critical,Risk,retention_rate,55239,retail cash operations reporting signal 310
+EVT00311,2026-03-12,ENT023,Servicing queue,refresh_delay,Low,Analytics,cash_fill_accuracy,43638,retail cash operations reporting signal 311
+EVT00312,2026-03-13,ENT024,Ledger extract,refresh_delay,High,Operations,cash_fill_accuracy,29772,retail cash operations reporting signal 312
+EVT00313,2026-03-14,ENT001,Ledger extract,qa_failure,Low,Member support,portfolio_value,16842,retail cash operations reporting signal 313
+EVT00314,2026-03-15,ENT002,Risk model,release_review,Critical,Finance,service_cost,53819,retail cash operations reporting signal 314
+EVT00315,2026-03-16,ENT003,CRM,definition_change,Critical,Operations,activation_rate,16269,retail cash operations reporting signal 315
+EVT00316,2026-03-17,ENT004,Ledger extract,stakeholder_request,Medium,Member support,cash_fill_accuracy,23933,retail cash operations reporting signal 316
+EVT00317,2026-03-18,ENT005,Core banking,stakeholder_request,Medium,Finance,retention_rate,52556,retail cash operations reporting signal 317
+EVT00318,2026-03-19,ENT006,Transaction mart,qa_failure,Critical,Risk,retention_rate,33820,retail cash operations reporting signal 318
+EVT00319,2026-03-20,ENT007,Servicing queue,stakeholder_request,Medium,Finance,exception_rate,55532,retail cash operations reporting signal 319
+EVT00320,2026-03-21,ENT008,CRM,refresh_delay,Low,Risk,activation_rate,50302,retail cash operations reporting signal 320
+EVT00321,2026-03-22,ENT009,Risk model,definition_change,Low,Operations,cash_fill_accuracy,48192,retail cash operations reporting signal 321
+EVT00322,2026-03-23,ENT010,Risk model,qa_failure,Critical,Product,exception_rate,15652,retail cash operations reporting signal 322
+EVT00323,2026-03-24,ENT011,Core banking,definition_change,Critical,Product,activation_rate,28039,retail cash operations reporting signal 323
+EVT00324,2026-03-25,ENT012,Risk model,release_review,Low,Finance,service_cost,11247,retail cash operations reporting signal 324
+EVT00325,2026-03-26,ENT013,Ledger extract,release_review,Low,Analytics,exception_rate,4146,retail cash operations reporting signal 325
+EVT00326,2026-03-27,ENT014,Servicing queue,automation_run,High,Product,exception_rate,8998,retail cash operations reporting signal 326
+EVT00327,2026-03-28,ENT015,Risk model,automation_run,Low,Risk,service_cost,34043,retail cash operations reporting signal 327
+EVT00328,2026-03-29,ENT016,Risk model,qa_failure,Low,Finance,exception_rate,54002,retail cash operations reporting signal 328
+EVT00329,2026-03-30,ENT017,Servicing queue,qa_failure,High,Finance,service_cost,58035,retail cash operations reporting signal 329
+EVT00330,2026-03-31,ENT018,Ledger extract,stakeholder_request,Critical,Operations,service_cost,2049,retail cash operations reporting signal 330
+EVT00331,2026-04-01,ENT019,Transaction mart,refresh_delay,Low,Member support,exception_rate,25775,retail cash operations reporting signal 331
+EVT00332,2026-04-02,ENT020,Ledger extract,manual_override,Medium,Product,retention_rate,58277,retail cash operations reporting signal 332
+EVT00333,2026-04-03,ENT021,Core banking,manual_override,High,Product,retention_rate,19765,retail cash operations reporting signal 333
+EVT00334,2026-04-04,ENT022,Servicing queue,refresh_delay,Critical,Operations,retention_rate,32065,retail cash operations reporting signal 334
+EVT00335,2026-04-05,ENT023,CRM,manual_override,Medium,Product,portfolio_value,33923,retail cash operations reporting signal 335
+EVT00336,2026-04-06,ENT024,Transaction mart,automation_run,Critical,Finance,exception_rate,10897,retail cash operations reporting signal 336
+EVT00337,2026-04-07,ENT001,CRM,manual_override,Critical,Finance,service_cost,10531,retail cash operations reporting signal 337
+EVT00338,2026-04-08,ENT002,Risk model,refresh_delay,Medium,Risk,portfolio_value,27416,retail cash operations reporting signal 338
+EVT00339,2026-04-09,ENT003,Transaction mart,automation_run,High,Product,exception_rate,10634,retail cash operations reporting signal 339
+EVT00340,2026-04-10,ENT004,Core banking,qa_failure,Critical,Finance,retention_rate,27953,retail cash operations reporting signal 340
+EVT00341,2026-04-11,ENT005,Transaction mart,refresh_delay,Low,Operations,exception_rate,36612,retail cash operations reporting signal 341
+EVT00342,2026-04-12,ENT006,Transaction mart,release_review,High,Finance,service_cost,40833,retail cash operations reporting signal 342
+EVT00343,2026-04-13,ENT007,Core banking,qa_failure,Critical,Finance,activation_rate,32752,retail cash operations reporting signal 343
+EVT00344,2026-04-14,ENT008,Ledger extract,stakeholder_request,Low,Member support,retention_rate,24466,retail cash operations reporting signal 344
+EVT00345,2026-04-15,ENT009,Servicing queue,stakeholder_request,High,Analytics,portfolio_value,47355,retail cash operations reporting signal 345
+EVT00346,2026-04-16,ENT010,Ledger extract,refresh_delay,High,Analytics,service_cost,6233,retail cash operations reporting signal 346
+EVT00347,2026-04-17,ENT011,Transaction mart,qa_failure,Low,Risk,service_cost,59606,retail cash operations reporting signal 347
+EVT00348,2026-04-18,ENT012,Ledger extract,manual_override,High,Operations,portfolio_value,23178,retail cash operations reporting signal 348
+EVT00349,2026-04-19,ENT013,Ledger extract,automation_run,Low,Risk,exception_rate,43511,retail cash operations reporting signal 349
+EVT00350,2026-04-20,ENT014,Risk model,automation_run,High,Finance,retention_rate,10699,retail cash operations reporting signal 350
+EVT00351,2026-04-21,ENT015,Transaction mart,release_review,Critical,Product,cash_fill_accuracy,51025,retail cash operations reporting signal 351
+EVT00352,2026-04-22,ENT016,Ledger extract,qa_failure,Critical,Product,retention_rate,48876,retail cash operations reporting signal 352
+EVT00353,2026-04-23,ENT017,Core banking,automation_run,Low,Analytics,exception_rate,49996,retail cash operations reporting signal 353
+EVT00354,2026-04-24,ENT018,Core banking,automation_run,High,Product,retention_rate,28071,retail cash operations reporting signal 354
+EVT00355,2026-04-25,ENT019,Ledger extract,qa_failure,High,Finance,exception_rate,11768,retail cash operations reporting signal 355
+EVT00356,2026-04-26,ENT020,Transaction mart,refresh_delay,Low,Operations,activation_rate,42089,retail cash operations reporting signal 356
+EVT00357,2026-04-27,ENT021,Transaction mart,automation_run,Critical,Operations,exception_rate,15065,retail cash operations reporting signal 357
+EVT00358,2026-04-28,ENT022,Ledger extract,stakeholder_request,Low,Finance,service_cost,43733,retail cash operations reporting signal 358
+EVT00359,2026-04-29,ENT023,Risk model,manual_override,Medium,Finance,exception_rate,24322,retail cash operations reporting signal 359
+EVT00360,2026-04-30,ENT024,CRM,automation_run,Low,Analytics,exception_rate,40051,retail cash operations reporting signal 360
+EVT00361,2026-01-01,ENT001,Risk model,qa_failure,High,Product,cash_fill_accuracy,7733,retail cash operations reporting signal 361
+EVT00362,2026-01-02,ENT002,Ledger extract,qa_failure,Medium,Risk,service_cost,12860,retail cash operations reporting signal 362
+EVT00363,2026-01-03,ENT003,CRM,release_review,High,Member support,retention_rate,22187,retail cash operations reporting signal 363
+EVT00364,2026-01-04,ENT004,Core banking,refresh_delay,Low,Member support,activation_rate,5175,retail cash operations reporting signal 364
+EVT00365,2026-01-05,ENT005,Risk model,release_review,Critical,Member support,exception_rate,31731,retail cash operations reporting signal 365
+EVT00366,2026-01-06,ENT006,Servicing queue,manual_override,High,Operations,exception_rate,23943,retail cash operations reporting signal 366
+EVT00367,2026-01-07,ENT007,Transaction mart,refresh_delay,Low,Product,portfolio_value,47338,retail cash operations reporting signal 367
+EVT00368,2026-01-08,ENT008,Transaction mart,automation_run,Medium,Member support,service_cost,44758,retail cash operations reporting signal 368
+EVT00369,2026-01-09,ENT009,Transaction mart,qa_failure,Critical,Finance,portfolio_value,13762,retail cash operations reporting signal 369
+EVT00370,2026-01-10,ENT010,CRM,automation_run,Medium,Risk,retention_rate,47871,retail cash operations reporting signal 370
+EVT00371,2026-01-11,ENT011,Risk model,definition_change,Medium,Product,activation_rate,267,retail cash operations reporting signal 371
+EVT00372,2026-01-12,ENT012,Core banking,automation_run,High,Finance,service_cost,30287,retail cash operations reporting signal 372
+EVT00373,2026-01-13,ENT013,Transaction mart,release_review,Medium,Operations,service_cost,28044,retail cash operations reporting signal 373
+EVT00374,2026-01-14,ENT014,Risk model,manual_override,Low,Risk,retention_rate,16238,retail cash operations reporting signal 374
+EVT00375,2026-01-15,ENT015,Servicing queue,refresh_delay,Low,Operations,service_cost,60131,retail cash operations reporting signal 375
+EVT00376,2026-01-16,ENT016,CRM,qa_failure,Medium,Member support,service_cost,41800,retail cash operations reporting signal 376
+EVT00377,2026-01-17,ENT017,CRM,automation_run,Critical,Member support,service_cost,13423,retail cash operations reporting signal 377
+EVT00378,2026-01-18,ENT018,Ledger extract,qa_failure,Medium,Member support,exception_rate,42985,retail cash operations reporting signal 378
+EVT00379,2026-01-19,ENT019,Risk model,automation_run,Critical,Risk,activation_rate,39703,retail cash operations reporting signal 379
+EVT00380,2026-01-20,ENT020,Transaction mart,automation_run,Low,Product,cash_fill_accuracy,25930,retail cash operations reporting signal 380
+EVT00381,2026-01-21,ENT021,Risk model,qa_failure,Medium,Product,service_cost,36648,retail cash operations reporting signal 381
+EVT00382,2026-01-22,ENT022,Transaction mart,release_review,High,Risk,activation_rate,45643,retail cash operations reporting signal 382
+EVT00383,2026-01-23,ENT023,Risk model,qa_failure,High,Analytics,activation_rate,30177,retail cash operations reporting signal 383
+EVT00384,2026-01-24,ENT024,Ledger extract,definition_change,Medium,Analytics,retention_rate,31098,retail cash operations reporting signal 384
+EVT00385,2026-01-25,ENT001,Risk model,automation_run,Medium,Analytics,portfolio_value,48225,retail cash operations reporting signal 385
+EVT00386,2026-01-26,ENT002,Servicing queue,stakeholder_request,High,Operations,activation_rate,5707,retail cash operations reporting signal 386
+EVT00387,2026-01-27,ENT003,Core banking,refresh_delay,Medium,Operations,service_cost,42757,retail cash operations reporting signal 387
+EVT00388,2026-01-28,ENT004,Risk model,refresh_delay,Medium,Analytics,service_cost,28248,retail cash operations reporting signal 388
+EVT00389,2026-01-29,ENT005,Transaction mart,manual_override,High,Risk,cash_fill_accuracy,60470,retail cash operations reporting signal 389
+EVT00390,2026-01-30,ENT006,Risk model,qa_failure,Medium,Product,activation_rate,464,retail cash operations reporting signal 390
+EVT00391,2026-01-31,ENT007,Ledger extract,release_review,Low,Operations,cash_fill_accuracy,10470,retail cash operations reporting signal 391
+EVT00392,2026-02-01,ENT008,Ledger extract,stakeholder_request,Critical,Finance,retention_rate,60814,retail cash operations reporting signal 392
+EVT00393,2026-02-02,ENT009,Ledger extract,automation_run,High,Operations,retention_rate,4075,retail cash operations reporting signal 393
+EVT00394,2026-02-03,ENT010,Transaction mart,qa_failure,Low,Risk,portfolio_value,6301,retail cash operations reporting signal 394
+EVT00395,2026-02-04,ENT011,Transaction mart,release_review,Critical,Finance,retention_rate,26262,retail cash operations reporting signal 395
+EVT00396,2026-02-05,ENT012,Risk model,stakeholder_request,Low,Analytics,cash_fill_accuracy,42220,retail cash operations reporting signal 396
+EVT00397,2026-02-06,ENT013,Risk model,refresh_delay,High,Product,exception_rate,6871,retail cash operations reporting signal 397
+EVT00398,2026-02-07,ENT014,CRM,manual_override,High,Finance,activation_rate,31248,retail cash operations reporting signal 398
+EVT00399,2026-02-08,ENT015,CRM,release_review,Medium,Finance,activation_rate,11699,retail cash operations reporting signal 399
+EVT00400,2026-02-09,ENT016,Core banking,definition_change,Low,Finance,activation_rate,6557,retail cash operations reporting signal 400
+EVT00401,2026-02-10,ENT017,Core banking,definition_change,Low,Risk,activation_rate,41228,retail cash operations reporting signal 401
+EVT00402,2026-02-11,ENT018,Transaction mart,manual_override,Critical,Member support,service_cost,18986,retail cash operations reporting signal 402
+EVT00403,2026-02-12,ENT019,Risk model,refresh_delay,High,Risk,activation_rate,55771,retail cash operations reporting signal 403
+EVT00404,2026-02-13,ENT020,CRM,release_review,Critical,Product,portfolio_value,6791,retail cash operations reporting signal 404
+EVT00405,2026-02-14,ENT021,Ledger extract,automation_run,Critical,Member support,portfolio_value,55626,retail cash operations reporting signal 405
+EVT00406,2026-02-15,ENT022,Transaction mart,automation_run,Critical,Analytics,cash_fill_accuracy,20128,retail cash operations reporting signal 406
+EVT00407,2026-02-16,ENT023,Risk model,refresh_delay,Low,Analytics,service_cost,60350,retail cash operations reporting signal 407
+EVT00408,2026-02-17,ENT024,Core banking,manual_override,Critical,Analytics,portfolio_value,32327,retail cash operations reporting signal 408
+EVT00409,2026-02-18,ENT001,CRM,release_review,High,Product,activation_rate,32640,retail cash operations reporting signal 409
+EVT00410,2026-02-19,ENT002,Risk model,refresh_delay,High,Risk,activation_rate,11015,retail cash operations reporting signal 410
+EVT00411,2026-02-20,ENT003,CRM,stakeholder_request,Low,Member support,exception_rate,55757,retail cash operations reporting signal 411
+EVT00412,2026-02-21,ENT004,CRM,manual_override,Medium,Risk,retention_rate,7920,retail cash operations reporting signal 412
+EVT00413,2026-02-22,ENT005,Risk model,automation_run,Medium,Product,retention_rate,35296,retail cash operations reporting signal 413
+EVT00414,2026-02-23,ENT006,Ledger extract,refresh_delay,Low,Product,exception_rate,41756,retail cash operations reporting signal 414
+EVT00415,2026-02-24,ENT007,Servicing queue,stakeholder_request,Medium,Product,exception_rate,8904,retail cash operations reporting signal 415
+EVT00416,2026-02-25,ENT008,CRM,stakeholder_request,Critical,Analytics,cash_fill_accuracy,59853,retail cash operations reporting signal 416
+EVT00417,2026-02-26,ENT009,Risk model,automation_run,Critical,Member support,portfolio_value,55890,retail cash operations reporting signal 417
+EVT00418,2026-02-27,ENT010,Transaction mart,manual_override,Medium,Analytics,portfolio_value,31777,retail cash operations reporting signal 418
+EVT00419,2026-02-28,ENT011,Servicing queue,manual_override,Medium,Risk,activation_rate,53644,retail cash operations reporting signal 419
+EVT00420,2026-03-01,ENT012,Ledger extract,refresh_delay,Low,Finance,cash_fill_accuracy,57784,retail cash operations reporting signal 420
+EVT00421,2026-03-02,ENT013,CRM,automation_run,High,Finance,exception_rate,39106,retail cash operations reporting signal 421
+EVT00422,2026-03-03,ENT014,Core banking,refresh_delay,Medium,Member support,service_cost,18573,retail cash operations reporting signal 422
+EVT00423,2026-03-04,ENT015,Ledger extract,stakeholder_request,Low,Analytics,exception_rate,27771,retail cash operations reporting signal 423
+EVT00424,2026-03-05,ENT016,Ledger extract,refresh_delay,High,Operations,cash_fill_accuracy,43605,retail cash operations reporting signal 424
+EVT00425,2026-03-06,ENT017,Core banking,qa_failure,Critical,Analytics,retention_rate,17464,retail cash operations reporting signal 425
+EVT00426,2026-03-07,ENT018,Transaction mart,qa_failure,Medium,Member support,portfolio_value,53972,retail cash operations reporting signal 426
+EVT00427,2026-03-08,ENT019,Transaction mart,refresh_delay,Critical,Finance,cash_fill_accuracy,51981,retail cash operations reporting signal 427
+EVT00428,2026-03-09,ENT020,CRM,release_review,Medium,Analytics,portfolio_value,59924,retail cash operations reporting signal 428
+EVT00429,2026-03-10,ENT021,Servicing queue,refresh_delay,Medium,Analytics,service_cost,49226,retail cash operations reporting signal 429
+EVT00430,2026-03-11,ENT022,Risk model,refresh_delay,Low,Finance,portfolio_value,57793,retail cash operations reporting signal 430
+EVT00431,2026-03-12,ENT023,Core banking,automation_run,Critical,Analytics,portfolio_value,43633,retail cash operations reporting signal 431
+EVT00432,2026-03-13,ENT024,Ledger extract,definition_change,Critical,Analytics,portfolio_value,59886,retail cash operations reporting signal 432
+EVT00433,2026-03-14,ENT001,Ledger extract,definition_change,Medium,Operations,exception_rate,20726,retail cash operations reporting signal 433
+EVT00434,2026-03-15,ENT002,Risk model,stakeholder_request,Low,Operations,portfolio_value,738,retail cash operations reporting signal 434
+EVT00435,2026-03-16,ENT003,Transaction mart,automation_run,Low,Risk,service_cost,24568,retail cash operations reporting signal 435
+EVT00436,2026-03-17,ENT004,Servicing queue,manual_override,Medium,Product,cash_fill_accuracy,22285,retail cash operations reporting signal 436
+EVT00437,2026-03-18,ENT005,Transaction mart,automation_run,Critical,Analytics,portfolio_value,56839,retail cash operations reporting signal 437
+EVT00438,2026-03-19,ENT006,Transaction mart,definition_change,Medium,Product,cash_fill_accuracy,44694,retail cash operations reporting signal 438
+EVT00439,2026-03-20,ENT007,Servicing queue,stakeholder_request,Critical,Analytics,portfolio_value,45452,retail cash operations reporting signal 439
+EVT00440,2026-03-21,ENT008,Risk model,release_review,Critical,Analytics,service_cost,24070,retail cash operations reporting signal 440
+EVT00441,2026-03-22,ENT009,Ledger extract,definition_change,Critical,Risk,retention_rate,52170,retail cash operations reporting signal 441
+EVT00442,2026-03-23,ENT010,Risk model,qa_failure,Critical,Operations,activation_rate,20656,retail cash operations reporting signal 442
+EVT00443,2026-03-24,ENT011,Risk model,qa_failure,High,Risk,exception_rate,36533,retail cash operations reporting signal 443
+EVT00444,2026-03-25,ENT012,Risk model,release_review,Critical,Operations,exception_rate,22347,retail cash operations reporting signal 444
+EVT00445,2026-03-26,ENT013,Risk model,stakeholder_request,High,Analytics,exception_rate,58277,retail cash operations reporting signal 445
+EVT00446,2026-03-27,ENT014,Transaction mart,manual_override,Medium,Finance,retention_rate,41584,retail cash operations reporting signal 446
+EVT00447,2026-03-28,ENT015,Ledger extract,qa_failure,High,Product,portfolio_value,18618,retail cash operations reporting signal 447
+EVT00448,2026-03-29,ENT016,Transaction mart,release_review,Critical,Analytics,portfolio_value,27590,retail cash operations reporting signal 448
+EVT00449,2026-03-30,ENT017,Ledger extract,stakeholder_request,High,Member support,portfolio_value,39524,retail cash operations reporting signal 449
+EVT00450,2026-03-31,ENT018,Risk model,stakeholder_request,Critical,Product,portfolio_value,19068,retail cash operations reporting signal 450
+EVT00451,2026-04-01,ENT019,CRM,stakeholder_request,High,Finance,activation_rate,54536,retail cash operations reporting signal 451
+EVT00452,2026-04-02,ENT020,Transaction mart,release_review,Low,Operations,activation_rate,48325,retail cash operations reporting signal 452
+EVT00453,2026-04-03,ENT021,Transaction mart,qa_failure,High,Product,activation_rate,51139,retail cash operations reporting signal 453
+EVT00454,2026-04-04,ENT022,Risk model,refresh_delay,Medium,Operations,activation_rate,5037,retail cash operations reporting signal 454
+EVT00455,2026-04-05,ENT023,Risk model,refresh_delay,Low,Finance,cash_fill_accuracy,3053,retail cash operations reporting signal 455
+EVT00456,2026-04-06,ENT024,Risk model,definition_change,Critical,Analytics,portfolio_value,55179,retail cash operations reporting signal 456
+EVT00457,2026-04-07,ENT001,Ledger extract,definition_change,Medium,Operations,cash_fill_accuracy,33800,retail cash operations reporting signal 457
+EVT00458,2026-04-08,ENT002,Transaction mart,refresh_delay,High,Member support,activation_rate,57039,retail cash operations reporting signal 458
+EVT00459,2026-04-09,ENT003,Transaction mart,refresh_delay,High,Finance,service_cost,4867,retail cash operations reporting signal 459
+EVT00460,2026-04-10,ENT004,Servicing queue,automation_run,Medium,Member support,retention_rate,26273,retail cash operations reporting signal 460
+EVT00461,2026-04-11,ENT005,Ledger extract,qa_failure,High,Product,exception_rate,30425,retail cash operations reporting signal 461
+EVT00462,2026-04-12,ENT006,Core banking,manual_override,High,Operations,activation_rate,60908,retail cash operations reporting signal 462
+EVT00463,2026-04-13,ENT007,Core banking,refresh_delay,High,Product,service_cost,27360,retail cash operations reporting signal 463
+EVT00464,2026-04-14,ENT008,Risk model,refresh_delay,High,Member support,activation_rate,11981,retail cash operations reporting signal 464
+EVT00465,2026-04-15,ENT009,Risk model,release_review,Low,Operations,exception_rate,19495,retail cash operations reporting signal 465
+EVT00466,2026-04-16,ENT010,Transaction mart,refresh_delay,High,Operations,service_cost,6626,retail cash operations reporting signal 466
+EVT00467,2026-04-17,ENT011,Ledger extract,automation_run,Critical,Analytics,service_cost,17475,retail cash operations reporting signal 467
+EVT00468,2026-04-18,ENT012,Transaction mart,refresh_delay,Low,Risk,service_cost,33130,retail cash operations reporting signal 468
+EVT00469,2026-04-19,ENT013,Servicing queue,release_review,Critical,Risk,retention_rate,46631,retail cash operations reporting signal 469
+EVT00470,2026-04-20,ENT014,Transaction mart,automation_run,Critical,Finance,portfolio_value,35649,retail cash operations reporting signal 470
+EVT00471,2026-04-21,ENT015,Ledger extract,automation_run,Critical,Finance,service_cost,42976,retail cash operations reporting signal 471
+EVT00472,2026-04-22,ENT016,Ledger extract,manual_override,Critical,Operations,activation_rate,60544,retail cash operations reporting signal 472
+EVT00473,2026-04-23,ENT017,Risk model,stakeholder_request,High,Product,portfolio_value,34671,retail cash operations reporting signal 473
+EVT00474,2026-04-24,ENT018,Ledger extract,manual_override,Critical,Operations,cash_fill_accuracy,11809,retail cash operations reporting signal 474
+EVT00475,2026-04-25,ENT019,Risk model,definition_change,Low,Risk,exception_rate,50241,retail cash operations reporting signal 475
+EVT00476,2026-04-26,ENT020,Core banking,manual_override,Critical,Risk,cash_fill_accuracy,13956,retail cash operations reporting signal 476
+EVT00477,2026-04-27,ENT021,Risk model,manual_override,High,Member support,activation_rate,15957,retail cash operations reporting signal 477
+EVT00478,2026-04-28,ENT022,Core banking,manual_override,Medium,Operations,retention_rate,41194,retail cash operations reporting signal 478
+EVT00479,2026-04-29,ENT023,Servicing queue,definition_change,Critical,Operations,exception_rate,44249,retail cash operations reporting signal 479
+EVT00480,2026-04-30,ENT024,Ledger extract,stakeholder_request,Critical,Member support,retention_rate,28181,retail cash operations reporting signal 480
+EVT00481,2026-01-01,ENT001,CRM,manual_override,High,Finance,portfolio_value,43125,retail cash operations reporting signal 481
+EVT00482,2026-01-02,ENT002,Ledger extract,qa_failure,Medium,Finance,activation_rate,19811,retail cash operations reporting signal 482
+EVT00483,2026-01-03,ENT003,Transaction mart,qa_failure,Low,Finance,retention_rate,9060,retail cash operations reporting signal 483
+EVT00484,2026-01-04,ENT004,Risk model,manual_override,High,Analytics,portfolio_value,56945,retail cash operations reporting signal 484
+EVT00485,2026-01-05,ENT005,Core banking,release_review,Critical,Operations,cash_fill_accuracy,26301,retail cash operations reporting signal 485
+EVT00486,2026-01-06,ENT006,Transaction mart,manual_override,Critical,Member support,activation_rate,6278,retail cash operations reporting signal 486
+EVT00487,2026-01-07,ENT007,Servicing queue,definition_change,Medium,Finance,exception_rate,2589,retail cash operations reporting signal 487
+EVT00488,2026-01-08,ENT008,Risk model,qa_failure,High,Analytics,retention_rate,53836,retail cash operations reporting signal 488
+EVT00489,2026-01-09,ENT009,Core banking,refresh_delay,Critical,Operations,retention_rate,54473,retail cash operations reporting signal 489
+EVT00490,2026-01-10,ENT010,Core banking,refresh_delay,High,Operations,exception_rate,56113,retail cash operations reporting signal 490
+EVT00491,2026-01-11,ENT011,Ledger extract,automation_run,Critical,Operations,portfolio_value,53840,retail cash operations reporting signal 491
+EVT00492,2026-01-12,ENT012,CRM,automation_run,High,Member support,portfolio_value,48693,retail cash operations reporting signal 492
+EVT00493,2026-01-13,ENT013,Core banking,stakeholder_request,Low,Analytics,cash_fill_accuracy,23520,retail cash operations reporting signal 493
+EVT00494,2026-01-14,ENT014,Transaction mart,manual_override,Medium,Member support,portfolio_value,13421,retail cash operations reporting signal 494
+EVT00495,2026-01-15,ENT015,Ledger extract,definition_change,High,Product,retention_rate,48520,retail cash operations reporting signal 495
+EVT00496,2026-01-16,ENT016,Core banking,definition_change,Critical,Finance,retention_rate,57422,retail cash operations reporting signal 496
+EVT00497,2026-01-17,ENT017,Ledger extract,qa_failure,Low,Analytics,service_cost,58296,retail cash operations reporting signal 497
+EVT00498,2026-01-18,ENT018,Ledger extract,release_review,High,Finance,retention_rate,3663,retail cash operations reporting signal 498
+EVT00499,2026-01-19,ENT019,Ledger extract,definition_change,Critical,Risk,service_cost,36852,retail cash operations reporting signal 499
+EVT00500,2026-01-20,ENT020,Servicing queue,release_review,Low,Operations,cash_fill_accuracy,11185,retail cash operations reporting signal 500
+EVT00501,2026-01-21,ENT021,Risk model,definition_change,Critical,Analytics,activation_rate,55446,retail cash operations reporting signal 501
+EVT00502,2026-01-22,ENT022,Core banking,release_review,Critical,Member support,cash_fill_accuracy,16173,retail cash operations reporting signal 502
+EVT00503,2026-01-23,ENT023,Transaction mart,qa_failure,Critical,Finance,retention_rate,33978,retail cash operations reporting signal 503
+EVT00504,2026-01-24,ENT024,Core banking,release_review,Low,Member support,portfolio_value,14834,retail cash operations reporting signal 504
+EVT00505,2026-01-25,ENT001,Risk model,stakeholder_request,Low,Risk,cash_fill_accuracy,20269,retail cash operations reporting signal 505
+EVT00506,2026-01-26,ENT002,Ledger extract,release_review,Medium,Operations,exception_rate,1842,retail cash operations reporting signal 506
+EVT00507,2026-01-27,ENT003,CRM,release_review,Critical,Finance,cash_fill_accuracy,56632,retail cash operations reporting signal 507
+EVT00508,2026-01-28,ENT004,Servicing queue,release_review,High,Product,portfolio_value,4956,retail cash operations reporting signal 508
+EVT00509,2026-01-29,ENT005,Servicing queue,release_review,Low,Member support,portfolio_value,20121,retail cash operations reporting signal 509
+EVT00510,2026-01-30,ENT006,Core banking,manual_override,High,Member support,portfolio_value,52146,retail cash operations reporting signal 510
+EVT00511,2026-01-31,ENT007,CRM,release_review,Critical,Finance,portfolio_value,24246,retail cash operations reporting signal 511
+EVT00512,2026-02-01,ENT008,Core banking,definition_change,Medium,Risk,service_cost,47040,retail cash operations reporting signal 512
+EVT00513,2026-02-02,ENT009,Risk model,stakeholder_request,Medium,Member support,service_cost,2238,retail cash operations reporting signal 513
+EVT00514,2026-02-03,ENT010,CRM,automation_run,Medium,Analytics,retention_rate,39757,retail cash operations reporting signal 514
+EVT00515,2026-02-04,ENT011,Risk model,stakeholder_request,Low,Product,exception_rate,20286,retail cash operations reporting signal 515
+EVT00516,2026-02-05,ENT012,Transaction mart,qa_failure,Critical,Member support,portfolio_value,32260,retail cash operations reporting signal 516
+EVT00517,2026-02-06,ENT013,Risk model,qa_failure,Critical,Analytics,activation_rate,33771,retail cash operations reporting signal 517
+EVT00518,2026-02-07,ENT014,Risk model,definition_change,Critical,Product,cash_fill_accuracy,22234,retail cash operations reporting signal 518
+EVT00519,2026-02-08,ENT015,Risk model,manual_override,Critical,Analytics,exception_rate,46170,retail cash operations reporting signal 519
+EVT00520,2026-02-09,ENT016,CRM,release_review,Critical,Analytics,portfolio_value,13371,retail cash operations reporting signal 520
+EVT00521,2026-02-10,ENT017,Risk model,release_review,Low,Operations,retention_rate,34395,retail cash operations reporting signal 521
+EVT00522,2026-02-11,ENT018,Ledger extract,qa_failure,Critical,Finance,activation_rate,45323,retail cash operations reporting signal 522
+EVT00523,2026-02-12,ENT019,Ledger extract,manual_override,Medium,Product,exception_rate,11462,retail cash operations reporting signal 523
+EVT00524,2026-02-13,ENT020,Ledger extract,automation_run,Low,Risk,activation_rate,2206,retail cash operations reporting signal 524
+EVT00525,2026-02-14,ENT021,Transaction mart,manual_override,High,Finance,exception_rate,55080,retail cash operations reporting signal 525
+EVT00526,2026-02-15,ENT022,Transaction mart,qa_failure,Critical,Member support,exception_rate,27600,retail cash operations reporting signal 526
+EVT00527,2026-02-16,ENT023,Risk model,refresh_delay,Medium,Member support,portfolio_value,22319,retail cash operations reporting signal 527
+EVT00528,2026-02-17,ENT024,Risk model,stakeholder_request,Low,Finance,portfolio_value,34432,retail cash operations reporting signal 528
+EVT00529,2026-02-18,ENT001,Risk model,stakeholder_request,Low,Product,cash_fill_accuracy,49431,retail cash operations reporting signal 529
+EVT00530,2026-02-19,ENT002,Servicing queue,definition_change,Critical,Product,exception_rate,36334,retail cash operations reporting signal 530
+EVT00531,2026-02-20,ENT003,CRM,automation_run,Critical,Finance,activation_rate,38579,retail cash operations reporting signal 531
+EVT00532,2026-02-21,ENT004,Servicing queue,release_review,High,Operations,exception_rate,5775,retail cash operations reporting signal 532
+EVT00533,2026-02-22,ENT005,Transaction mart,qa_failure,High,Member support,exception_rate,5269,retail cash operations reporting signal 533
+EVT00534,2026-02-23,ENT006,Ledger extract,refresh_delay,Critical,Operations,service_cost,24939,retail cash operations reporting signal 534
+EVT00535,2026-02-24,ENT007,Transaction mart,refresh_delay,Critical,Analytics,exception_rate,15009,retail cash operations reporting signal 535
+EVT00536,2026-02-25,ENT008,Core banking,manual_override,Critical,Operations,service_cost,23417,retail cash operations reporting signal 536
+EVT00537,2026-02-26,ENT009,Risk model,stakeholder_request,Low,Risk,cash_fill_accuracy,2610,retail cash operations reporting signal 537
+EVT00538,2026-02-27,ENT010,Ledger extract,manual_override,High,Finance,portfolio_value,23621,retail cash operations reporting signal 538
+EVT00539,2026-02-28,ENT011,Transaction mart,release_review,High,Operations,retention_rate,30953,retail cash operations reporting signal 539
+EVT00540,2026-03-01,ENT012,CRM,automation_run,High,Risk,cash_fill_accuracy,33054,retail cash operations reporting signal 540
+EVT00541,2026-03-02,ENT013,Core banking,release_review,High,Operations,service_cost,12124,retail cash operations reporting signal 541
+EVT00542,2026-03-03,ENT014,Servicing queue,release_review,High,Finance,cash_fill_accuracy,39517,retail cash operations reporting signal 542
+EVT00543,2026-03-04,ENT015,Servicing queue,definition_change,Medium,Product,portfolio_value,36500,retail cash operations reporting signal 543
+EVT00544,2026-03-05,ENT016,Transaction mart,release_review,Low,Operations,service_cost,23099,retail cash operations reporting signal 544
+EVT00545,2026-03-06,ENT017,Servicing queue,definition_change,High,Finance,service_cost,53825,retail cash operations reporting signal 545
+EVT00546,2026-03-07,ENT018,Ledger extract,stakeholder_request,Low,Risk,cash_fill_accuracy,38173,retail cash operations reporting signal 546
+EVT00547,2026-03-08,ENT019,Ledger extract,qa_failure,Medium,Product,exception_rate,20851,retail cash operations reporting signal 547
+EVT00548,2026-03-09,ENT020,Transaction mart,release_review,Medium,Operations,cash_fill_accuracy,355,retail cash operations reporting signal 548
+EVT00549,2026-03-10,ENT021,Transaction mart,release_review,Medium,Risk,exception_rate,34268,retail cash operations reporting signal 549
+EVT00550,2026-03-11,ENT022,CRM,refresh_delay,Medium,Operations,cash_fill_accuracy,6364,retail cash operations reporting signal 550
+EVT00551,2026-03-12,ENT023,CRM,definition_change,High,Finance,cash_fill_accuracy,45130,retail cash operations reporting signal 551
+EVT00552,2026-03-13,ENT024,Ledger extract,qa_failure,Critical,Member support,exception_rate,47021,retail cash operations reporting signal 552
+EVT00553,2026-03-14,ENT001,Core banking,release_review,High,Finance,service_cost,5946,retail cash operations reporting signal 553
+EVT00554,2026-03-15,ENT002,Core banking,qa_failure,Low,Product,service_cost,34292,retail cash operations reporting signal 554
+EVT00555,2026-03-16,ENT003,Servicing queue,release_review,Medium,Finance,exception_rate,15662,retail cash operations reporting signal 555
+EVT00556,2026-03-17,ENT004,Servicing queue,release_review,Critical,Product,exception_rate,25227,retail cash operations reporting signal 556
+EVT00557,2026-03-18,ENT005,Risk model,qa_failure,Critical,Finance,portfolio_value,43218,retail cash operations reporting signal 557
+EVT00558,2026-03-19,ENT006,CRM,stakeholder_request,Medium,Analytics,portfolio_value,45283,retail cash operations reporting signal 558
+EVT00559,2026-03-20,ENT007,Risk model,refresh_delay,Medium,Operations,activation_rate,3412,retail cash operations reporting signal 559
+EVT00560,2026-03-21,ENT008,Risk model,release_review,Medium,Product,exception_rate,44628,retail cash operations reporting signal 560
+EVT00561,2026-03-22,ENT009,CRM,definition_change,Low,Finance,retention_rate,44646,retail cash operations reporting signal 561
+EVT00562,2026-03-23,ENT010,Risk model,automation_run,Low,Risk,service_cost,40666,retail cash operations reporting signal 562
+EVT00563,2026-03-24,ENT011,Transaction mart,qa_failure,Medium,Analytics,cash_fill_accuracy,56003,retail cash operations reporting signal 563
+EVT00564,2026-03-25,ENT012,Core banking,manual_override,Critical,Finance,exception_rate,19744,retail cash operations reporting signal 564
+EVT00565,2026-03-26,ENT013,CRM,qa_failure,Low,Finance,portfolio_value,19506,retail cash operations reporting signal 565
+EVT00566,2026-03-27,ENT014,Transaction mart,manual_override,High,Risk,retention_rate,54140,retail cash operations reporting signal 566
+EVT00567,2026-03-28,ENT015,Servicing queue,definition_change,Medium,Member support,portfolio_value,60086,retail cash operations reporting signal 567
+EVT00568,2026-03-29,ENT016,Servicing queue,definition_change,Medium,Product,portfolio_value,52340,retail cash operations reporting signal 568
+EVT00569,2026-03-30,ENT017,Servicing queue,automation_run,High,Finance,exception_rate,52807,retail cash operations reporting signal 569
+EVT00570,2026-03-31,ENT018,CRM,definition_change,Medium,Finance,exception_rate,1553,retail cash operations reporting signal 570
+EVT00571,2026-04-01,ENT019,Ledger extract,stakeholder_request,Critical,Risk,retention_rate,25919,retail cash operations reporting signal 571
+EVT00572,2026-04-02,ENT020,Transaction mart,qa_failure,Medium,Risk,portfolio_value,27499,retail cash operations reporting signal 572
+EVT00573,2026-04-03,ENT021,CRM,refresh_delay,Medium,Analytics,service_cost,10787,retail cash operations reporting signal 573
+EVT00574,2026-04-04,ENT022,Core banking,refresh_delay,Critical,Operations,portfolio_value,45857,retail cash operations reporting signal 574
+EVT00575,2026-04-05,ENT023,CRM,stakeholder_request,Medium,Member support,exception_rate,50448,retail cash operations reporting signal 575
+EVT00576,2026-04-06,ENT024,Ledger extract,automation_run,Low,Risk,exception_rate,34736,retail cash operations reporting signal 576
+EVT00577,2026-04-07,ENT001,Risk model,definition_change,Low,Member support,portfolio_value,40467,retail cash operations reporting signal 577
+EVT00578,2026-04-08,ENT002,CRM,refresh_delay,Critical,Member support,service_cost,51796,retail cash operations reporting signal 578
+EVT00579,2026-04-09,ENT003,Risk model,qa_failure,High,Analytics,cash_fill_accuracy,20863,retail cash operations reporting signal 579
+EVT00580,2026-04-10,ENT004,CRM,qa_failure,Critical,Risk,portfolio_value,2809,retail cash operations reporting signal 580
+EVT00581,2026-04-11,ENT005,Risk model,refresh_delay,Critical,Operations,activation_rate,4008,retail cash operations reporting signal 581
+EVT00582,2026-04-12,ENT006,Ledger extract,stakeholder_request,Critical,Finance,activation_rate,51571,retail cash operations reporting signal 582
+EVT00583,2026-04-13,ENT007,Transaction mart,definition_change,Medium,Finance,cash_fill_accuracy,50247,retail cash operations reporting signal 583
+EVT00584,2026-04-14,ENT008,CRM,manual_override,Medium,Product,service_cost,35616,retail cash operations reporting signal 584
+EVT00585,2026-04-15,ENT009,CRM,qa_failure,Critical,Finance,activation_rate,16998,retail cash operations reporting signal 585
+EVT00586,2026-04-16,ENT010,Ledger extract,manual_override,Medium,Risk,cash_fill_accuracy,48137,retail cash operations reporting signal 586
+EVT00587,2026-04-17,ENT011,Risk model,refresh_delay,Low,Product,exception_rate,33940,retail cash operations reporting signal 587
+EVT00588,2026-04-18,ENT012,Core banking,stakeholder_request,Medium,Operations,portfolio_value,23763,retail cash operations reporting signal 588
+EVT00589,2026-04-19,ENT013,Servicing queue,release_review,Low,Risk,service_cost,45491,retail cash operations reporting signal 589
+EVT00590,2026-04-20,ENT014,Transaction mart,stakeholder_request,Low,Operations,exception_rate,23801,retail cash operations reporting signal 590
+EVT00591,2026-04-21,ENT015,Risk model,release_review,Critical,Operations,exception_rate,61942,retail cash operations reporting signal 591
+EVT00592,2026-04-22,ENT016,Core banking,qa_failure,Critical,Finance,activation_rate,19197,retail cash operations reporting signal 592
+EVT00593,2026-04-23,ENT017,Risk model,automation_run,Low,Operations,retention_rate,49208,retail cash operations reporting signal 593
+EVT00594,2026-04-24,ENT018,Ledger extract,stakeholder_request,Critical,Finance,exception_rate,30157,retail cash operations reporting signal 594
+EVT00595,2026-04-25,ENT019,Risk model,automation_run,Medium,Risk,cash_fill_accuracy,14015,retail cash operations reporting signal 595
+EVT00596,2026-04-26,ENT020,Servicing queue,stakeholder_request,Low,Finance,cash_fill_accuracy,9457,retail cash operations reporting signal 596
+EVT00597,2026-04-27,ENT021,Servicing queue,manual_override,Medium,Product,service_cost,51132,retail cash operations reporting signal 597
+EVT00598,2026-04-28,ENT022,Risk model,refresh_delay,High,Analytics,cash_fill_accuracy,49488,retail cash operations reporting signal 598
+EVT00599,2026-04-29,ENT023,Risk model,manual_override,Medium,Operations,exception_rate,10823,retail cash operations reporting signal 599
+EVT00600,2026-04-30,ENT024,Transaction mart,automation_run,Medium,Member support,portfolio_value,21170,retail cash operations reporting signal 600
+EVT00601,2026-01-01,ENT001,Servicing queue,manual_override,Medium,Analytics,cash_fill_accuracy,9568,retail cash operations reporting signal 601
+EVT00602,2026-01-02,ENT002,Core banking,automation_run,Low,Finance,exception_rate,61464,retail cash operations reporting signal 602
+EVT00603,2026-01-03,ENT003,Transaction mart,stakeholder_request,Critical,Finance,retention_rate,47764,retail cash operations reporting signal 603
+EVT00604,2026-01-04,ENT004,Ledger extract,stakeholder_request,Low,Member support,portfolio_value,56983,retail cash operations reporting signal 604
+EVT00605,2026-01-05,ENT005,Ledger extract,manual_override,Critical,Product,retention_rate,50427,retail cash operations reporting signal 605
+EVT00606,2026-01-06,ENT006,Core banking,definition_change,Medium,Product,portfolio_value,5254,retail cash operations reporting signal 606
+EVT00607,2026-01-07,ENT007,Ledger extract,automation_run,High,Analytics,activation_rate,51019,retail cash operations reporting signal 607
+EVT00608,2026-01-08,ENT008,Core banking,manual_override,Critical,Operations,exception_rate,51869,retail cash operations reporting signal 608
+EVT00609,2026-01-09,ENT009,Servicing queue,stakeholder_request,Medium,Product,service_cost,6163,retail cash operations reporting signal 609
+EVT00610,2026-01-10,ENT010,Core banking,refresh_delay,High,Product,cash_fill_accuracy,8907,retail cash operations reporting signal 610
+EVT00611,2026-01-11,ENT011,Ledger extract,qa_failure,Low,Operations,exception_rate,45923,retail cash operations reporting signal 611
+EVT00612,2026-01-12,ENT012,Risk model,stakeholder_request,High,Finance,cash_fill_accuracy,34719,retail cash operations reporting signal 612
+EVT00613,2026-01-13,ENT013,Servicing queue,manual_override,Medium,Product,activation_rate,58649,retail cash operations reporting signal 613
+EVT00614,2026-01-14,ENT014,Risk model,automation_run,Medium,Operations,service_cost,18348,retail cash operations reporting signal 614
+EVT00615,2026-01-15,ENT015,Servicing queue,release_review,Low,Member support,exception_rate,3844,retail cash operations reporting signal 615
+EVT00616,2026-01-16,ENT016,Ledger extract,release_review,Critical,Finance,cash_fill_accuracy,61407,retail cash operations reporting signal 616
+EVT00617,2026-01-17,ENT017,Risk model,manual_override,Low,Member support,retention_rate,6968,retail cash operations reporting signal 617
+EVT00618,2026-01-18,ENT018,Transaction mart,definition_change,Medium,Finance,activation_rate,3518,retail cash operations reporting signal 618
+EVT00619,2026-01-19,ENT019,CRM,stakeholder_request,High,Operations,cash_fill_accuracy,49290,retail cash operations reporting signal 619
+EVT00620,2026-01-20,ENT020,Transaction mart,refresh_delay,Critical,Analytics,activation_rate,43268,retail cash operations reporting signal 620
+EVT00621,2026-01-21,ENT021,Risk model,release_review,Critical,Risk,portfolio_value,11000,retail cash operations reporting signal 621
+EVT00622,2026-01-22,ENT022,Risk model,release_review,Low,Risk,exception_rate,59930,retail cash operations reporting signal 622
+EVT00623,2026-01-23,ENT023,CRM,definition_change,Critical,Risk,service_cost,35649,retail cash operations reporting signal 623
+EVT00624,2026-01-24,ENT024,Transaction mart,refresh_delay,Critical,Operations,cash_fill_accuracy,28767,retail cash operations reporting signal 624
+EVT00625,2026-01-25,ENT001,Transaction mart,refresh_delay,Medium,Member support,retention_rate,21900,retail cash operations reporting signal 625
+EVT00626,2026-01-26,ENT002,Core banking,manual_override,Low,Product,cash_fill_accuracy,33795,retail cash operations reporting signal 626
+EVT00627,2026-01-27,ENT003,Risk model,refresh_delay,Low,Risk,portfolio_value,38928,retail cash operations reporting signal 627
+EVT00628,2026-01-28,ENT004,Core banking,automation_run,Low,Product,service_cost,8745,retail cash operations reporting signal 628
+EVT00629,2026-01-29,ENT005,Transaction mart,stakeholder_request,Medium,Finance,exception_rate,6639,retail cash operations reporting signal 629
+EVT00630,2026-01-30,ENT006,Core banking,automation_run,High,Product,service_cost,34162,retail cash operations reporting signal 630
+EVT00631,2026-01-31,ENT007,Servicing queue,stakeholder_request,Critical,Finance,cash_fill_accuracy,34202,retail cash operations reporting signal 631
+EVT00632,2026-02-01,ENT008,Servicing queue,release_review,Critical,Analytics,cash_fill_accuracy,50890,retail cash operations reporting signal 632
+EVT00633,2026-02-02,ENT009,Risk model,definition_change,Low,Member support,retention_rate,36970,retail cash operations reporting signal 633
+EVT00634,2026-02-03,ENT010,Risk model,release_review,Low,Operations,cash_fill_accuracy,34798,retail cash operations reporting signal 634
+EVT00635,2026-02-04,ENT011,Servicing queue,refresh_delay,High,Risk,exception_rate,56241,retail cash operations reporting signal 635
+EVT00636,2026-02-05,ENT012,CRM,definition_change,Critical,Risk,exception_rate,19770,retail cash operations reporting signal 636
+EVT00637,2026-02-06,ENT013,Servicing queue,release_review,Medium,Analytics,retention_rate,56903,retail cash operations reporting signal 637
+EVT00638,2026-02-07,ENT014,Risk model,refresh_delay,Critical,Operations,portfolio_value,53220,retail cash operations reporting signal 638
+EVT00639,2026-02-08,ENT015,Risk model,qa_failure,High,Risk,activation_rate,38639,retail cash operations reporting signal 639
+EVT00640,2026-02-09,ENT016,Servicing queue,qa_failure,High,Finance,activation_rate,59914,retail cash operations reporting signal 640
+EVT00641,2026-02-10,ENT017,Servicing queue,manual_override,Medium,Member support,activation_rate,10408,retail cash operations reporting signal 641
+EVT00642,2026-02-11,ENT018,Servicing queue,qa_failure,High,Risk,service_cost,39207,retail cash operations reporting signal 642
+EVT00643,2026-02-12,ENT019,Core banking,stakeholder_request,High,Member support,retention_rate,13176,retail cash operations reporting signal 643
+EVT00644,2026-02-13,ENT020,Core banking,stakeholder_request,Critical,Finance,service_cost,44703,retail cash operations reporting signal 644
+EVT00645,2026-02-14,ENT021,Risk model,definition_change,High,Risk,portfolio_value,19468,retail cash operations reporting signal 645
+EVT00646,2026-02-15,ENT022,Core banking,stakeholder_request,Medium,Member support,activation_rate,30587,retail cash operations reporting signal 646
+EVT00647,2026-02-16,ENT023,Ledger extract,automation_run,Low,Risk,exception_rate,49661,retail cash operations reporting signal 647
+EVT00648,2026-02-17,ENT024,Servicing queue,definition_change,Critical,Member support,portfolio_value,36214,retail cash operations reporting signal 648
+EVT00649,2026-02-18,ENT001,Ledger extract,release_review,Low,Analytics,cash_fill_accuracy,54718,retail cash operations reporting signal 649
+EVT00650,2026-02-19,ENT002,Transaction mart,release_review,Medium,Member support,service_cost,18515,retail cash operations reporting signal 650
+EVT00651,2026-02-20,ENT003,Risk model,automation_run,Medium,Finance,portfolio_value,60198,retail cash operations reporting signal 651
+EVT00652,2026-02-21,ENT004,Servicing queue,manual_override,High,Product,activation_rate,20737,retail cash operations reporting signal 652
+EVT00653,2026-02-22,ENT005,CRM,automation_run,Critical,Risk,service_cost,28289,retail cash operations reporting signal 653
+EVT00654,2026-02-23,ENT006,Ledger extract,definition_change,High,Finance,activation_rate,18040,retail cash operations reporting signal 654
+EVT00655,2026-02-24,ENT007,Risk model,stakeholder_request,Critical,Member support,exception_rate,25666,retail cash operations reporting signal 655
+EVT00656,2026-02-25,ENT008,Core banking,qa_failure,Critical,Analytics,service_cost,35514,retail cash operations reporting signal 656
+EVT00657,2026-02-26,ENT009,Transaction mart,qa_failure,Low,Product,activation_rate,60951,retail cash operations reporting signal 657
+EVT00658,2026-02-27,ENT010,Transaction mart,definition_change,Critical,Operations,exception_rate,34092,retail cash operations reporting signal 658
+EVT00659,2026-02-28,ENT011,Ledger extract,refresh_delay,Critical,Risk,portfolio_value,24643,retail cash operations reporting signal 659
+EVT00660,2026-03-01,ENT012,Ledger extract,stakeholder_request,Critical,Member support,portfolio_value,4958,retail cash operations reporting signal 660
+EVT00661,2026-03-02,ENT013,Transaction mart,definition_change,Medium,Analytics,retention_rate,55913,retail cash operations reporting signal 661
+EVT00662,2026-03-03,ENT014,Servicing queue,release_review,High,Risk,retention_rate,46836,retail cash operations reporting signal 662
+EVT00663,2026-03-04,ENT015,Transaction mart,manual_override,High,Risk,portfolio_value,2822,retail cash operations reporting signal 663
+EVT00664,2026-03-05,ENT016,Core banking,manual_override,Low,Finance,portfolio_value,30079,retail cash operations reporting signal 664
+EVT00665,2026-03-06,ENT017,Core banking,qa_failure,Medium,Operations,cash_fill_accuracy,4707,retail cash operations reporting signal 665
+EVT00666,2026-03-07,ENT018,Servicing queue,definition_change,Low,Operations,retention_rate,16395,retail cash operations reporting signal 666
+EVT00667,2026-03-08,ENT019,Ledger extract,qa_failure,Critical,Finance,cash_fill_accuracy,26595,retail cash operations reporting signal 667
+EVT00668,2026-03-09,ENT020,Ledger extract,release_review,High,Analytics,portfolio_value,15538,retail cash operations reporting signal 668
+EVT00669,2026-03-10,ENT021,Risk model,release_review,High,Product,service_cost,33546,retail cash operations reporting signal 669
+EVT00670,2026-03-11,ENT022,Transaction mart,release_review,Medium,Risk,retention_rate,30883,retail cash operations reporting signal 670
+EVT00671,2026-03-12,ENT023,Core banking,automation_run,Critical,Analytics,service_cost,29223,retail cash operations reporting signal 671
+EVT00672,2026-03-13,ENT024,Core banking,release_review,Low,Analytics,cash_fill_accuracy,59779,retail cash operations reporting signal 672
+EVT00673,2026-03-14,ENT001,Transaction mart,definition_change,Low,Member support,activation_rate,4238,retail cash operations reporting signal 673
+EVT00674,2026-03-15,ENT002,Transaction mart,release_review,High,Member support,exception_rate,39988,retail cash operations reporting signal 674
+EVT00675,2026-03-16,ENT003,Transaction mart,manual_override,Medium,Risk,cash_fill_accuracy,41185,retail cash operations reporting signal 675
+EVT00676,2026-03-17,ENT004,Ledger extract,refresh_delay,Critical,Risk,portfolio_value,58845,retail cash operations reporting signal 676
+EVT00677,2026-03-18,ENT005,Ledger extract,refresh_delay,Critical,Operations,service_cost,33111,retail cash operations reporting signal 677
+EVT00678,2026-03-19,ENT006,Transaction mart,release_review,Medium,Finance,exception_rate,41746,retail cash operations reporting signal 678
+EVT00679,2026-03-20,ENT007,Ledger extract,manual_override,Medium,Risk,activation_rate,37058,retail cash operations reporting signal 679
+EVT00680,2026-03-21,ENT008,Ledger extract,definition_change,Medium,Member support,exception_rate,11297,retail cash operations reporting signal 680
+EVT00681,2026-03-22,ENT009,Transaction mart,automation_run,Medium,Member support,exception_rate,6702,retail cash operations reporting signal 681
+EVT00682,2026-03-23,ENT010,Core banking,automation_run,Medium,Risk,cash_fill_accuracy,40776,retail cash operations reporting signal 682
+EVT00683,2026-03-24,ENT011,CRM,definition_change,High,Product,cash_fill_accuracy,18670,retail cash operations reporting signal 683
+EVT00684,2026-03-25,ENT012,Core banking,release_review,Medium,Member support,portfolio_value,32611,retail cash operations reporting signal 684
+EVT00685,2026-03-26,ENT013,Transaction mart,release_review,High,Risk,portfolio_value,15471,retail cash operations reporting signal 685
+EVT00686,2026-03-27,ENT014,Core banking,refresh_delay,Medium,Member support,exception_rate,25892,retail cash operations reporting signal 686
+EVT00687,2026-03-28,ENT015,Ledger extract,release_review,Low,Finance,activation_rate,24670,retail cash operations reporting signal 687
+EVT00688,2026-03-29,ENT016,Servicing queue,qa_failure,Low,Finance,retention_rate,17103,retail cash operations reporting signal 688
+EVT00689,2026-03-30,ENT017,Risk model,manual_override,High,Member support,service_cost,32181,retail cash operations reporting signal 689
+EVT00690,2026-03-31,ENT018,Ledger extract,qa_failure,High,Operations,activation_rate,29048,retail cash operations reporting signal 690
+EVT00691,2026-04-01,ENT019,Transaction mart,refresh_delay,High,Finance,cash_fill_accuracy,4510,retail cash operations reporting signal 691
+EVT00692,2026-04-02,ENT020,CRM,qa_failure,Low,Analytics,portfolio_value,943,retail cash operations reporting signal 692
+EVT00693,2026-04-03,ENT021,Risk model,refresh_delay,High,Analytics,retention_rate,12484,retail cash operations reporting signal 693
+EVT00694,2026-04-04,ENT022,CRM,manual_override,High,Risk,exception_rate,17729,retail cash operations reporting signal 694
+EVT00695,2026-04-05,ENT023,Core banking,stakeholder_request,Medium,Operations,service_cost,52678,retail cash operations reporting signal 695
+EVT00696,2026-04-06,ENT024,Core banking,definition_change,Medium,Risk,service_cost,48734,retail cash operations reporting signal 696
+EVT00697,2026-04-07,ENT001,Ledger extract,stakeholder_request,Critical,Operations,activation_rate,45868,retail cash operations reporting signal 697
+EVT00698,2026-04-08,ENT002,Core banking,manual_override,Critical,Finance,service_cost,54612,retail cash operations reporting signal 698
+EVT00699,2026-04-09,ENT003,Transaction mart,refresh_delay,Medium,Member support,cash_fill_accuracy,11542,retail cash operations reporting signal 699
+EVT00700,2026-04-10,ENT004,Transaction mart,release_review,Medium,Member support,portfolio_value,35513,retail cash operations reporting signal 700
+EVT00701,2026-04-11,ENT005,Transaction mart,automation_run,Low,Analytics,retention_rate,61151,retail cash operations reporting signal 701
+EVT00702,2026-04-12,ENT006,Ledger extract,automation_run,High,Product,exception_rate,42764,retail cash operations reporting signal 702
+EVT00703,2026-04-13,ENT007,CRM,definition_change,Low,Product,portfolio_value,54183,retail cash operations reporting signal 703
+EVT00704,2026-04-14,ENT008,Risk model,automation_run,High,Product,activation_rate,5889,retail cash operations reporting signal 704
+EVT00705,2026-04-15,ENT009,Servicing queue,definition_change,Medium,Finance,cash_fill_accuracy,16161,retail cash operations reporting signal 705
+EVT00706,2026-04-16,ENT010,Servicing queue,automation_run,High,Product,cash_fill_accuracy,47987,retail cash operations reporting signal 706
+EVT00707,2026-04-17,ENT011,CRM,definition_change,High,Operations,service_cost,16108,retail cash operations reporting signal 707
+EVT00708,2026-04-18,ENT012,Ledger extract,automation_run,Critical,Risk,exception_rate,56750,retail cash operations reporting signal 708
+EVT00709,2026-04-19,ENT013,Servicing queue,refresh_delay,Medium,Analytics,activation_rate,13817,retail cash operations reporting signal 709
+EVT00710,2026-04-20,ENT014,Servicing queue,automation_run,Low,Analytics,service_cost,20775,retail cash operations reporting signal 710
+EVT00711,2026-04-21,ENT015,Servicing queue,release_review,Medium,Operations,exception_rate,16813,retail cash operations reporting signal 711
+EVT00712,2026-04-22,ENT016,Transaction mart,stakeholder_request,Low,Analytics,exception_rate,53414,retail cash operations reporting signal 712
+EVT00713,2026-04-23,ENT017,Transaction mart,release_review,Low,Member support,cash_fill_accuracy,34743,retail cash operations reporting signal 713
+EVT00714,2026-04-24,ENT018,CRM,qa_failure,Medium,Analytics,cash_fill_accuracy,33443,retail cash operations reporting signal 714
+EVT00715,2026-04-25,ENT019,Core banking,qa_failure,High,Member support,cash_fill_accuracy,16156,retail cash operations reporting signal 715
+EVT00716,2026-04-26,ENT020,Ledger extract,refresh_delay,Critical,Member support,exception_rate,46873,retail cash operations reporting signal 716
+EVT00717,2026-04-27,ENT021,Core banking,refresh_delay,Low,Member support,activation_rate,30103,retail cash operations reporting signal 717
+EVT00718,2026-04-28,ENT022,Risk model,qa_failure,Medium,Risk,activation_rate,40820,retail cash operations reporting signal 718
+EVT00719,2026-04-29,ENT023,Ledger extract,refresh_delay,Low,Analytics,cash_fill_accuracy,40831,retail cash operations reporting signal 719
+EVT00720,2026-04-30,ENT024,Ledger extract,automation_run,High,Product,activation_rate,28671,retail cash operations reporting signal 720
