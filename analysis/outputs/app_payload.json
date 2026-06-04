@@ -1,4 +1,4 @@
-window.dashboardData = {
+{
   "cards": [
     {
       "label": "Scheduled report SLA",
@@ -491,4 +491,4 @@ window.dashboardData = {
     "reportRuns": 518,
     "actions": 24
   }
-};
+}

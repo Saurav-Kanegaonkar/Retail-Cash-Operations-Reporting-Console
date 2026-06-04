@@ -1,25 +1,37 @@
-entity_id,entity_name,entity_type,segment,owner_team,region_or_scope,business_priority,risk_tier
-ENT001,Account segment 1,Fraud queue,At Risk,Finance,Remote,Low,Low
-ENT002,ATM route 2,Fraud queue,Core,Finance,National,High,Low
-ENT003,Credit product 3,Account segment,At Risk,Finance,East,Medium,Low
-ENT004,Servicing case 4,Account segment,Core,Risk,East,Medium,High
-ENT005,Portfolio slice 5,Fraud queue,Strategic,Analytics,Enterprise,Medium,Medium
-ENT006,Member journey 6,Credit product,At Risk,Operations,Enterprise,Low,Medium
-ENT007,Fraud queue 7,ATM route,Emerging,Product,Remote,Low,Medium
-ENT008,Servicing case 8,Credit product,Core,Member support,Central,High,Low
-ENT009,Deposit cohort 9,Fraud queue,Emerging,Risk,National,Medium,High
-ENT010,ATM route 10,Credit product,Emerging,Finance,Remote,High,High
-ENT011,Account segment 11,Account segment,Emerging,Risk,Enterprise,Medium,High
-ENT012,Credit product 12,Member journey,Emerging,Risk,Enterprise,High,Low
-ENT013,Deposit cohort 13,Account segment,Emerging,Risk,West,Low,Low
-ENT014,Fraud queue 14,Deposit cohort,Experimental,Risk,East,Low,Low
-ENT015,Portfolio slice 15,Servicing case,At Risk,Finance,Central,High,High
-ENT016,ATM route 16,Deposit cohort,At Risk,Finance,Central,High,High
-ENT017,Portfolio slice 17,ATM route,At Risk,Finance,National,Low,Medium
-ENT018,Member journey 18,Deposit cohort,Strategic,Product,National,Low,Low
-ENT019,ATM route 19,Servicing case,Emerging,Analytics,Enterprise,Medium,Low
-ENT020,Account segment 20,Account segment,Experimental,Risk,Central,Low,Low
-ENT021,Fraud queue 21,Servicing case,Emerging,Finance,Enterprise,Medium,High
-ENT022,Credit product 22,Credit product,Emerging,Product,East,Low,Medium
-ENT023,Portfolio slice 23,ATM route,Emerging,Analytics,National,Low,High
-ENT024,ATM route 24,Credit product,Core,Risk,Remote,High,Low
+entity_id,entity_name,entity_type,segment,owner_team,region_or_scope,route,business_priority,risk_tier,monitoring_tool
+DEV001,Convenience ATM 01,ATM,Convenience,Processing operations,Southwest,Route A,Critical,Medium,Web monitoring portal
+DEV002,Grocery ATM 02,ATM,Grocery,Processing operations,Northeast,Route B,Medium,Low,Web monitoring portal
+DEV003,Travel center ATM 03,ATM,Travel center,Cash logistics,West,Route C,Critical,Medium,Mobile app
+DEV004,Fuel and c-store ATM 04,ATM,Fuel and c-store,Field service,Midwest,Route D,High,Low,Mobile app
+DEV005,Restaurant ATM 05,ATM,Restaurant,Field service,Southeast,Route E,Medium,Low,Web monitoring portal
+DEV006,Cash intensive retail ATM 06,ATM,Cash intensive retail,Reporting analytics,Southwest,Route F,Medium,Medium,Web monitoring portal
+DEV007,Convenience ATM 07,ATM,Convenience,Merchant support,Northeast,Route G,High,High,Web monitoring portal
+DEV008,Grocery ATM 08,ATM,Grocery,Reporting analytics,West,Route H,Medium,Low,Portfolio portal
+DEV009,Travel center ATM 09,ATM,Travel center,Cash logistics,Midwest,Route A,Low,Medium,Mobile app
+DEV010,Fuel and c-store ATM 10,ATM,Fuel and c-store,Reporting analytics,Southeast,Route B,Medium,Low,Mobile app
+DEV011,Restaurant ATM 11,ATM,Restaurant,Processing operations,Southwest,Route C,Critical,Medium,Web monitoring portal
+DEV012,Cash intensive retail ATM 12,ATM,Cash intensive retail,Field service,Northeast,Route D,High,High,Web monitoring portal
+DEV013,Convenience Cash recycler 13,Cash recycler,Convenience,Processing operations,West,Route E,High,Medium,Web monitoring portal
+DEV014,Grocery Cash recycler 14,Cash recycler,Grocery,Field service,Midwest,Route F,Low,Low,Mobile app
+DEV015,Travel center Cash recycler 15,Cash recycler,Travel center,Field service,Southeast,Route G,Medium,High,Web monitoring portal
+DEV016,Fuel and c-store Cash recycler 16,Cash recycler,Fuel and c-store,Merchant support,Southwest,Route H,Medium,Medium,Mobile app
+DEV017,Restaurant Cash recycler 17,Cash recycler,Restaurant,Reporting analytics,Northeast,Route A,Medium,Medium,Web monitoring portal
+DEV018,Cash intensive retail Cash recycler 18,Cash recycler,Cash intensive retail,Field service,West,Route B,High,Medium,Prep extract
+DEV019,Convenience Cash recycler 19,Cash recycler,Convenience,Reporting analytics,Midwest,Route C,High,Low,Web monitoring portal
+DEV020,Grocery Cash recycler 20,Cash recycler,Grocery,Merchant support,Southeast,Route D,High,Medium,Web monitoring portal
+DEV021,Travel center Cash recycler 21,Cash recycler,Travel center,Processing operations,Southwest,Route E,High,Low,Portfolio portal
+DEV022,Fuel and c-store Smart safe 22,Smart safe,Fuel and c-store,Cash logistics,Northeast,Route F,High,Low,Mobile app
+DEV023,Restaurant Smart safe 23,Smart safe,Restaurant,Field service,West,Route G,Critical,High,Mobile app
+DEV024,Cash intensive retail Smart safe 24,Smart safe,Cash intensive retail,Reporting analytics,Midwest,Route H,High,High,Web monitoring portal
+DEV025,Convenience Smart safe 25,Smart safe,Convenience,Merchant support,Southeast,Route A,Medium,Low,Portfolio portal
+DEV026,Grocery Smart safe 26,Smart safe,Grocery,Field service,Southwest,Route B,Medium,Low,Mobile app
+DEV027,Travel center Smart safe 27,Smart safe,Travel center,Field service,Northeast,Route C,Medium,High,Web monitoring portal
+DEV028,Fuel and c-store Smart safe 28,Smart safe,Fuel and c-store,Cash logistics,West,Route D,Low,Low,Web monitoring portal
+DEV029,Restaurant Air vac 29,Air vac,Restaurant,Cash logistics,Midwest,Route E,Critical,Low,Portfolio portal
+DEV030,Cash intensive retail Air vac 30,Air vac,Cash intensive retail,Field service,Southeast,Route F,Medium,Low,Web monitoring portal
+DEV031,Convenience Air vac 31,Air vac,Convenience,Reporting analytics,Southwest,Route G,Medium,Low,Mobile app
+DEV032,Grocery Air vac 32,Air vac,Grocery,Field service,Northeast,Route H,High,High,Prep extract
+DEV033,Travel center Air vac 33,Air vac,Travel center,Reporting analytics,West,Route A,Medium,Medium,Web monitoring portal
+DEV034,Fuel and c-store Financial services kiosk 34,Financial services kiosk,Fuel and c-store,Reporting analytics,Midwest,Route B,Low,High,Mobile app
+DEV035,Restaurant Financial services kiosk 35,Financial services kiosk,Restaurant,Field service,Southeast,Route C,Medium,Low,Web monitoring portal
+DEV036,Cash intensive retail Financial services kiosk 36,Financial services kiosk,Cash intensive retail,Cash logistics,Southwest,Route D,Medium,Medium,Portfolio portal

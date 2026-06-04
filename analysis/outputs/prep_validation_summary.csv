@@ -1,0 +1,7 @@
+check_type,runs,records_checked,failed_records,failure_rate_pct,business_rule
+definition_drift,60,7294707,30001,0.41,Metric logic matches the documented reporting definition
+duplicate_key,59,7222474,56408,0.78,"Device, merchant, and date keys are unique"
+freshness,59,7024571,89387,1.27,Source delivered before daily reporting cutoff
+null_required_field,56,6267482,58119,0.93,Required reporting dimensions are populated
+threshold_breach,58,7241739,148196,2.05,Cash and settlement variance remain inside tolerance
+vlookup_reconcile,68,8580234,136341,1.59,Excel lookup output agrees with SQL reconciliation

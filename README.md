@@ -1,60 +1,75 @@
 # Retail Cash Operations Reporting Console
 
-## Motivation
+Portfolio artifact for a data analyst role supporting retail cash management, ATM operations, field service, and recurring business reporting.
 
-Cash operations teams need recurring reports that reveal ATM performance, service exceptions, and branch-level risks without manual spreadsheet rebuilding.
+The project models how an analyst can move a reporting process from spreadsheet-heavy updates into a repeatable BI workflow: source extracts, validation checks, scheduled report monitoring, an exception queue, and concise stakeholder-ready findings.
 
-This project is intentionally scoped as a practical decision artifact: it shows how I would organize source data, surface the operating signal, and turn the analysis into a recommendation that a product, analytics, or operations team could discuss immediately.
+## Portfolio Surface
 
-## What Is In The Project
+### Executive Report Pulse
 
-- A browser-based analytical dashboard in `index.html`
-- Source-style synthetic data in `data/`
-- Analysis notes in `analysis/`
-- A data dictionary in `data_dictionary.md`
-- A rendered screenshot in `docs/images/dashboard.png`
+![Executive report pulse](docs/images/executive-pulse.png)
 
-## Data Inventory
+**Executive report pulse:** summarizes scheduled report SLA, validation pass rate, uptime, cash variance, high-priority exceptions, and estimated QA time saved. It gives operations leaders a fast view of whether recurring reports are ready for the daily huddle.
 
-- Six source-style CSVs back the project instead of a tiny sample dataset.
-- The data folder now includes 2,880 daily metric records, 720 source events, 360 data-quality checks, and 90 recommended actions.
-- The analysis folder includes a data profile and recommendations that explain how the evidence should drive product or operating decisions.
-- The `scripts/score_operating_data.py` script ranks entity priorities and data-quality hotspots from the CSVs.
+### Daily Exception Action Queue
 
-## What The Data Says
+![Daily exception action queue](docs/images/exception-queue.png)
 
-- Service exceptions explain more operational risk than cash volume alone when machines repeatedly miss uptime targets.
-- Excel-heavy reporting creates avoidable delays where branch, route, and device identifiers are not standardized.
-- The highest-value automation is a daily exception queue that tells operations which machines need action first.
+**Daily exception action queue:** ranks devices and routes by cash variance, downtime, open events, owner team, and next action. This is the operational handoff that turns raw extracts into accountable follow-up.
 
-## Analytical Recommendations
+### Tableau Prep Validation Hub
 
-- Standardize branch, route, and device identifiers before automating Tableau Prep flows.
-- Create a daily exception report that ranks devices by downtime, cash variance, and service aging.
-- Move weekly VLOOKUP reconciliation into SQL-backed validation checks with clear owner notes.
+![Tableau Prep validation hub](docs/images/prep-validation.png)
 
-## Output Walkthrough
+**Tableau Prep validation hub:** shows source-level validation checks, scheduled report distribution performance, and stakeholder acceptance tests. It demonstrates how a BI analyst can protect report accuracy before publishing a dashboard.
 
-### Output 1: Executive Pulse
+## Data Strategy
 
-The KPI cards summarize the current operating condition and identify whether the team should trust, investigate, or act.
+The data is synthetic and intentionally labeled as synthetic. Device-level ATM transactions, vault cash, merchant service events, report refresh logs, and payout reconciliation records are not public, so the generator creates role-realistic source tables modeled on common retail cash operations structures.
 
-### Output 2: Diagnostic Queue
+The synthetic model includes:
 
-The table ranks the highest-priority signals by owner group, status, evidence, and risk.
+- 36 device or location master records across ATMs, cash recyclers, smart safes, air vac machines, and financial services kiosks.
+- 4,320 daily device metric records over 120 days.
+- 720 source-system events covering cash loads, jam clearance, communications alerts, report refresh delays, route service, merchant questions, and settlement review.
+- 360 validation checks for freshness, duplicate keys, null required fields, threshold breaches, definition drift, and Excel-to-SQL reconciliation.
+- 518 scheduled report runs across daily, weekly, and monthly recurring reports.
+- 24 ranked exception actions with owner team, route, risk driver, value estimate, confidence, and next step.
 
-### Output 3: Recommendation Memo
+The generator uses seeded distributions for transaction volume, deposits, uptime, cash variance, settlement variance, jam count, downtime minutes, source delays, validation failure rates, and report distribution status. Higher-risk devices receive wider variance, lower uptime, and more open events so the action queue has realistic priority separation.
 
-The recommendation section converts the dashboard into specific next moves for the operating team.
+## What This Demonstrates
 
-## Screenshot
+This artifact is tailored to a reporting analyst role that values Excel, pivot-table logic, Tableau, Tableau Prep, SQL, relational data, data validation, and clear communication. It demonstrates:
 
-![Retail Cash Operations Reporting Console dashboard](docs/images/dashboard.png)
+- Translating stakeholder questions into report requirements and acceptance tests.
+- Building source-style tables that could feed Tableau or SQL.
+- Replacing manual VLOOKUP reconciliation with documented validation rules.
+- Ranking daily exceptions with transparent business logic.
+- Presenting findings in language that works for technical and non-technical stakeholders.
+
+## Project Structure
+
+| Path | Purpose |
+|---|---|
+| `index.html` | Static browser app with three reporting surfaces. |
+| `src/app.js` | Renders the executive pulse, exception queue, and validation hub. |
+| `src/data.js` | Generated static payload used by the browser app. |
+| `data/` | Synthetic source-style CSV tables. |
+| `analysis/outputs/` | Generated app payload, exception queue, and validation summaries. |
+| `analysis/sql_checks.sql` | SQL examples for exception triage, validation gates, reconciliation, and report SLA checks. |
+| `scripts/score_operating_data.py` | Deterministic data generator and scoring script. |
 
 ## Run Locally
 
 ```bash
-python3 -m http.server 4173
+npm run generate
+npm start
 ```
 
 Then open `http://localhost:4173`.
+
+## Scope
+
+This is a portfolio artifact, not a production reporting system. It does not connect to real merchant, ATM, banking, or payroll systems. It does show how the reporting workflow would be structured, validated, documented, and communicated if real source extracts were available.

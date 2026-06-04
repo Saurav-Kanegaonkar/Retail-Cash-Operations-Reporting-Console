@@ -1,81 +1,10 @@
 requirement_id,stakeholder_group,business_question,required_metric,decision_supported,refresh_cadence,acceptance_test,status
-REQ0001,Analytics,How should retention rate change the next operating decision?,retention_rate,sequence launch,weekly,action owner assigned,new
-REQ0002,Member support,How should portfolio value change the next operating decision?,portfolio_value,reduce manual work,weekly,sample reconciles,in build
-REQ0003,Risk,How should service cost change the next operating decision?,service_cost,prioritize roadmap,weekly,action owner assigned,in build
-REQ0004,Risk,How should exception rate change the next operating decision?,exception_rate,reduce manual work,near real time,sample reconciles,triaged
-REQ0005,Product,How should activation rate change the next operating decision?,activation_rate,protect margin,weekly,SQL check passes,triaged
-REQ0006,Product,How should exception rate change the next operating decision?,exception_rate,protect margin,daily,SQL check passes,triaged
-REQ0007,Analytics,How should exception rate change the next operating decision?,exception_rate,prioritize roadmap,weekly,SQL check passes,in build
-REQ0008,Operations,How should retention rate change the next operating decision?,retention_rate,improve quality,near real time,dashboard explains variance,in build
-REQ0009,Risk,How should service cost change the next operating decision?,service_cost,focus outreach,monthly,metric owner approved,blocked
-REQ0010,Product,How should cash fill accuracy change the next operating decision?,cash_fill_accuracy,prioritize roadmap,weekly,action owner assigned,in build
-REQ0011,Risk,How should portfolio value change the next operating decision?,portfolio_value,sequence launch,near real time,dashboard explains variance,triaged
-REQ0012,Risk,How should activation rate change the next operating decision?,activation_rate,focus outreach,monthly,dashboard explains variance,triaged
-REQ0013,Member support,How should retention rate change the next operating decision?,retention_rate,sequence launch,near real time,sample reconciles,blocked
-REQ0014,Risk,How should exception rate change the next operating decision?,exception_rate,sequence launch,weekly,SQL check passes,triaged
-REQ0015,Finance,How should exception rate change the next operating decision?,exception_rate,reduce manual work,weekly,dashboard explains variance,in build
-REQ0016,Member support,How should activation rate change the next operating decision?,activation_rate,reduce manual work,weekly,metric owner approved,blocked
-REQ0017,Finance,How should retention rate change the next operating decision?,retention_rate,improve quality,daily,sample reconciles,in build
-REQ0018,Risk,How should service cost change the next operating decision?,service_cost,sequence launch,daily,metric owner approved,blocked
-REQ0019,Member support,How should service cost change the next operating decision?,service_cost,prioritize roadmap,daily,SQL check passes,in build
-REQ0020,Risk,How should cash fill accuracy change the next operating decision?,cash_fill_accuracy,improve quality,near real time,metric owner approved,in build
-REQ0021,Finance,How should cash fill accuracy change the next operating decision?,cash_fill_accuracy,protect margin,daily,sample reconciles,triaged
-REQ0022,Finance,How should activation rate change the next operating decision?,activation_rate,sequence launch,monthly,sample reconciles,triaged
-REQ0023,Product,How should activation rate change the next operating decision?,activation_rate,reduce manual work,monthly,dashboard explains variance,blocked
-REQ0024,Operations,How should cash fill accuracy change the next operating decision?,cash_fill_accuracy,prioritize roadmap,monthly,metric owner approved,blocked
-REQ0025,Operations,How should retention rate change the next operating decision?,retention_rate,improve quality,near real time,metric owner approved,triaged
-REQ0026,Product,How should activation rate change the next operating decision?,activation_rate,focus outreach,daily,sample reconciles,in build
-REQ0027,Risk,How should cash fill accuracy change the next operating decision?,cash_fill_accuracy,protect margin,weekly,SQL check passes,in build
-REQ0028,Finance,How should exception rate change the next operating decision?,exception_rate,improve quality,daily,dashboard explains variance,validated
-REQ0029,Risk,How should retention rate change the next operating decision?,retention_rate,reduce manual work,monthly,metric owner approved,triaged
-REQ0030,Finance,How should retention rate change the next operating decision?,retention_rate,improve quality,near real time,sample reconciles,in build
-REQ0031,Risk,How should activation rate change the next operating decision?,activation_rate,focus outreach,daily,SQL check passes,in build
-REQ0032,Risk,How should portfolio value change the next operating decision?,portfolio_value,focus outreach,daily,SQL check passes,triaged
-REQ0033,Finance,How should exception rate change the next operating decision?,exception_rate,prioritize roadmap,daily,action owner assigned,blocked
-REQ0034,Product,How should retention rate change the next operating decision?,retention_rate,reduce manual work,near real time,action owner assigned,new
-REQ0035,Risk,How should portfolio value change the next operating decision?,portfolio_value,protect margin,weekly,metric owner approved,in build
-REQ0036,Member support,How should service cost change the next operating decision?,service_cost,focus outreach,daily,SQL check passes,triaged
-REQ0037,Finance,How should retention rate change the next operating decision?,retention_rate,prioritize roadmap,weekly,action owner assigned,in build
-REQ0038,Risk,How should exception rate change the next operating decision?,exception_rate,reduce manual work,weekly,sample reconciles,new
-REQ0039,Product,How should activation rate change the next operating decision?,activation_rate,focus outreach,weekly,action owner assigned,in build
-REQ0040,Risk,How should portfolio value change the next operating decision?,portfolio_value,focus outreach,near real time,metric owner approved,triaged
-REQ0041,Operations,How should exception rate change the next operating decision?,exception_rate,improve quality,monthly,metric owner approved,in build
-REQ0042,Product,How should cash fill accuracy change the next operating decision?,cash_fill_accuracy,improve quality,daily,SQL check passes,triaged
-REQ0043,Product,How should service cost change the next operating decision?,service_cost,prioritize roadmap,weekly,SQL check passes,new
-REQ0044,Risk,How should portfolio value change the next operating decision?,portfolio_value,protect margin,near real time,action owner assigned,new
-REQ0045,Product,How should exception rate change the next operating decision?,exception_rate,protect margin,monthly,dashboard explains variance,blocked
-REQ0046,Risk,How should activation rate change the next operating decision?,activation_rate,reduce manual work,near real time,dashboard explains variance,validated
-REQ0047,Member support,How should activation rate change the next operating decision?,activation_rate,sequence launch,monthly,sample reconciles,validated
-REQ0048,Analytics,How should service cost change the next operating decision?,service_cost,protect margin,near real time,dashboard explains variance,new
-REQ0049,Analytics,How should portfolio value change the next operating decision?,portfolio_value,sequence launch,weekly,metric owner approved,validated
-REQ0050,Finance,How should portfolio value change the next operating decision?,portfolio_value,prioritize roadmap,daily,SQL check passes,new
-REQ0051,Analytics,How should portfolio value change the next operating decision?,portfolio_value,protect margin,near real time,dashboard explains variance,validated
-REQ0052,Member support,How should activation rate change the next operating decision?,activation_rate,protect margin,weekly,sample reconciles,blocked
-REQ0053,Finance,How should activation rate change the next operating decision?,activation_rate,protect margin,near real time,SQL check passes,validated
-REQ0054,Product,How should portfolio value change the next operating decision?,portfolio_value,focus outreach,daily,metric owner approved,triaged
-REQ0055,Operations,How should service cost change the next operating decision?,service_cost,improve quality,near real time,SQL check passes,validated
-REQ0056,Risk,How should retention rate change the next operating decision?,retention_rate,prioritize roadmap,weekly,sample reconciles,new
-REQ0057,Product,How should portfolio value change the next operating decision?,portfolio_value,sequence launch,daily,SQL check passes,in build
-REQ0058,Finance,How should cash fill accuracy change the next operating decision?,cash_fill_accuracy,prioritize roadmap,near real time,dashboard explains variance,validated
-REQ0059,Finance,How should cash fill accuracy change the next operating decision?,cash_fill_accuracy,protect margin,daily,SQL check passes,triaged
-REQ0060,Member support,How should portfolio value change the next operating decision?,portfolio_value,protect margin,monthly,dashboard explains variance,in build
-REQ0061,Finance,How should exception rate change the next operating decision?,exception_rate,improve quality,daily,sample reconciles,triaged
-REQ0062,Member support,How should service cost change the next operating decision?,service_cost,reduce manual work,daily,sample reconciles,blocked
-REQ0063,Risk,How should exception rate change the next operating decision?,exception_rate,protect margin,monthly,dashboard explains variance,validated
-REQ0064,Risk,How should cash fill accuracy change the next operating decision?,cash_fill_accuracy,prioritize roadmap,monthly,sample reconciles,new
-REQ0065,Risk,How should retention rate change the next operating decision?,retention_rate,focus outreach,daily,action owner assigned,validated
-REQ0066,Member support,How should activation rate change the next operating decision?,activation_rate,reduce manual work,weekly,action owner assigned,new
-REQ0067,Finance,How should portfolio value change the next operating decision?,portfolio_value,reduce manual work,daily,SQL check passes,validated
-REQ0068,Operations,How should exception rate change the next operating decision?,exception_rate,improve quality,weekly,sample reconciles,new
-REQ0069,Member support,How should retention rate change the next operating decision?,retention_rate,protect margin,weekly,action owner assigned,validated
-REQ0070,Operations,How should retention rate change the next operating decision?,retention_rate,protect margin,near real time,metric owner approved,triaged
-REQ0071,Member support,How should cash fill accuracy change the next operating decision?,cash_fill_accuracy,prioritize roadmap,weekly,sample reconciles,blocked
-REQ0072,Product,How should activation rate change the next operating decision?,activation_rate,focus outreach,daily,dashboard explains variance,validated
-REQ0073,Analytics,How should activation rate change the next operating decision?,activation_rate,sequence launch,near real time,action owner assigned,new
-REQ0074,Finance,How should portfolio value change the next operating decision?,portfolio_value,sequence launch,weekly,dashboard explains variance,validated
-REQ0075,Finance,How should exception rate change the next operating decision?,exception_rate,prioritize roadmap,weekly,action owner assigned,new
-REQ0076,Operations,How should retention rate change the next operating decision?,retention_rate,improve quality,daily,metric owner approved,triaged
-REQ0077,Product,How should service cost change the next operating decision?,service_cost,sequence launch,weekly,metric owner approved,new
-REQ0078,Member support,How should retention rate change the next operating decision?,retention_rate,protect margin,monthly,action owner assigned,new
-REQ0079,Operations,How should exception rate change the next operating decision?,exception_rate,protect margin,near real time,SQL check passes,triaged
-REQ0080,Operations,How should exception rate change the next operating decision?,exception_rate,prioritize roadmap,daily,sample reconciles,validated
+REQ001,Operations leadership,Which devices need action before the morning huddle?,priority_score,prioritize daily exceptions,daily,owner and next action are populated,certified
+REQ002,Cash logistics,Which routes have repeat cash variance outside tolerance?,cash_variance,plan cash loads,daily,report definition approved by stakeholder,certified
+REQ003,Field service,Which machines are driving downtime and jam repeats?,service_minutes_down,dispatch technicians,daily,report definition approved by stakeholder,certified
+REQ004,Merchant support,Which merchant questions need evidence from transaction data?,event_status,resolve support questions,daily,sample reconciles to source extract,certified
+REQ005,Finance,Which settlement variance needs review before payout?,settlement_variance,approve monthly payout,weekly,owner and next action are populated,in build
+REQ006,Analytics,Which Prep checks block a trusted Tableau refresh?,failed_records,release certified report,daily,report definition approved by stakeholder,certified
+REQ007,Executive team,How many scheduled reports shipped on time?,report_sla,monitor reporting reliability,weekly,owner and next action are populated,in build
+REQ008,Processing operations,Where are transaction feeds delayed or incomplete?,freshness_status,stabilize extracts,daily,sample reconciles to source extract,certified
+REQ009,Route managers,Which routes combine high value and high risk?,route_priority,sequence route work,weekly,daily refresh finishes before 8 AM,certified

@@ -1,11 +1,12 @@
 # Executive Findings
 
-- Service exceptions explain more operational risk than cash volume alone when machines repeatedly miss uptime targets.
-- Excel-heavy reporting creates avoidable delays where branch, route, and device identifiers are not standardized.
-- The highest-value automation is a daily exception queue that tells operations which machines need action first.
+- Report reliability is strongest where source freshness and owner assignment are checked before Tableau refresh.
+- Cash variance and service downtime should be triaged together because repeated jams often create reconciliation noise.
+- The daily exception queue is the highest leverage scheduled report because it converts device, route, and merchant signals into assigned work.
+- Top ranked exception: Travel center Smart safe 27 on Route C because of downtime.
 
 ## Recommendations
 
-- Standardize branch, route, and device identifiers before automating Tableau Prep flows.
-- Create a daily exception report that ranks devices by downtime, cash variance, and service aging.
-- Move weekly VLOOKUP reconciliation into SQL-backed validation checks with clear owner notes.
+- Certify Tableau Prep inputs only after source freshness, key uniqueness, variance thresholds, and Excel-to-SQL reconciliation checks pass.
+- Run the daily exception queue before operations huddles so field service, cash logistics, and reporting analytics share the same priority list.
+- Convert recurring VLOOKUP checks into documented SQL controls with owner notes and acceptance tests.

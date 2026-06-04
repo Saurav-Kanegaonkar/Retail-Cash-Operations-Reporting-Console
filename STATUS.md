@@ -1,6 +1,6 @@
-# Status
+# Retail Cash Operations Reporting Console Status
 
-- Project: Retail Cash Operations Reporting Console
-- GitHub: https://github.com/Saurav-Kanegaonkar/Retail-Cash-Operations-Reporting-Console
-- Status: ready
-- Screenshot: docs/images/dashboard.png
+- Status: upgraded through the Portfolio Artifact Upgrade Workflow.
+- Artifact type: BI reporting console plus Tableau Prep validation workbench.
+- Surfaces: executive report pulse, exception action queue, and Prep validation hub.
+- Data: synthetic, generated from documented retail cash operations assumptions.

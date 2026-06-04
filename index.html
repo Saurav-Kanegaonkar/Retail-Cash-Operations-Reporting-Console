@@ -6,31 +6,30 @@
   <title>Retail Cash Operations Reporting Console</title>
   <link rel="stylesheet" href="src/styles.css">
 </head>
-<body class="console">
+<body>
   <main class="app">
-    <header class="hero">
-      <p class="eyebrow">operations reporting dashboard</p>
-      <h1>Retail Cash Operations Reporting Console</h1>
-      <p>Cash operations teams need recurring reports that reveal ATM performance, service exceptions, and branch-level risks without manual spreadsheet rebuilding.</p>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Retail cash operations BI</p>
+        <h1>Reporting Console</h1>
+        <p class="lede">A scheduled reporting and Tableau Prep validation workbench for ATM, cash-management, field-service, and merchant support decisions.</p>
+      </div>
+      <div class="run-card">
+        <span>Latest certified window</span>
+        <strong>14 days</strong>
+        <small>Daily huddle ready</small>
+      </div>
     </header>
-    <section class="metric-grid" id="metrics"></section>
-    <section class="workspace">
-      <article class="panel primary">
-        <span>Output 2</span>
-        <h2>Diagnostic Queue</h2>
-        <div id="table"></div>
-      </article>
-      <aside class="panel">
-        <span>Output 3</span>
-        <h2>What The Data Says</h2>
-        <div id="signals"></div>
-      </aside>
-    </section>
-    <section class="panel recommendations">
-      <span>Output 4</span>
-      <h2>Analytical Recommendations</h2>
-      <div id="recs"></div>
-    </section>
+
+    <section class="metric-grid" id="metrics" aria-label="Report health metrics"></section>
+
+    <nav class="tabs" aria-label="Console views">
+      <button type="button" class="active" data-view="executive">Executive Pulse</button>
+      <button type="button" data-view="exceptions">Exception Queue</button>
+      <button type="button" data-view="prep">Prep Validation</button>
+    </nav>
+
+    <section id="view" class="view" aria-live="polite"></section>
   </main>
   <script src="src/data.js"></script>
   <script src="src/app.js"></script>

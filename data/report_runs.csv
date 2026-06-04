@@ -1,0 +1,519 @@
+run_id,run_date,report_name,cadence,business_owner,records_loaded,refresh_delay_minutes,validation_status,distribution_status
+RUN0001,2026-01-01,Daily exception queue,daily,Operations leadership,40732,0,failed,on time
+RUN0002,2026-01-01,Cash variance reconciliation,daily,Cash logistics,102701,0,passed,on time
+RUN0003,2026-01-01,Field service aging,daily,Field service,6343,0,passed,on time
+RUN0004,2026-01-01,Prep validation scorecard,daily,Analytics,231133,36,warning,on time
+RUN0005,2026-01-01,Monthly performance close,monthly,Finance,80656,8,passed,on time
+RUN0006,2026-01-02,Daily exception queue,daily,Operations leadership,18997,0,passed,on time
+RUN0007,2026-01-02,Cash variance reconciliation,daily,Cash logistics,174811,14,failed,on time
+RUN0008,2026-01-02,Field service aging,daily,Field service,139581,0,passed,on time
+RUN0009,2026-01-02,Prep validation scorecard,daily,Analytics,35992,3,passed,on time
+RUN0010,2026-01-03,Daily exception queue,daily,Operations leadership,22961,19,warning,on time
+RUN0011,2026-01-03,Cash variance reconciliation,daily,Cash logistics,165533,9,passed,on time
+RUN0012,2026-01-03,Field service aging,daily,Field service,13626,33,passed,on time
+RUN0013,2026-01-03,Prep validation scorecard,daily,Analytics,63379,0,passed,on time
+RUN0014,2026-01-04,Daily exception queue,daily,Operations leadership,159630,0,passed,on time
+RUN0015,2026-01-04,Cash variance reconciliation,daily,Cash logistics,250108,0,passed,on time
+RUN0016,2026-01-04,Field service aging,daily,Field service,250832,11,passed,on time
+RUN0017,2026-01-04,Prep validation scorecard,daily,Analytics,167048,84,warning,late
+RUN0018,2026-01-05,Daily exception queue,daily,Operations leadership,98777,0,passed,on time
+RUN0019,2026-01-05,Cash variance reconciliation,daily,Cash logistics,255669,10,passed,on time
+RUN0020,2026-01-05,Field service aging,daily,Field service,131634,0,passed,on time
+RUN0021,2026-01-05,Merchant payout review,weekly,Finance,183766,42,warning,late
+RUN0022,2026-01-05,Prep validation scorecard,daily,Analytics,136157,26,failed,on time
+RUN0023,2026-01-05,Executive operating packet,weekly,Executive team,193675,4,warning,on time
+RUN0024,2026-01-06,Daily exception queue,daily,Operations leadership,86664,15,warning,on time
+RUN0025,2026-01-06,Cash variance reconciliation,daily,Cash logistics,186991,7,failed,on time
+RUN0026,2026-01-06,Field service aging,daily,Field service,243485,42,warning,late
+RUN0027,2026-01-06,Prep validation scorecard,daily,Analytics,199031,0,passed,on time
+RUN0028,2026-01-07,Daily exception queue,daily,Operations leadership,204750,13,passed,on time
+RUN0029,2026-01-07,Cash variance reconciliation,daily,Cash logistics,57133,4,passed,on time
+RUN0030,2026-01-07,Field service aging,daily,Field service,27893,0,passed,on time
+RUN0031,2026-01-07,Prep validation scorecard,daily,Analytics,61379,13,passed,on time
+RUN0032,2026-01-08,Daily exception queue,daily,Operations leadership,38416,12,passed,on time
+RUN0033,2026-01-08,Cash variance reconciliation,daily,Cash logistics,229448,15,passed,on time
+RUN0034,2026-01-08,Field service aging,daily,Field service,49093,0,passed,on time
+RUN0035,2026-01-08,Prep validation scorecard,daily,Analytics,57191,7,passed,on time
+RUN0036,2026-01-09,Daily exception queue,daily,Operations leadership,41602,29,passed,on time
+RUN0037,2026-01-09,Cash variance reconciliation,daily,Cash logistics,137212,0,passed,on time
+RUN0038,2026-01-09,Field service aging,daily,Field service,14600,0,passed,on time
+RUN0039,2026-01-09,Prep validation scorecard,daily,Analytics,57704,15,warning,on time
+RUN0040,2026-01-10,Daily exception queue,daily,Operations leadership,51146,1,passed,on time
+RUN0041,2026-01-10,Cash variance reconciliation,daily,Cash logistics,23415,0,warning,on time
+RUN0042,2026-01-10,Field service aging,daily,Field service,217265,0,passed,on time
+RUN0043,2026-01-10,Prep validation scorecard,daily,Analytics,226829,9,passed,on time
+RUN0044,2026-01-11,Daily exception queue,daily,Operations leadership,174064,0,passed,on time
+RUN0045,2026-01-11,Cash variance reconciliation,daily,Cash logistics,168480,13,warning,on time
+RUN0046,2026-01-11,Field service aging,daily,Field service,243719,12,warning,on time
+RUN0047,2026-01-11,Prep validation scorecard,daily,Analytics,239481,0,warning,on time
+RUN0048,2026-01-12,Daily exception queue,daily,Operations leadership,98598,6,passed,on time
+RUN0049,2026-01-12,Cash variance reconciliation,daily,Cash logistics,96785,24,passed,on time
+RUN0050,2026-01-12,Field service aging,daily,Field service,251154,5,passed,on time
+RUN0051,2026-01-12,Merchant payout review,weekly,Finance,11289,0,passed,on time
+RUN0052,2026-01-12,Prep validation scorecard,daily,Analytics,76172,12,passed,on time
+RUN0053,2026-01-12,Executive operating packet,weekly,Executive team,245089,12,passed,on time
+RUN0054,2026-01-13,Daily exception queue,daily,Operations leadership,167928,20,passed,on time
+RUN0055,2026-01-13,Cash variance reconciliation,daily,Cash logistics,73455,30,passed,on time
+RUN0056,2026-01-13,Field service aging,daily,Field service,204306,11,warning,on time
+RUN0057,2026-01-13,Prep validation scorecard,daily,Analytics,153007,23,failed,on time
+RUN0058,2026-01-14,Daily exception queue,daily,Operations leadership,210484,12,passed,on time
+RUN0059,2026-01-14,Cash variance reconciliation,daily,Cash logistics,236840,0,passed,on time
+RUN0060,2026-01-14,Field service aging,daily,Field service,123339,0,passed,on time
+RUN0061,2026-01-14,Prep validation scorecard,daily,Analytics,205084,13,passed,on time
+RUN0062,2026-01-15,Daily exception queue,daily,Operations leadership,160868,0,passed,on time
+RUN0063,2026-01-15,Cash variance reconciliation,daily,Cash logistics,165071,0,passed,on time
+RUN0064,2026-01-15,Field service aging,daily,Field service,190654,22,passed,on time
+RUN0065,2026-01-15,Prep validation scorecard,daily,Analytics,206331,8,warning,on time
+RUN0066,2026-01-16,Daily exception queue,daily,Operations leadership,254294,19,passed,on time
+RUN0067,2026-01-16,Cash variance reconciliation,daily,Cash logistics,120990,0,passed,on time
+RUN0068,2026-01-16,Field service aging,daily,Field service,239589,0,passed,on time
+RUN0069,2026-01-16,Prep validation scorecard,daily,Analytics,92130,6,passed,on time
+RUN0070,2026-01-17,Daily exception queue,daily,Operations leadership,126043,3,warning,on time
+RUN0071,2026-01-17,Cash variance reconciliation,daily,Cash logistics,157287,0,passed,on time
+RUN0072,2026-01-17,Field service aging,daily,Field service,174798,25,passed,on time
+RUN0073,2026-01-17,Prep validation scorecard,daily,Analytics,176761,5,passed,on time
+RUN0074,2026-01-18,Daily exception queue,daily,Operations leadership,244515,26,passed,on time
+RUN0075,2026-01-18,Cash variance reconciliation,daily,Cash logistics,14680,0,warning,on time
+RUN0076,2026-01-18,Field service aging,daily,Field service,247914,9,passed,on time
+RUN0077,2026-01-18,Prep validation scorecard,daily,Analytics,218398,0,passed,on time
+RUN0078,2026-01-19,Daily exception queue,daily,Operations leadership,100631,0,passed,on time
+RUN0079,2026-01-19,Cash variance reconciliation,daily,Cash logistics,225678,2,warning,on time
+RUN0080,2026-01-19,Field service aging,daily,Field service,258477,15,passed,on time
+RUN0081,2026-01-19,Merchant payout review,weekly,Finance,80678,4,passed,on time
+RUN0082,2026-01-19,Prep validation scorecard,daily,Analytics,136582,22,passed,on time
+RUN0083,2026-01-19,Executive operating packet,weekly,Executive team,174227,1,passed,on time
+RUN0084,2026-01-20,Daily exception queue,daily,Operations leadership,30464,0,passed,on time
+RUN0085,2026-01-20,Cash variance reconciliation,daily,Cash logistics,197875,2,passed,on time
+RUN0086,2026-01-20,Field service aging,daily,Field service,57795,20,passed,on time
+RUN0087,2026-01-20,Prep validation scorecard,daily,Analytics,179863,11,passed,on time
+RUN0088,2026-01-21,Daily exception queue,daily,Operations leadership,249026,8,passed,on time
+RUN0089,2026-01-21,Cash variance reconciliation,daily,Cash logistics,207937,22,passed,on time
+RUN0090,2026-01-21,Field service aging,daily,Field service,201913,63,passed,late
+RUN0091,2026-01-21,Prep validation scorecard,daily,Analytics,116510,11,warning,on time
+RUN0092,2026-01-22,Daily exception queue,daily,Operations leadership,150338,0,passed,on time
+RUN0093,2026-01-22,Cash variance reconciliation,daily,Cash logistics,85809,0,failed,on time
+RUN0094,2026-01-22,Field service aging,daily,Field service,217219,29,passed,on time
+RUN0095,2026-01-22,Prep validation scorecard,daily,Analytics,257149,18,passed,on time
+RUN0096,2026-01-23,Daily exception queue,daily,Operations leadership,25191,4,passed,on time
+RUN0097,2026-01-23,Cash variance reconciliation,daily,Cash logistics,36949,23,failed,on time
+RUN0098,2026-01-23,Field service aging,daily,Field service,184118,5,passed,on time
+RUN0099,2026-01-23,Prep validation scorecard,daily,Analytics,134594,31,passed,on time
+RUN0100,2026-01-24,Daily exception queue,daily,Operations leadership,34363,26,passed,on time
+RUN0101,2026-01-24,Cash variance reconciliation,daily,Cash logistics,88749,7,passed,on time
+RUN0102,2026-01-24,Field service aging,daily,Field service,56214,0,passed,on time
+RUN0103,2026-01-24,Prep validation scorecard,daily,Analytics,23753,28,warning,on time
+RUN0104,2026-01-25,Daily exception queue,daily,Operations leadership,166153,14,passed,on time
+RUN0105,2026-01-25,Cash variance reconciliation,daily,Cash logistics,136631,3,passed,on time
+RUN0106,2026-01-25,Field service aging,daily,Field service,221751,0,passed,on time
+RUN0107,2026-01-25,Prep validation scorecard,daily,Analytics,184513,22,passed,on time
+RUN0108,2026-01-26,Daily exception queue,daily,Operations leadership,124982,16,passed,on time
+RUN0109,2026-01-26,Cash variance reconciliation,daily,Cash logistics,81337,31,passed,on time
+RUN0110,2026-01-26,Field service aging,daily,Field service,116726,14,passed,on time
+RUN0111,2026-01-26,Merchant payout review,weekly,Finance,68942,31,passed,on time
+RUN0112,2026-01-26,Prep validation scorecard,daily,Analytics,34919,27,passed,on time
+RUN0113,2026-01-26,Executive operating packet,weekly,Executive team,252001,26,passed,on time
+RUN0114,2026-01-27,Daily exception queue,daily,Operations leadership,30634,0,passed,on time
+RUN0115,2026-01-27,Cash variance reconciliation,daily,Cash logistics,195808,0,passed,on time
+RUN0116,2026-01-27,Field service aging,daily,Field service,72603,2,passed,on time
+RUN0117,2026-01-27,Prep validation scorecard,daily,Analytics,115088,9,warning,on time
+RUN0118,2026-01-28,Daily exception queue,daily,Operations leadership,213166,23,passed,on time
+RUN0119,2026-01-28,Cash variance reconciliation,daily,Cash logistics,200780,22,passed,on time
+RUN0120,2026-01-28,Field service aging,daily,Field service,124126,48,passed,late
+RUN0121,2026-01-28,Prep validation scorecard,daily,Analytics,83386,27,passed,on time
+RUN0122,2026-01-29,Daily exception queue,daily,Operations leadership,248239,0,passed,on time
+RUN0123,2026-01-29,Cash variance reconciliation,daily,Cash logistics,243858,16,passed,on time
+RUN0124,2026-01-29,Field service aging,daily,Field service,8578,35,passed,on time
+RUN0125,2026-01-29,Prep validation scorecard,daily,Analytics,51648,0,passed,on time
+RUN0126,2026-01-30,Daily exception queue,daily,Operations leadership,88714,15,warning,on time
+RUN0127,2026-01-30,Cash variance reconciliation,daily,Cash logistics,201855,13,passed,on time
+RUN0128,2026-01-30,Field service aging,daily,Field service,120231,16,passed,on time
+RUN0129,2026-01-30,Prep validation scorecard,daily,Analytics,7108,7,passed,on time
+RUN0130,2026-01-31,Daily exception queue,daily,Operations leadership,253668,14,warning,on time
+RUN0131,2026-01-31,Cash variance reconciliation,daily,Cash logistics,23765,10,passed,on time
+RUN0132,2026-01-31,Field service aging,daily,Field service,198944,18,failed,on time
+RUN0133,2026-01-31,Prep validation scorecard,daily,Analytics,106260,9,passed,on time
+RUN0134,2026-02-01,Daily exception queue,daily,Operations leadership,90742,37,passed,on time
+RUN0135,2026-02-01,Cash variance reconciliation,daily,Cash logistics,133133,1,passed,on time
+RUN0136,2026-02-01,Field service aging,daily,Field service,2789,34,warning,on time
+RUN0137,2026-02-01,Prep validation scorecard,daily,Analytics,158275,0,passed,on time
+RUN0138,2026-02-01,Monthly performance close,monthly,Finance,108598,0,passed,on time
+RUN0139,2026-02-02,Daily exception queue,daily,Operations leadership,151568,0,passed,on time
+RUN0140,2026-02-02,Cash variance reconciliation,daily,Cash logistics,117728,16,warning,on time
+RUN0141,2026-02-02,Field service aging,daily,Field service,150227,7,warning,on time
+RUN0142,2026-02-02,Merchant payout review,weekly,Finance,103672,0,passed,on time
+RUN0143,2026-02-02,Prep validation scorecard,daily,Analytics,205772,0,passed,on time
+RUN0144,2026-02-02,Executive operating packet,weekly,Executive team,189122,0,passed,on time
+RUN0145,2026-02-03,Daily exception queue,daily,Operations leadership,180077,39,warning,on time
+RUN0146,2026-02-03,Cash variance reconciliation,daily,Cash logistics,132838,0,passed,on time
+RUN0147,2026-02-03,Field service aging,daily,Field service,135900,41,passed,late
+RUN0148,2026-02-03,Prep validation scorecard,daily,Analytics,232417,84,passed,late
+RUN0149,2026-02-04,Daily exception queue,daily,Operations leadership,107657,16,passed,on time
+RUN0150,2026-02-04,Cash variance reconciliation,daily,Cash logistics,161588,0,passed,on time
+RUN0151,2026-02-04,Field service aging,daily,Field service,189353,21,passed,on time
+RUN0152,2026-02-04,Prep validation scorecard,daily,Analytics,231132,5,passed,on time
+RUN0153,2026-02-05,Daily exception queue,daily,Operations leadership,182966,24,passed,on time
+RUN0154,2026-02-05,Cash variance reconciliation,daily,Cash logistics,170727,0,passed,on time
+RUN0155,2026-02-05,Field service aging,daily,Field service,97604,3,warning,on time
+RUN0156,2026-02-05,Prep validation scorecard,daily,Analytics,219336,20,passed,on time
+RUN0157,2026-02-06,Daily exception queue,daily,Operations leadership,147494,22,warning,on time
+RUN0158,2026-02-06,Cash variance reconciliation,daily,Cash logistics,153351,0,passed,on time
+RUN0159,2026-02-06,Field service aging,daily,Field service,49243,15,passed,on time
+RUN0160,2026-02-06,Prep validation scorecard,daily,Analytics,60641,8,failed,on time
+RUN0161,2026-02-07,Daily exception queue,daily,Operations leadership,175293,0,warning,on time
+RUN0162,2026-02-07,Cash variance reconciliation,daily,Cash logistics,224830,19,passed,on time
+RUN0163,2026-02-07,Field service aging,daily,Field service,133738,5,warning,on time
+RUN0164,2026-02-07,Prep validation scorecard,daily,Analytics,122719,3,passed,on time
+RUN0165,2026-02-08,Daily exception queue,daily,Operations leadership,73246,0,warning,on time
+RUN0166,2026-02-08,Cash variance reconciliation,daily,Cash logistics,206915,0,passed,on time
+RUN0167,2026-02-08,Field service aging,daily,Field service,160901,9,passed,on time
+RUN0168,2026-02-08,Prep validation scorecard,daily,Analytics,90044,0,passed,on time
+RUN0169,2026-02-09,Daily exception queue,daily,Operations leadership,222409,16,passed,on time
+RUN0170,2026-02-09,Cash variance reconciliation,daily,Cash logistics,24311,4,passed,on time
+RUN0171,2026-02-09,Field service aging,daily,Field service,151308,46,passed,late
+RUN0172,2026-02-09,Merchant payout review,weekly,Finance,241535,0,passed,on time
+RUN0173,2026-02-09,Prep validation scorecard,daily,Analytics,172699,16,passed,on time
+RUN0174,2026-02-09,Executive operating packet,weekly,Executive team,63878,9,passed,on time
+RUN0175,2026-02-10,Daily exception queue,daily,Operations leadership,51804,46,passed,late
+RUN0176,2026-02-10,Cash variance reconciliation,daily,Cash logistics,4493,14,passed,on time
+RUN0177,2026-02-10,Field service aging,daily,Field service,40707,0,passed,on time
+RUN0178,2026-02-10,Prep validation scorecard,daily,Analytics,97802,65,passed,late
+RUN0179,2026-02-11,Daily exception queue,daily,Operations leadership,47743,79,passed,late
+RUN0180,2026-02-11,Cash variance reconciliation,daily,Cash logistics,140797,0,passed,on time
+RUN0181,2026-02-11,Field service aging,daily,Field service,233455,1,passed,on time
+RUN0182,2026-02-11,Prep validation scorecard,daily,Analytics,12158,28,warning,on time
+RUN0183,2026-02-12,Daily exception queue,daily,Operations leadership,1838,0,passed,on time
+RUN0184,2026-02-12,Cash variance reconciliation,daily,Cash logistics,33570,7,passed,on time
+RUN0185,2026-02-12,Field service aging,daily,Field service,2276,18,passed,on time
+RUN0186,2026-02-12,Prep validation scorecard,daily,Analytics,222010,0,warning,on time
+RUN0187,2026-02-13,Daily exception queue,daily,Operations leadership,135300,13,passed,on time
+RUN0188,2026-02-13,Cash variance reconciliation,daily,Cash logistics,229584,14,passed,on time
+RUN0189,2026-02-13,Field service aging,daily,Field service,99502,10,passed,on time
+RUN0190,2026-02-13,Prep validation scorecard,daily,Analytics,195647,9,failed,on time
+RUN0191,2026-02-14,Daily exception queue,daily,Operations leadership,214520,21,passed,on time
+RUN0192,2026-02-14,Cash variance reconciliation,daily,Cash logistics,189685,20,warning,on time
+RUN0193,2026-02-14,Field service aging,daily,Field service,221307,0,passed,on time
+RUN0194,2026-02-14,Prep validation scorecard,daily,Analytics,84885,37,passed,on time
+RUN0195,2026-02-15,Daily exception queue,daily,Operations leadership,72260,13,warning,on time
+RUN0196,2026-02-15,Cash variance reconciliation,daily,Cash logistics,15538,0,passed,on time
+RUN0197,2026-02-15,Field service aging,daily,Field service,217515,15,failed,on time
+RUN0198,2026-02-15,Prep validation scorecard,daily,Analytics,1817,0,passed,on time
+RUN0199,2026-02-16,Daily exception queue,daily,Operations leadership,169972,1,warning,on time
+RUN0200,2026-02-16,Cash variance reconciliation,daily,Cash logistics,244724,27,passed,on time
+RUN0201,2026-02-16,Field service aging,daily,Field service,78686,33,warning,on time
+RUN0202,2026-02-16,Merchant payout review,weekly,Finance,188366,0,passed,on time
+RUN0203,2026-02-16,Prep validation scorecard,daily,Analytics,182071,2,failed,on time
+RUN0204,2026-02-16,Executive operating packet,weekly,Executive team,208413,0,passed,on time
+RUN0205,2026-02-17,Daily exception queue,daily,Operations leadership,108379,9,passed,on time
+RUN0206,2026-02-17,Cash variance reconciliation,daily,Cash logistics,225040,28,passed,on time
+RUN0207,2026-02-17,Field service aging,daily,Field service,92971,2,warning,on time
+RUN0208,2026-02-17,Prep validation scorecard,daily,Analytics,182904,39,passed,on time
+RUN0209,2026-02-18,Daily exception queue,daily,Operations leadership,176826,81,failed,late
+RUN0210,2026-02-18,Cash variance reconciliation,daily,Cash logistics,178554,40,warning,on time
+RUN0211,2026-02-18,Field service aging,daily,Field service,138591,10,passed,on time
+RUN0212,2026-02-18,Prep validation scorecard,daily,Analytics,251442,10,passed,on time
+RUN0213,2026-02-19,Daily exception queue,daily,Operations leadership,166890,25,passed,on time
+RUN0214,2026-02-19,Cash variance reconciliation,daily,Cash logistics,51729,10,passed,on time
+RUN0215,2026-02-19,Field service aging,daily,Field service,171700,1,passed,on time
+RUN0216,2026-02-19,Prep validation scorecard,daily,Analytics,99645,0,passed,on time
+RUN0217,2026-02-20,Daily exception queue,daily,Operations leadership,34901,56,passed,late
+RUN0218,2026-02-20,Cash variance reconciliation,daily,Cash logistics,182066,24,passed,on time
+RUN0219,2026-02-20,Field service aging,daily,Field service,26594,18,passed,on time
+RUN0220,2026-02-20,Prep validation scorecard,daily,Analytics,258812,0,warning,on time
+RUN0221,2026-02-21,Daily exception queue,daily,Operations leadership,251746,17,passed,on time
+RUN0222,2026-02-21,Cash variance reconciliation,daily,Cash logistics,61642,84,passed,late
+RUN0223,2026-02-21,Field service aging,daily,Field service,36036,3,passed,on time
+RUN0224,2026-02-21,Prep validation scorecard,daily,Analytics,204256,16,passed,on time
+RUN0225,2026-02-22,Daily exception queue,daily,Operations leadership,13205,0,passed,on time
+RUN0226,2026-02-22,Cash variance reconciliation,daily,Cash logistics,145479,10,failed,on time
+RUN0227,2026-02-22,Field service aging,daily,Field service,221967,1,warning,on time
+RUN0228,2026-02-22,Prep validation scorecard,daily,Analytics,17722,10,failed,on time
+RUN0229,2026-02-23,Daily exception queue,daily,Operations leadership,37575,11,passed,on time
+RUN0230,2026-02-23,Cash variance reconciliation,daily,Cash logistics,72081,48,passed,late
+RUN0231,2026-02-23,Field service aging,daily,Field service,114146,24,passed,on time
+RUN0232,2026-02-23,Merchant payout review,weekly,Finance,181632,42,warning,late
+RUN0233,2026-02-23,Prep validation scorecard,daily,Analytics,198007,3,passed,on time
+RUN0234,2026-02-23,Executive operating packet,weekly,Executive team,31953,1,passed,on time
+RUN0235,2026-02-24,Daily exception queue,daily,Operations leadership,5246,1,passed,on time
+RUN0236,2026-02-24,Cash variance reconciliation,daily,Cash logistics,186998,33,passed,on time
+RUN0237,2026-02-24,Field service aging,daily,Field service,237813,4,passed,on time
+RUN0238,2026-02-24,Prep validation scorecard,daily,Analytics,162382,8,passed,on time
+RUN0239,2026-02-25,Daily exception queue,daily,Operations leadership,222897,0,passed,on time
+RUN0240,2026-02-25,Cash variance reconciliation,daily,Cash logistics,26762,9,passed,on time
+RUN0241,2026-02-25,Field service aging,daily,Field service,72740,20,passed,on time
+RUN0242,2026-02-25,Prep validation scorecard,daily,Analytics,56426,66,passed,late
+RUN0243,2026-02-26,Daily exception queue,daily,Operations leadership,159442,0,passed,on time
+RUN0244,2026-02-26,Cash variance reconciliation,daily,Cash logistics,259034,12,warning,on time
+RUN0245,2026-02-26,Field service aging,daily,Field service,248871,20,passed,on time
+RUN0246,2026-02-26,Prep validation scorecard,daily,Analytics,106682,11,passed,on time
+RUN0247,2026-02-27,Daily exception queue,daily,Operations leadership,4356,74,warning,late
+RUN0248,2026-02-27,Cash variance reconciliation,daily,Cash logistics,116387,6,passed,on time
+RUN0249,2026-02-27,Field service aging,daily,Field service,97377,30,passed,on time
+RUN0250,2026-02-27,Prep validation scorecard,daily,Analytics,205291,20,passed,on time
+RUN0251,2026-02-28,Daily exception queue,daily,Operations leadership,10905,7,failed,on time
+RUN0252,2026-02-28,Cash variance reconciliation,daily,Cash logistics,168642,36,warning,on time
+RUN0253,2026-02-28,Field service aging,daily,Field service,186501,25,passed,on time
+RUN0254,2026-02-28,Prep validation scorecard,daily,Analytics,181707,50,passed,late
+RUN0255,2026-03-01,Daily exception queue,daily,Operations leadership,97551,5,passed,on time
+RUN0256,2026-03-01,Cash variance reconciliation,daily,Cash logistics,20768,26,warning,on time
+RUN0257,2026-03-01,Field service aging,daily,Field service,234788,0,passed,on time
+RUN0258,2026-03-01,Prep validation scorecard,daily,Analytics,238696,0,passed,on time
+RUN0259,2026-03-01,Monthly performance close,monthly,Finance,221912,0,passed,on time
+RUN0260,2026-03-02,Daily exception queue,daily,Operations leadership,133117,7,failed,on time
+RUN0261,2026-03-02,Cash variance reconciliation,daily,Cash logistics,79370,27,warning,on time
+RUN0262,2026-03-02,Field service aging,daily,Field service,218272,36,passed,on time
+RUN0263,2026-03-02,Merchant payout review,weekly,Finance,2720,19,passed,on time
+RUN0264,2026-03-02,Prep validation scorecard,daily,Analytics,7892,0,warning,on time
+RUN0265,2026-03-02,Executive operating packet,weekly,Executive team,81539,24,passed,on time
+RUN0266,2026-03-03,Daily exception queue,daily,Operations leadership,19402,5,passed,on time
+RUN0267,2026-03-03,Cash variance reconciliation,daily,Cash logistics,146774,16,passed,on time
+RUN0268,2026-03-03,Field service aging,daily,Field service,190833,0,passed,on time
+RUN0269,2026-03-03,Prep validation scorecard,daily,Analytics,149568,8,passed,on time
+RUN0270,2026-03-04,Daily exception queue,daily,Operations leadership,240327,0,passed,on time
+RUN0271,2026-03-04,Cash variance reconciliation,daily,Cash logistics,75813,0,passed,on time
+RUN0272,2026-03-04,Field service aging,daily,Field service,258288,15,passed,on time
+RUN0273,2026-03-04,Prep validation scorecard,daily,Analytics,237182,15,passed,on time
+RUN0274,2026-03-05,Daily exception queue,daily,Operations leadership,60149,81,passed,late
+RUN0275,2026-03-05,Cash variance reconciliation,daily,Cash logistics,216878,4,warning,on time
+RUN0276,2026-03-05,Field service aging,daily,Field service,12426,47,warning,late
+RUN0277,2026-03-05,Prep validation scorecard,daily,Analytics,5129,0,failed,on time
+RUN0278,2026-03-06,Daily exception queue,daily,Operations leadership,88180,15,passed,on time
+RUN0279,2026-03-06,Cash variance reconciliation,daily,Cash logistics,224445,35,warning,on time
+RUN0280,2026-03-06,Field service aging,daily,Field service,57021,25,failed,on time
+RUN0281,2026-03-06,Prep validation scorecard,daily,Analytics,39953,4,passed,on time
+RUN0282,2026-03-07,Daily exception queue,daily,Operations leadership,214656,0,passed,on time
+RUN0283,2026-03-07,Cash variance reconciliation,daily,Cash logistics,229896,0,passed,on time
+RUN0284,2026-03-07,Field service aging,daily,Field service,216554,13,warning,on time
+RUN0285,2026-03-07,Prep validation scorecard,daily,Analytics,97208,0,passed,on time
+RUN0286,2026-03-08,Daily exception queue,daily,Operations leadership,83048,50,passed,late
+RUN0287,2026-03-08,Cash variance reconciliation,daily,Cash logistics,95533,0,passed,on time
+RUN0288,2026-03-08,Field service aging,daily,Field service,112537,19,passed,on time
+RUN0289,2026-03-08,Prep validation scorecard,daily,Analytics,151430,0,passed,on time
+RUN0290,2026-03-09,Daily exception queue,daily,Operations leadership,235513,14,passed,on time
+RUN0291,2026-03-09,Cash variance reconciliation,daily,Cash logistics,42253,9,warning,on time
+RUN0292,2026-03-09,Field service aging,daily,Field service,133722,19,passed,on time
+RUN0293,2026-03-09,Merchant payout review,weekly,Finance,110737,14,passed,on time
+RUN0294,2026-03-09,Prep validation scorecard,daily,Analytics,76362,23,passed,on time
+RUN0295,2026-03-09,Executive operating packet,weekly,Executive team,19941,0,passed,on time
+RUN0296,2026-03-10,Daily exception queue,daily,Operations leadership,248409,33,failed,on time
+RUN0297,2026-03-10,Cash variance reconciliation,daily,Cash logistics,250502,0,passed,on time
+RUN0298,2026-03-10,Field service aging,daily,Field service,98188,4,passed,on time
+RUN0299,2026-03-10,Prep validation scorecard,daily,Analytics,89562,20,passed,on time
+RUN0300,2026-03-11,Daily exception queue,daily,Operations leadership,256665,10,passed,on time
+RUN0301,2026-03-11,Cash variance reconciliation,daily,Cash logistics,213436,1,passed,on time
+RUN0302,2026-03-11,Field service aging,daily,Field service,143395,0,passed,on time
+RUN0303,2026-03-11,Prep validation scorecard,daily,Analytics,166337,5,passed,on time
+RUN0304,2026-03-12,Daily exception queue,daily,Operations leadership,147086,1,passed,on time
+RUN0305,2026-03-12,Cash variance reconciliation,daily,Cash logistics,3430,28,passed,on time
+RUN0306,2026-03-12,Field service aging,daily,Field service,104360,3,warning,on time
+RUN0307,2026-03-12,Prep validation scorecard,daily,Analytics,8523,11,passed,on time
+RUN0308,2026-03-13,Daily exception queue,daily,Operations leadership,232855,21,passed,on time
+RUN0309,2026-03-13,Cash variance reconciliation,daily,Cash logistics,114794,1,passed,on time
+RUN0310,2026-03-13,Field service aging,daily,Field service,166261,12,passed,on time
+RUN0311,2026-03-13,Prep validation scorecard,daily,Analytics,109305,0,passed,on time
+RUN0312,2026-03-14,Daily exception queue,daily,Operations leadership,62529,30,passed,on time
+RUN0313,2026-03-14,Cash variance reconciliation,daily,Cash logistics,241120,0,warning,on time
+RUN0314,2026-03-14,Field service aging,daily,Field service,132310,0,passed,on time
+RUN0315,2026-03-14,Prep validation scorecard,daily,Analytics,244826,10,passed,on time
+RUN0316,2026-03-15,Daily exception queue,daily,Operations leadership,21507,0,passed,on time
+RUN0317,2026-03-15,Cash variance reconciliation,daily,Cash logistics,115172,0,failed,on time
+RUN0318,2026-03-15,Field service aging,daily,Field service,166616,19,passed,on time
+RUN0319,2026-03-15,Prep validation scorecard,daily,Analytics,237181,15,passed,on time
+RUN0320,2026-03-16,Daily exception queue,daily,Operations leadership,254893,19,passed,on time
+RUN0321,2026-03-16,Cash variance reconciliation,daily,Cash logistics,227517,26,passed,on time
+RUN0322,2026-03-16,Field service aging,daily,Field service,119393,0,passed,on time
+RUN0323,2026-03-16,Merchant payout review,weekly,Finance,157686,23,passed,on time
+RUN0324,2026-03-16,Prep validation scorecard,daily,Analytics,49999,6,passed,on time
+RUN0325,2026-03-16,Executive operating packet,weekly,Executive team,139507,5,warning,on time
+RUN0326,2026-03-17,Daily exception queue,daily,Operations leadership,242524,5,passed,on time
+RUN0327,2026-03-17,Cash variance reconciliation,daily,Cash logistics,20412,18,warning,on time
+RUN0328,2026-03-17,Field service aging,daily,Field service,130540,5,passed,on time
+RUN0329,2026-03-17,Prep validation scorecard,daily,Analytics,64453,7,failed,on time
+RUN0330,2026-03-18,Daily exception queue,daily,Operations leadership,4280,0,warning,on time
+RUN0331,2026-03-18,Cash variance reconciliation,daily,Cash logistics,171504,28,passed,on time
+RUN0332,2026-03-18,Field service aging,daily,Field service,158924,5,passed,on time
+RUN0333,2026-03-18,Prep validation scorecard,daily,Analytics,102849,24,passed,on time
+RUN0334,2026-03-19,Daily exception queue,daily,Operations leadership,163761,14,passed,on time
+RUN0335,2026-03-19,Cash variance reconciliation,daily,Cash logistics,111033,41,passed,late
+RUN0336,2026-03-19,Field service aging,daily,Field service,144022,2,passed,on time
+RUN0337,2026-03-19,Prep validation scorecard,daily,Analytics,231098,0,passed,on time
+RUN0338,2026-03-20,Daily exception queue,daily,Operations leadership,9208,18,passed,on time
+RUN0339,2026-03-20,Cash variance reconciliation,daily,Cash logistics,79537,8,passed,on time
+RUN0340,2026-03-20,Field service aging,daily,Field service,168504,1,passed,on time
+RUN0341,2026-03-20,Prep validation scorecard,daily,Analytics,54545,12,passed,on time
+RUN0342,2026-03-21,Daily exception queue,daily,Operations leadership,52608,0,passed,on time
+RUN0343,2026-03-21,Cash variance reconciliation,daily,Cash logistics,166800,16,passed,on time
+RUN0344,2026-03-21,Field service aging,daily,Field service,136786,0,passed,on time
+RUN0345,2026-03-21,Prep validation scorecard,daily,Analytics,242421,35,passed,on time
+RUN0346,2026-03-22,Daily exception queue,daily,Operations leadership,229703,9,passed,on time
+RUN0347,2026-03-22,Cash variance reconciliation,daily,Cash logistics,188333,0,warning,on time
+RUN0348,2026-03-22,Field service aging,daily,Field service,224516,50,warning,late
+RUN0349,2026-03-22,Prep validation scorecard,daily,Analytics,65717,2,passed,on time
+RUN0350,2026-03-23,Daily exception queue,daily,Operations leadership,200575,7,passed,on time
+RUN0351,2026-03-23,Cash variance reconciliation,daily,Cash logistics,62077,2,passed,on time
+RUN0352,2026-03-23,Field service aging,daily,Field service,72247,17,warning,on time
+RUN0353,2026-03-23,Merchant payout review,weekly,Finance,239164,84,passed,late
+RUN0354,2026-03-23,Prep validation scorecard,daily,Analytics,239517,0,passed,on time
+RUN0355,2026-03-23,Executive operating packet,weekly,Executive team,253860,24,passed,on time
+RUN0356,2026-03-24,Daily exception queue,daily,Operations leadership,202702,24,passed,on time
+RUN0357,2026-03-24,Cash variance reconciliation,daily,Cash logistics,179943,0,passed,on time
+RUN0358,2026-03-24,Field service aging,daily,Field service,169603,13,passed,on time
+RUN0359,2026-03-24,Prep validation scorecard,daily,Analytics,57967,14,passed,on time
+RUN0360,2026-03-25,Daily exception queue,daily,Operations leadership,53023,9,passed,on time
+RUN0361,2026-03-25,Cash variance reconciliation,daily,Cash logistics,115948,8,passed,on time
+RUN0362,2026-03-25,Field service aging,daily,Field service,244543,13,warning,on time
+RUN0363,2026-03-25,Prep validation scorecard,daily,Analytics,220571,0,passed,on time
+RUN0364,2026-03-26,Daily exception queue,daily,Operations leadership,168096,22,passed,on time
+RUN0365,2026-03-26,Cash variance reconciliation,daily,Cash logistics,192856,4,passed,on time
+RUN0366,2026-03-26,Field service aging,daily,Field service,222389,4,passed,on time
+RUN0367,2026-03-26,Prep validation scorecard,daily,Analytics,33118,22,passed,on time
+RUN0368,2026-03-27,Daily exception queue,daily,Operations leadership,86139,7,passed,on time
+RUN0369,2026-03-27,Cash variance reconciliation,daily,Cash logistics,64352,7,passed,on time
+RUN0370,2026-03-27,Field service aging,daily,Field service,204807,17,passed,on time
+RUN0371,2026-03-27,Prep validation scorecard,daily,Analytics,259935,2,passed,on time
+RUN0372,2026-03-28,Daily exception queue,daily,Operations leadership,169554,18,passed,on time
+RUN0373,2026-03-28,Cash variance reconciliation,daily,Cash logistics,133977,15,warning,on time
+RUN0374,2026-03-28,Field service aging,daily,Field service,175784,25,passed,on time
+RUN0375,2026-03-28,Prep validation scorecard,daily,Analytics,259489,7,passed,on time
+RUN0376,2026-03-29,Daily exception queue,daily,Operations leadership,201927,22,passed,on time
+RUN0377,2026-03-29,Cash variance reconciliation,daily,Cash logistics,222720,21,passed,on time
+RUN0378,2026-03-29,Field service aging,daily,Field service,9587,95,passed,blocked
+RUN0379,2026-03-29,Prep validation scorecard,daily,Analytics,102891,25,passed,on time
+RUN0380,2026-03-30,Daily exception queue,daily,Operations leadership,170717,12,failed,on time
+RUN0381,2026-03-30,Cash variance reconciliation,daily,Cash logistics,155444,9,warning,on time
+RUN0382,2026-03-30,Field service aging,daily,Field service,242989,66,passed,late
+RUN0383,2026-03-30,Merchant payout review,weekly,Finance,248275,26,passed,on time
+RUN0384,2026-03-30,Prep validation scorecard,daily,Analytics,66257,0,passed,on time
+RUN0385,2026-03-30,Executive operating packet,weekly,Executive team,252894,28,warning,on time
+RUN0386,2026-03-31,Daily exception queue,daily,Operations leadership,181417,19,passed,on time
+RUN0387,2026-03-31,Cash variance reconciliation,daily,Cash logistics,51590,37,passed,on time
+RUN0388,2026-03-31,Field service aging,daily,Field service,76020,11,failed,on time
+RUN0389,2026-03-31,Prep validation scorecard,daily,Analytics,12095,0,passed,on time
+RUN0390,2026-04-01,Daily exception queue,daily,Operations leadership,9310,4,passed,on time
+RUN0391,2026-04-01,Cash variance reconciliation,daily,Cash logistics,255974,17,passed,on time
+RUN0392,2026-04-01,Field service aging,daily,Field service,193264,18,passed,on time
+RUN0393,2026-04-01,Prep validation scorecard,daily,Analytics,37618,0,failed,on time
+RUN0394,2026-04-01,Monthly performance close,monthly,Finance,27935,40,passed,on time
+RUN0395,2026-04-02,Daily exception queue,daily,Operations leadership,139530,3,passed,on time
+RUN0396,2026-04-02,Cash variance reconciliation,daily,Cash logistics,18890,0,warning,on time
+RUN0397,2026-04-02,Field service aging,daily,Field service,167772,0,passed,on time
+RUN0398,2026-04-02,Prep validation scorecard,daily,Analytics,256809,20,passed,on time
+RUN0399,2026-04-03,Daily exception queue,daily,Operations leadership,71106,0,passed,on time
+RUN0400,2026-04-03,Cash variance reconciliation,daily,Cash logistics,194635,29,passed,on time
+RUN0401,2026-04-03,Field service aging,daily,Field service,56256,11,passed,on time
+RUN0402,2026-04-03,Prep validation scorecard,daily,Analytics,64730,9,failed,on time
+RUN0403,2026-04-04,Daily exception queue,daily,Operations leadership,210208,0,passed,on time
+RUN0404,2026-04-04,Cash variance reconciliation,daily,Cash logistics,134857,9,passed,on time
+RUN0405,2026-04-04,Field service aging,daily,Field service,137646,16,passed,on time
+RUN0406,2026-04-04,Prep validation scorecard,daily,Analytics,237650,0,passed,on time
+RUN0407,2026-04-05,Daily exception queue,daily,Operations leadership,93126,7,passed,on time
+RUN0408,2026-04-05,Cash variance reconciliation,daily,Cash logistics,250903,25,passed,on time
+RUN0409,2026-04-05,Field service aging,daily,Field service,27352,18,passed,on time
+RUN0410,2026-04-05,Prep validation scorecard,daily,Analytics,205261,11,warning,on time
+RUN0411,2026-04-06,Daily exception queue,daily,Operations leadership,222513,14,passed,on time
+RUN0412,2026-04-06,Cash variance reconciliation,daily,Cash logistics,135768,0,warning,on time
+RUN0413,2026-04-06,Field service aging,daily,Field service,138386,64,passed,late
+RUN0414,2026-04-06,Merchant payout review,weekly,Finance,189362,0,warning,on time
+RUN0415,2026-04-06,Prep validation scorecard,daily,Analytics,248115,11,passed,on time
+RUN0416,2026-04-06,Executive operating packet,weekly,Executive team,146624,25,warning,on time
+RUN0417,2026-04-07,Daily exception queue,daily,Operations leadership,120141,10,failed,on time
+RUN0418,2026-04-07,Cash variance reconciliation,daily,Cash logistics,227700,0,passed,on time
+RUN0419,2026-04-07,Field service aging,daily,Field service,127388,24,passed,on time
+RUN0420,2026-04-07,Prep validation scorecard,daily,Analytics,257685,12,passed,on time
+RUN0421,2026-04-08,Daily exception queue,daily,Operations leadership,226069,0,passed,on time
+RUN0422,2026-04-08,Cash variance reconciliation,daily,Cash logistics,53462,4,passed,on time
+RUN0423,2026-04-08,Field service aging,daily,Field service,202052,0,passed,on time
+RUN0424,2026-04-08,Prep validation scorecard,daily,Analytics,245549,4,passed,on time
+RUN0425,2026-04-09,Daily exception queue,daily,Operations leadership,118117,12,passed,on time
+RUN0426,2026-04-09,Cash variance reconciliation,daily,Cash logistics,131668,0,passed,on time
+RUN0427,2026-04-09,Field service aging,daily,Field service,215369,13,warning,on time
+RUN0428,2026-04-09,Prep validation scorecard,daily,Analytics,147052,62,passed,late
+RUN0429,2026-04-10,Daily exception queue,daily,Operations leadership,185982,3,passed,on time
+RUN0430,2026-04-10,Cash variance reconciliation,daily,Cash logistics,136717,20,passed,on time
+RUN0431,2026-04-10,Field service aging,daily,Field service,29993,7,passed,on time
+RUN0432,2026-04-10,Prep validation scorecard,daily,Analytics,47125,9,passed,on time
+RUN0433,2026-04-11,Daily exception queue,daily,Operations leadership,54869,26,warning,on time
+RUN0434,2026-04-11,Cash variance reconciliation,daily,Cash logistics,103733,20,passed,on time
+RUN0435,2026-04-11,Field service aging,daily,Field service,159450,85,passed,late
+RUN0436,2026-04-11,Prep validation scorecard,daily,Analytics,23496,0,passed,on time
+RUN0437,2026-04-12,Daily exception queue,daily,Operations leadership,18193,6,passed,on time
+RUN0438,2026-04-12,Cash variance reconciliation,daily,Cash logistics,201798,28,failed,on time
+RUN0439,2026-04-12,Field service aging,daily,Field service,177615,7,passed,on time
+RUN0440,2026-04-12,Prep validation scorecard,daily,Analytics,35800,4,passed,on time
+RUN0441,2026-04-13,Daily exception queue,daily,Operations leadership,74303,82,warning,late
+RUN0442,2026-04-13,Cash variance reconciliation,daily,Cash logistics,239678,23,passed,on time
+RUN0443,2026-04-13,Field service aging,daily,Field service,248586,0,passed,on time
+RUN0444,2026-04-13,Merchant payout review,weekly,Finance,127773,9,passed,on time
+RUN0445,2026-04-13,Prep validation scorecard,daily,Analytics,122446,20,passed,on time
+RUN0446,2026-04-13,Executive operating packet,weekly,Executive team,39865,0,passed,on time
+RUN0447,2026-04-14,Daily exception queue,daily,Operations leadership,179098,5,passed,on time
+RUN0448,2026-04-14,Cash variance reconciliation,daily,Cash logistics,232452,0,passed,on time
+RUN0449,2026-04-14,Field service aging,daily,Field service,252574,0,passed,on time
+RUN0450,2026-04-14,Prep validation scorecard,daily,Analytics,28353,6,passed,on time
+RUN0451,2026-04-15,Daily exception queue,daily,Operations leadership,158573,0,passed,on time
+RUN0452,2026-04-15,Cash variance reconciliation,daily,Cash logistics,111631,0,warning,on time
+RUN0453,2026-04-15,Field service aging,daily,Field service,242393,20,passed,on time
+RUN0454,2026-04-15,Prep validation scorecard,daily,Analytics,241907,0,passed,on time
+RUN0455,2026-04-16,Daily exception queue,daily,Operations leadership,99766,6,passed,on time
+RUN0456,2026-04-16,Cash variance reconciliation,daily,Cash logistics,160948,6,passed,on time
+RUN0457,2026-04-16,Field service aging,daily,Field service,187425,16,failed,on time
+RUN0458,2026-04-16,Prep validation scorecard,daily,Analytics,35589,7,passed,on time
+RUN0459,2026-04-17,Daily exception queue,daily,Operations leadership,199917,0,passed,on time
+RUN0460,2026-04-17,Cash variance reconciliation,daily,Cash logistics,27457,8,passed,on time
+RUN0461,2026-04-17,Field service aging,daily,Field service,152098,0,warning,on time
+RUN0462,2026-04-17,Prep validation scorecard,daily,Analytics,118775,22,passed,on time
+RUN0463,2026-04-18,Daily exception queue,daily,Operations leadership,20283,23,passed,on time
+RUN0464,2026-04-18,Cash variance reconciliation,daily,Cash logistics,220527,22,passed,on time
+RUN0465,2026-04-18,Field service aging,daily,Field service,182124,0,passed,on time
+RUN0466,2026-04-18,Prep validation scorecard,daily,Analytics,107065,42,passed,late
+RUN0467,2026-04-19,Daily exception queue,daily,Operations leadership,123599,0,passed,on time
+RUN0468,2026-04-19,Cash variance reconciliation,daily,Cash logistics,197656,6,passed,on time
+RUN0469,2026-04-19,Field service aging,daily,Field service,148220,10,failed,on time
+RUN0470,2026-04-19,Prep validation scorecard,daily,Analytics,181177,30,warning,on time
+RUN0471,2026-04-20,Daily exception queue,daily,Operations leadership,115491,0,warning,on time
+RUN0472,2026-04-20,Cash variance reconciliation,daily,Cash logistics,60703,0,passed,on time
+RUN0473,2026-04-20,Field service aging,daily,Field service,193897,0,passed,on time
+RUN0474,2026-04-20,Merchant payout review,weekly,Finance,100026,3,passed,on time
+RUN0475,2026-04-20,Prep validation scorecard,daily,Analytics,244862,23,warning,on time
+RUN0476,2026-04-20,Executive operating packet,weekly,Executive team,77869,0,passed,on time
+RUN0477,2026-04-21,Daily exception queue,daily,Operations leadership,161964,9,passed,on time
+RUN0478,2026-04-21,Cash variance reconciliation,daily,Cash logistics,131656,0,passed,on time
+RUN0479,2026-04-21,Field service aging,daily,Field service,90674,0,passed,on time
+RUN0480,2026-04-21,Prep validation scorecard,daily,Analytics,148743,12,passed,on time
+RUN0481,2026-04-22,Daily exception queue,daily,Operations leadership,91589,17,passed,on time
+RUN0482,2026-04-22,Cash variance reconciliation,daily,Cash logistics,82195,7,failed,on time
+RUN0483,2026-04-22,Field service aging,daily,Field service,210423,17,passed,on time
+RUN0484,2026-04-22,Prep validation scorecard,daily,Analytics,47203,35,passed,on time
+RUN0485,2026-04-23,Daily exception queue,daily,Operations leadership,221846,13,passed,on time
+RUN0486,2026-04-23,Cash variance reconciliation,daily,Cash logistics,149133,10,passed,on time
+RUN0487,2026-04-23,Field service aging,daily,Field service,254772,18,passed,on time
+RUN0488,2026-04-23,Prep validation scorecard,daily,Analytics,95263,21,passed,on time
+RUN0489,2026-04-24,Daily exception queue,daily,Operations leadership,252025,16,passed,on time
+RUN0490,2026-04-24,Cash variance reconciliation,daily,Cash logistics,216004,16,passed,on time
+RUN0491,2026-04-24,Field service aging,daily,Field service,188321,0,passed,on time
+RUN0492,2026-04-24,Prep validation scorecard,daily,Analytics,213000,3,warning,on time
+RUN0493,2026-04-25,Daily exception queue,daily,Operations leadership,83885,25,passed,on time
+RUN0494,2026-04-25,Cash variance reconciliation,daily,Cash logistics,152499,63,failed,late
+RUN0495,2026-04-25,Field service aging,daily,Field service,113656,21,passed,on time
+RUN0496,2026-04-25,Prep validation scorecard,daily,Analytics,175920,7,warning,on time
+RUN0497,2026-04-26,Daily exception queue,daily,Operations leadership,94271,0,passed,on time
+RUN0498,2026-04-26,Cash variance reconciliation,daily,Cash logistics,41986,13,failed,on time
+RUN0499,2026-04-26,Field service aging,daily,Field service,191373,11,passed,on time
+RUN0500,2026-04-26,Prep validation scorecard,daily,Analytics,98028,7,warning,on time
+RUN0501,2026-04-27,Daily exception queue,daily,Operations leadership,245579,34,passed,on time
+RUN0502,2026-04-27,Cash variance reconciliation,daily,Cash logistics,14378,0,passed,on time
+RUN0503,2026-04-27,Field service aging,daily,Field service,15189,0,passed,on time
+RUN0504,2026-04-27,Merchant payout review,weekly,Finance,189457,0,passed,on time
+RUN0505,2026-04-27,Prep validation scorecard,daily,Analytics,256379,0,failed,on time
+RUN0506,2026-04-27,Executive operating packet,weekly,Executive team,35652,32,warning,on time
+RUN0507,2026-04-28,Daily exception queue,daily,Operations leadership,120579,0,failed,on time
+RUN0508,2026-04-28,Cash variance reconciliation,daily,Cash logistics,126468,0,passed,on time
+RUN0509,2026-04-28,Field service aging,daily,Field service,179082,0,warning,on time
+RUN0510,2026-04-28,Prep validation scorecard,daily,Analytics,170223,0,passed,on time
+RUN0511,2026-04-29,Daily exception queue,daily,Operations leadership,18205,4,passed,on time
+RUN0512,2026-04-29,Cash variance reconciliation,daily,Cash logistics,148664,0,passed,on time
+RUN0513,2026-04-29,Field service aging,daily,Field service,210680,1,warning,on time
+RUN0514,2026-04-29,Prep validation scorecard,daily,Analytics,140338,7,passed,on time
+RUN0515,2026-04-30,Daily exception queue,daily,Operations leadership,63626,0,passed,on time
+RUN0516,2026-04-30,Cash variance reconciliation,daily,Cash logistics,123153,45,passed,late
+RUN0517,2026-04-30,Field service aging,daily,Field service,92158,33,warning,on time
+RUN0518,2026-04-30,Prep validation scorecard,daily,Analytics,4308,0,warning,on time
